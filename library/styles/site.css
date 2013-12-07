@@ -1,0 +1,2204 @@
+/*Basics*/
+/* line 12, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp, a,
+small, strong, sub, sup, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  clear: both;
+  outline: 0;
+  border-width: 0;
+  border-style: solid;
+  border-color: transparent;
+  background: transparent;
+  outline-style: solid;
+  vertical-align: baseline;
+}
+
+/* line 22, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+html, body, blockquote, pre, table, form {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 26, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+figure, button, input, select, textarea {
+  margin: 0;
+}
+
+/* line 29, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+img, iframe, button, input, select, textarea {
+  max-width: 100%;
+}
+
+/* line 32, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+iframe {
+  width: 100%;
+}
+
+/*HTML5 elements*/
+/* line 40, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 43, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+audio, canvas, video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/* line 48, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+}
+
+/* line 51, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+[hidden] {
+  display: none;
+}
+
+/*Improve scaled image quality in IE7*/
+/* line 58, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+img {
+  -ms-interpolation-mode: bicubic;
+}
+
+/*Correct overflows in IE9*/
+/* line 63, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/*White-space behavior in pre*/
+/* line 68, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/*Document elements*/
+/*Lists*/
+/* line 78, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+ul {
+  list-style: disc;
+  padding-left: 2em;
+}
+
+/* line 82, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+ol {
+  list-style: decimal;
+  padding-left: 2em;
+}
+
+/* line 86, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+nav ul, nav ol {
+  list-style: none;
+  list-style-image: none;
+  padding-left: 0;
+}
+
+/*Inline*/
+/* line 93, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+sub, sup {
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 98, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 101, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/*Tables*/
+/* line 106, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 111, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+caption, th, td {
+  text-align: left;
+  vertical-align: top;
+}
+
+/*Text*/
+/*Fonts*/
+/* line 121, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+html {
+  font-size: 100%;
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 127, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+h1, h2, h3, h4, h5, h6, strong, dt, mark, th {
+  font-weight: bold;
+}
+
+/*Interactive*/
+/* line 132, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+a {
+  text-decoration: underline;
+}
+
+/* line 135, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 138, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+input, select, textarea, button {
+  font-family: inherit;
+}
+
+/* line 141, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+input[type=""], input:not([type]), input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], select, textarea, pre, code, kbd, samp {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* line 145, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+button, input, select, textarea, pre, code, kbd, samp {
+  font-weight: inherit;
+}
+
+/* line 148, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+button, select {
+  text-transform: none;
+}
+
+/*Inline markup*/
+/* line 153, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+em, dfn, q, blockquote {
+  font-style: italic;
+}
+
+/* line 156, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+del {
+  text-decoration: line-through;
+}
+
+/*Quotes*/
+/* line 161, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 165, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/*Forms & interaction*/
+/*Use the same box-model and sizing in all browsers*/
+/* line 176, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+button, input[type="submit"], input[type="reset"], input[type="button"],
+input[type=""], input:not([type]), input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], textarea {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  display: inline-block;
+}
+
+/*Make search fields consistent with text fields on Webkit*/
+/* line 184, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+}
+
+/* line 188, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*Get IE on the line with checkboxes*/
+/* line 193, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/*Make button rendering consistent on Firefox 4+*/
+/* line 199, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/*Style clickable inputs consistently on all webkits*/
+/* line 205, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/*Buttons have center-aligned text*/
+/* line 210, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  text-align: center;
+}
+
+/*Use sensible alignments*/
+/* line 215, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+button, input, select {
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+
+/* line 219, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+/*Use sensible cursors*/
+/* line 225, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+body {
+  cursor: default;
+}
+
+/* line 228, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+abbr[title], dfn[title] {
+  text-decoration: underline;
+  cursor: help;
+}
+
+/* line 232, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+a, label, button, input[type="submit"], input[type="button"], input[type="reset"] {
+  cursor: pointer;
+}
+
+/* line 238, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+.disabled button, .disabled label, .disabled a,
+button.disabled, label.disabled, a.disabled,
+.disabled input[type="submit"], .disabled input[type="button"], .disabled input[type="reset"],
+input[type="submit"].disabled, input[type="button"].disabled, input[type="reset"].disabled {
+  cursor: default;
+}
+
+/* line 241, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+a[disabled], button[disabled], input[disabled] {
+  cursor: default;
+}
+
+/*Consistent outlines*/
+/* line 246, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+a:focus {
+  outline-style: dotted;
+}
+
+/* line 249, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_normalize.scss */
+a:active, a:hover {
+  outline: 0;
+}
+
+/*Change box model for grid elements*/
+/* line 2, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.row, .column {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*Rows with buffer space*/
+/* line 9, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.row {
+  width: 100%;
+  clear: both;
+  float: none;
+}
+
+/* line 14, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.row-content {
+  margin: 0 auto;
+  max-width: 70em;
+}
+
+/* line 19, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.row-content.buffer,
+.row-content.buffer-top {
+  padding-top: 2%;
+}
+
+/* line 23, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.row-content.buffer.even,
+.row-content.buffer-top.even {
+  padding-top: 6%;
+}
+
+/* line 27, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.row-content.buffer,
+.row-content.buffer-right {
+  padding-right: 8%;
+}
+
+/* line 31, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.row-content.buffer,
+.row-content.buffer-bottom {
+  padding-bottom: 6%;
+}
+
+/* line 35, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.row-content.buffer,
+.row-content.buffer-left {
+  padding-left: 8%;
+}
+
+/*Column basics (12-based fluid grid)*/
+/* line 40, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column {
+  clear: none;
+  float: left;
+  min-height: 1px;
+}
+
+/* line 48, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.first,
+.column.full,
+.column.twelve,
+.column.center {
+  clear: both;
+}
+
+/* line 51, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.right {
+  float: right;
+}
+
+/* line 54, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.center, .column.right.center {
+  float: none;
+}
+
+/*Fluid columns*/
+/* line 61, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column {
+  margin-left: 0;
+  margin-right: 3.8%;
+}
+
+/* line 66, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.last,
+.column.reset {
+  margin-right: 0 !important;
+}
+
+/*Reverse stacking*/
+/* line 71, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.right {
+  margin-right: 0;
+  margin-left: 3.8%;
+}
+
+/* line 76, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.right.last,
+.column.right.reset {
+  margin-left: 0 !important;
+}
+
+/*Centered columns*/
+/* line 81, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.center, .column.right.center {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+/*Full-width column*/
+/* line 90, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.full,
+.column.twelve {
+  width: 100%;
+}
+
+/*Fluid column widths*/
+/* line 97, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.one {
+  width: 4.85%;
+}
+
+/* line 101, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.two,
+.column.sixth {
+  width: 13.45%;
+}
+
+/* line 105, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.three,
+.column.fourth {
+  width: 22.05%;
+}
+
+/* line 110, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.four,
+.column.twosixths,
+.column.third {
+  width: 30.75%;
+}
+
+/* line 113, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.five {
+  width: 39.45%;
+}
+
+/* line 119, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.six,
+.column.half,
+.column.threesixths,
+.column.twofourths {
+  width: 48%;
+}
+
+/* line 122, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.seven {
+  width: 56.75%;
+}
+
+/* line 127, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.eight,
+.column.foursixths,
+.column.twothirds {
+  width: 65.4%;
+}
+
+/* line 131, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.nine,
+.column.threefourths {
+  width: 74.05%;
+}
+
+/* line 135, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.ten,
+.column.fivesixths {
+  width: 82.7%;
+}
+
+/* line 138, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.eleven {
+  width: 91.35%;
+}
+
+/*Shift guttered columns*/
+/* line 143, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.push-one {
+  margin-left: 8.65%;
+}
+
+/* line 146, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.right.push-one {
+  margin-right: 8.65%;
+}
+
+/* line 150, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.push-two,
+.column.push-sixth {
+  margin-left: 17.25%;
+}
+
+/* line 154, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.right.push-two,
+.column.right.push-sixth {
+  margin-right: 17.25%;
+}
+
+/* line 158, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.push-three,
+.column.push-fourth {
+  margin-left: 25.85%;
+}
+
+/* line 162, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.right.push-three,
+.column.right.push-fourth {
+  margin-right: 25.85%;
+}
+
+/* line 167, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.push-four,
+.column.push-twosixths,
+.column.push-third {
+  margin-left: 34.55%;
+}
+
+/* line 172, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.right.push-four,
+.column.right.push-twosixths,
+.column.right.push-third {
+  margin-right: 34.55%;
+}
+
+/* line 175, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.push-five {
+  margin-left: 43.25%;
+}
+
+/* line 178, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.right.push-five {
+  margin-right: 43.25%;
+}
+
+/* line 184, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.push-six,
+.column.push-half,
+.column.push-threesixths,
+.column.push-twofourths {
+  margin-left: 51.8%;
+}
+
+/* line 190, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.right.push-six,
+.column.right.push-half,
+.column.right.push-threesixths,
+.column.right.push-twofourths {
+  margin-right: 51.8%;
+}
+
+/* line 193, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.push-seven {
+  margin-left: 60.55%;
+}
+
+/* line 196, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.right.push-seven {
+  margin-right: 60.55%;
+}
+
+/* line 201, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.push-eight,
+.column.push-foursixths,
+.column.push-twothirds {
+  margin-left: 69.2%;
+}
+
+/* line 206, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.right.push-eight,
+.column.right.push-foursixths,
+.column.right.push-twothirds {
+  margin-right: 69.2%;
+}
+
+/* line 210, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.push-nine,
+.column.push-threefourths {
+  margin-left: 77.85%;
+}
+
+/* line 214, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.right.push-nine,
+.column.right.push-threefourths {
+  margin-right: 77.85%;
+}
+
+/* line 218, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.push-ten,
+.column.push-fivesixths {
+  margin-left: 86.5%;
+}
+
+/* line 222, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.right.push-ten,
+.column.right.push-fivesixths {
+  margin-right: 86.5%;
+}
+
+/* line 225, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.push-eleven {
+  margin-left: 95.15%;
+}
+
+/* line 228, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.right.push-eleven {
+  margin-right: 95.15%;
+}
+
+/*No gutters*/
+/* line 235, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.one.reset {
+  width: 8.3%;
+}
+
+/* line 239, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.two.reset,
+.column.sixth.reset {
+  width: 16.65%;
+}
+
+/* line 243, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.three.reset,
+.column.fourth.reset {
+  width: 25%;
+}
+
+/* line 248, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.four.reset,
+.column.twosixths.reset,
+.column.third.reset {
+  width: 33.3%;
+}
+
+/* line 251, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.five.reset {
+  width: 41.65%;
+}
+
+/* line 257, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.six.reset,
+.column.half.reset,
+.column.threesixths.reset,
+.column.twofourths.reset {
+  width: 50%;
+}
+
+/* line 260, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.seven.reset {
+  width: 58.3%;
+}
+
+/* line 265, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.eight.reset,
+.column.foursixths.reset,
+.column.twothirds.reset {
+  width: 66.6%;
+}
+
+/* line 269, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.nine.reset,
+.column.threefourths.reset {
+  width: 75%;
+}
+
+/* line 273, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.ten.reset,
+.column.fivesixths.reset {
+  width: 83.35%;
+}
+
+/* line 276, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.eleven.reset {
+  width: 91.7%;
+}
+
+/*Shift no-gutter columns*/
+/* line 281, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.reset.push-one {
+  margin-left: 8.3%;
+}
+
+/* line 284, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.reset.right.push-one {
+  margin-right: 8.3%;
+}
+
+/* line 288, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.reset.push-two,
+.column.reset.push-sixth {
+  margin-left: 16.65%;
+}
+
+/* line 292, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.reset.right.push-two,
+.column.reset.right.push-sixth {
+  margin-right: 16.65%;
+}
+
+/* line 296, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.reset.push-three,
+.column.reset.push-fourth {
+  margin-left: 25%;
+}
+
+/* line 300, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.reset.right.push-three,
+.column.reset.right.push-fourth {
+  margin-right: 25%;
+}
+
+/* line 305, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.reset.push-four,
+.column.reset.push-twosixths,
+.column.reset.push-third {
+  margin-left: 33.3%;
+}
+
+/* line 310, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.reset.right.push-four,
+.column.reset.right.push-twosixths,
+.column.reset.right.push-third {
+  margin-right: 33.3%;
+}
+
+/* line 313, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.reset.push-five {
+  margin-left: 41.65%;
+}
+
+/* line 316, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.reset.right.push-five {
+  margin-right: 41.65%;
+}
+
+/* line 322, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.reset.push-six,
+.column.reset.push-half,
+.column.reset.push-threesixths,
+.column.reset.push-twofourths {
+  margin-left: 50%;
+}
+
+/* line 328, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.reset.right.push-six,
+.column.right.reset.push-half,
+.column.right.reset.push-threesixths,
+.column.right.reset.push-twofourths {
+  margin-right: 50%;
+}
+
+/* line 331, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.reset.push-seven {
+  margin-left: 58.3%;
+}
+
+/* line 334, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.reset.right.push-seven {
+  margin-right: 58.3%;
+}
+
+/* line 339, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.reset.push-eight,
+.column.reset.push-foursixths,
+.column.reset.push-twothirds {
+  margin-left: 66.6%;
+}
+
+/* line 344, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.reset.right.push-eight,
+.column.reset.right.push-foursixths,
+.column.reset.right.push-twothirds {
+  margin-right: 66.6%;
+}
+
+/* line 348, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.reset.push-nine,
+.column.reset.push-threefourths {
+  margin-left: 75%;
+}
+
+/* line 352, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.reset.right.push-nine,
+.column.reset.right.push-threefourths {
+  margin-right: 75%;
+}
+
+/* line 356, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.reset.push-ten,
+.column.reset.push-fivesixths {
+  margin-left: 83.35%;
+}
+
+/* line 360, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.reset.right.push-ten,
+.column.reset.right.push-fivesixths {
+  margin-right: 83.35%;
+}
+
+/* line 363, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.reset.push-eleven {
+  margin-left: 91.7%;
+}
+
+/* line 366, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.reset.right.push-eleven {
+  margin-right: 91.7%;
+}
+
+/*Fixed-width column with another column taking rest of the available space (fixed on the left)*/
+/* line 373, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.fluid {
+  clear: none;
+  float: left;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* line 380, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.fluid > .column-content {
+  margin-right: 10em;
+}
+
+/* line 383, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.fixed {
+  position: static;
+  clear: none;
+  float: right;
+  margin-right: 0;
+  margin-left: -100%;
+  width: 10em;
+}
+
+/*Reverse stacking*/
+/* line 393, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.fluid.right > .column-content {
+  margin-right: 0;
+  margin-left: 10em;
+}
+
+/* line 397, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-grid.scss */
+.column.fixed.right {
+  float: left;
+}
+
+/*List layouts*/
+/*Modified lists*/
+/* line 15, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-lists.scss */
+ul.plain,
+ul.plain ul,
+ul.plain ol,
+ol.plain,
+ol.plain ul,
+ol.plain ol,
+ul.inline,
+ol.inline,
+ul.collapse,
+ol.collapse {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+/*Child lists*/
+/* line 32, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-lists.scss */
+ul.plain ul,
+ul.plain ol,
+ol.plain ul,
+ol.plain ol,
+ul.inline ul,
+ul.inline ol,
+ol.inline ul,
+ol.inline ol,
+ul.collapse ul,
+ul.collapse ol,
+ol.collapse ul,
+ol.collapse ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/*Plain definition lists*/
+/* line 38, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-lists.scss */
+dl.plain dt {
+  font-weight: inherit;
+}
+
+/*Inline lists*/
+/* line 43, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-lists.scss */
+ul.inline.right, ol.inline.right, dl.inline.right {
+  text-align: right;
+}
+
+/* line 46, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-lists.scss */
+ul.inline.center, ol.inline.center, dl.inline.center {
+  text-align: center;
+}
+
+/* line 49, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-lists.scss */
+ul.inline > li, ol.inline > li, dl.inline > dt, dl.inline > dd {
+  display: inline;
+}
+
+/*Horizontal lists with block elements*/
+/* line 54, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-lists.scss */
+ul.collapse, ol.collapse, dl.collapse {
+  float: left;
+  clear: none;
+}
+
+/* line 58, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-lists.scss */
+ul.collapse.right, ol.collapse.right, dl.collapse.right {
+  float: right;
+}
+
+/* line 61, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_layers-lists.scss */
+ul.collapse > li, ol.collapse > li, dl.collapse > dt, dl.collapse > dd {
+  float: left;
+  clear: none;
+}
+
+@font-face {
+  font-family: 'sf_cartoonist_hand';
+  src: url('../fonts/SF-Cartoonist-Hand/sfcartoonisthand_regular_macroman/SF_Cartoonist_Hand-webfont.eot');
+  src: url('../fonts/SF-Cartoonist-Hand/sfcartoonisthand_regular_macroman/SF_Cartoonist_Hand-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/SF-Cartoonist-Hand/sfcartoonisthand_regular_macroman/SF_Cartoonist_Hand-webfont.woff') format("woff"), url('../fonts/SF-Cartoonist-Hand/sfcartoonisthand_regular_macroman/SF_Cartoonist_Hand-webfont.ttf') format("truetype"), url('../fonts/SF-Cartoonist-Hand/sfcartoonisthand_regular_macroman/SF_Cartoonist_Hand-webfont.svg#sf_cartoonist_handregular') format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sf_cartoonist_hand';
+  src: url('../fonts/SF-Cartoonist-Hand/sfcartoonisthand_bold_macroman/SF_Cartoonist_Hand_Bold-webfont.eot');
+  src: url('../fonts/SF-Cartoonist-Hand/sfcartoonisthand_bold_macroman/SF_Cartoonist_Hand_Bold-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/SF-Cartoonist-Hand/sfcartoonisthand_bold_macroman/SF_Cartoonist_Hand_Bold-webfont.woff') format("woff"), url('../fonts/SF-Cartoonist-Hand/sfcartoonisthand_bold_macroman/SF_Cartoonist_Hand_Bold-webfont.ttf') format("truetype"), url('../fonts/SF-Cartoonist-Hand/sfcartoonisthand_bold_macroman/SF_Cartoonist_Hand_Bold-webfont.svg#sf_cartoonist_handbold') format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sf_cartoonist_hand';
+  src: url('../fonts/SF-Cartoonist-Hand/sfcartoonisthand_italic_macroman/SF_Cartoonist_Hand_Italic-webfont.eot');
+  src: url('../fonts/SF-Cartoonist-Hand/sfcartoonisthand_italic_macroman/SF_Cartoonist_Hand_Italic-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/SF-Cartoonist-Hand/sfcartoonisthand_italic_macroman/SF_Cartoonist_Hand_Italic-webfont.woff') format("woff"), url('../fonts/SF-Cartoonist-Hand/sfcartoonisthand_italic_macroman/SF_Cartoonist_Hand_Italic-webfont.ttf') format("truetype"), url('../fonts/SF-Cartoonist-Hand/sfcartoonisthand_italic_macroman/SF_Cartoonist_Hand_Italic-webfont.svg#sf_cartoonist_handitalic') format("svg");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'pt-sans';
+  src: url('../fonts/PT-Sans/ptsans_regular_macroman/PTS55F-webfont.eot');
+  src: url('../fonts/PT-Sans/ptsans_regular_macroman/PTS55F-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/PT-Sans/ptsans_regular_macroman/PTS55F-webfont.woff') format("woff"), url('../fonts/PT-Sans/ptsans_regular_macroman/PTS55F-webfont.ttf') format("truetype"), url('../fonts/PT-Sans/ptsans_regular_macroman/PTS55F-webfont.svg#ptsansregular') format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'pt-sans';
+  src: url('../fonts/PT-Sans/ptsans_bold_macroman/PTS75F-webfont.eot');
+  src: url('../fonts/PT-Sans/ptsans_bold_macroman/PTS75F-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/PT-Sans/ptsans_bold_macroman/PTS75F-webfont.woff') format("woff"), url('../fonts/PT-Sans/ptsans_bold_macroman/PTS75F-webfont.ttf') format("truetype"), url('../fonts/PT-Sans/ptsans_bold_macroman/PTS75F-webfont.svg#ptsansbold') format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'pt-sans';
+  src: url('../fonts/PT-Sans/ptsans_italic_macroman/PTS56F-webfont.eot');
+  src: url('../fonts/PT-Sans/ptsans_italic_macroman/PTS56F-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/PT-Sans/ptsans_italic_macroman/PTS56F-webfont.woff') format("woff"), url('../fonts/PT-Sans/ptsans_italic_macroman/PTS56F-webfont.ttf') format("truetype"), url('../fonts/PT-Sans/ptsans_italic_macroman/PTS56F-webfont.svg#ptsansitalic') format("svg");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'latin-modern-mono';
+  src: url('../fonts/Latin-Modern-Mono/latinmodernmono_10regular_macroman/lmmono10-regular-webfont.eot');
+  src: url('../fonts/Latin-Modern-Mono/latinmodernmono_10regular_macroman/lmmono10-regular-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/Latin-Modern-Mono/latinmodernmono_10regular_macroman/lmmono10-regular-webfont.woff') format("woff"), url('../fonts/Latin-Modern-Mono/latinmodernmono_10regular_macroman/lmmono10-regular-webfont.ttf') format("truetype"), url('../fonts/Latin-Modern-Mono/latinmodernmono_10regular_macroman/lmmono10-regular-webfont.svg#latin-modern-mono') format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'latin-modern-mono-light';
+  src: url('../fonts/Latin-Modern-Mono/latinmodernmonolight_10regular_macroman/lmmonolt10-regular-webfont.eot');
+  src: url('../fonts/Latin-Modern-Mono/latinmodernmonolight_10regular_macroman/lmmonolt10-regular-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/Latin-Modern-Mono/latinmodernmonolight_10regular_macroman/lmmonolt10-regular-webfont.woff') format("woff"), url('../fonts/Latin-Modern-Mono/latinmodernmonolight_10regular_macroman/lmmonolt10-regular-webfont.ttf') format("truetype"), url('../fonts/Latin-Modern-Mono/latinmodernmonolight_10regular_macroman/lmmonolt10-regular-webfont.svg#latin-modern-mono-light') format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'latin-modern-mono-prop';
+  src: url('../fonts/Latin-Modern-Mono/latinmodernmonoprop_10regular_macroman/lmmonoprop10-regular-webfont.eot');
+  src: url('../fonts/Latin-Modern-Mono/latinmodernmonoprop_10regular_macroman/lmmonoprop10-regular-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/Latin-Modern-Mono/latinmodernmonoprop_10regular_macroman/lmmonoprop10-regular-webfont.woff') format("woff"), url('../fonts/Latin-Modern-Mono/latinmodernmonoprop_10regular_macroman/lmmonoprop10-regular-webfont.ttf') format("truetype"), url('../fonts/Latin-Modern-Mono/latinmodernmonoprop_10regular_macroman/lmmonoprop10-regular-webfont.svg#latin-modern-mono-prop') format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'minutelabs-icons';
+  src: url('../fonts/minutelabs-icons/fonts/minutelabs-icons.eot');
+  src: url('../fonts/minutelabs-icons/fonts/minutelabs-icons.eot?#iefix') format("embedded-opentype"), url('../fonts/minutelabs-icons/fonts/minutelabs-icons.ttf') format("truetype"), url('../fonts/minutelabs-icons/fonts/minutelabs-icons.woff') format("woff"), url('../fonts/minutelabs-icons/fonts/minutelabs-icons.svg#minutelabs-icons') format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 12, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'minutelabs-icons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 26, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-phone:before {
+  content: "\e600";
+}
+
+/* line 29, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-tablet:before {
+  content: "\e601";
+}
+
+/* line 32, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-monitor:before {
+  content: "\e602";
+}
+
+/* line 35, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-camera:before {
+  content: "\e603";
+}
+
+/* line 38, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-film:before {
+  content: "\e604";
+}
+
+/* line 41, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-coffee:before {
+  content: "\e605";
+}
+
+/* line 44, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-checkmark:before {
+  content: "\e606";
+}
+
+/* line 47, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-cancel:before {
+  content: "\e607";
+}
+
+/* line 50, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-checkmark2:before {
+  content: "\e608";
+}
+
+/* line 53, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-cancel2:before {
+  content: "\e609";
+}
+
+/* line 56, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-plus:before {
+  content: "\e60a";
+}
+
+/* line 59, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-plus2:before {
+  content: "\e60b";
+}
+
+/* line 62, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-minus:before {
+  content: "\e60c";
+}
+
+/* line 65, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-minus2:before {
+  content: "\e60d";
+}
+
+/* line 68, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-notice:before {
+  content: "\e60e";
+}
+
+/* line 71, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-notice2:before {
+  content: "\e60f";
+}
+
+/* line 74, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-cog:before {
+  content: "\e610";
+}
+
+/* line 77, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-picture:before {
+  content: "\e611";
+}
+
+/* line 80, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-pictures:before {
+  content: "\e612";
+}
+
+/* line 83, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-chronometer:before {
+  content: "\e613";
+}
+
+/* line 86, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-checkmark3:before {
+  content: "\e614";
+}
+
+/* line 89, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-cancel3:before {
+  content: "\e615";
+}
+
+/* line 92, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-zoom-in:before {
+  content: "\e616";
+}
+
+/* line 95, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-zoom-out:before {
+  content: "\e617";
+}
+
+/* line 98, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-magnifier:before {
+  content: "\e618";
+}
+
+/* line 101, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-lamp:before {
+  content: "\e619";
+}
+
+/* line 104, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-lamp2:before {
+  content: "\e61a";
+}
+
+/* line 107, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-lamp3:before {
+  content: "\e61b";
+}
+
+/* line 110, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-grid:before {
+  content: "\e61c";
+}
+
+/* line 113, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-grid2:before {
+  content: "\e61d";
+}
+
+/* line 116, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-tools:before {
+  content: "\e61e";
+}
+
+/* line 119, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-chat:before {
+  content: "\e61f";
+}
+
+/* line 122, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-comments:before {
+  content: "\e620";
+}
+
+/* line 125, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-chat2:before {
+  content: "\e621";
+}
+
+/* line 128, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-chat3:before {
+  content: "\e622";
+}
+
+/* line 131, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-equalizer:before {
+  content: "\e623";
+}
+
+/* line 134, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-retweet:before {
+  content: "\e624";
+}
+
+/* line 137, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-reply:before {
+  content: "\e625";
+}
+
+/* line 140, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-forward:before {
+  content: "\e626";
+}
+
+/* line 143, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-info:before {
+  content: "\e627";
+}
+
+/* line 146, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-info2:before {
+  content: "\e628";
+}
+
+/* line 149, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-book:before {
+  content: "\e629";
+}
+
+/* line 152, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-book2:before {
+  content: "\e62a";
+}
+
+/* line 155, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-rocket:before {
+  content: "\e62b";
+}
+
+/* line 158, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-checked:before {
+  content: "\e62c";
+}
+
+/* line 161, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-error:before {
+  content: "\e62d";
+}
+
+/* line 164, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-add:before {
+  content: "\e62e";
+}
+
+/* line 167, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-minus3:before {
+  content: "\e62f";
+}
+
+/* line 170, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-atom:before {
+  content: "\e630";
+}
+
+/* line 173, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-switch:before {
+  content: "\e631";
+}
+
+/* line 176, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-stack:before {
+  content: "\e632";
+}
+
+/* line 179, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-chart:before {
+  content: "\e633";
+}
+
+/* line 182, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-cone:before {
+  content: "\e634";
+}
+
+/* line 185, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-blocked:before {
+  content: "\e635";
+}
+
+/* line 188, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-stop:before {
+  content: "\e636";
+}
+
+/* line 191, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-keyboard:before {
+  content: "\e637";
+}
+
+/* line 194, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-twitter:before {
+  content: "\e638";
+}
+
+/* line 197, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-facebook:before {
+  content: "\e639";
+}
+
+/* line 200, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-google-plus:before {
+  content: "\e63a";
+}
+
+/* line 203, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-youtube:before {
+  content: "\e63b";
+}
+
+/* line 206, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-github:before {
+  content: "\e63c";
+}
+
+/* line 209, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-soundcloud:before {
+  content: "\e63d";
+}
+
+/* line 212, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-soundcloud2:before {
+  content: "\e63e";
+}
+
+/* line 215, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-youtube2:before {
+  content: "\e63f";
+}
+
+/* line 218, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-feed:before, #nav-widget .btn-subscribe:before {
+  content: "\e640";
+}
+
+/* line 221, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-share:before {
+  content: "\e641";
+}
+
+/* line 224, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-list:before {
+  content: "\e652";
+}
+
+/* line 227, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-list2:before {
+  content: "\e653";
+}
+
+/* line 230, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-gift:before {
+  content: "\e654";
+}
+
+/* line 233, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-file:before {
+  content: "\e655";
+}
+
+/* line 236, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-arrow-left:before, #nav-widget .btn-prev:before {
+  content: "\e642";
+}
+
+/* line 239, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-arrow-down:before {
+  content: "\e643";
+}
+
+/* line 242, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-arrow-up:before {
+  content: "\e644";
+}
+
+/* line 245, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-arrow-right:before, #nav-widget .btn-next:before {
+  content: "\e645";
+}
+
+/* line 248, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-arrow-left2:before {
+  content: "\e646";
+}
+
+/* line 251, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-arrow-down2:before {
+  content: "\e647";
+}
+
+/* line 254, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-arrow-up2:before {
+  content: "\e648";
+}
+
+/* line 257, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-arrow-right2:before {
+  content: "\e649";
+}
+
+/* line 260, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-arrow-left3:before {
+  content: "\e64a";
+}
+
+/* line 263, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-arrow-down3:before {
+  content: "\e64b";
+}
+
+/* line 266, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-arrow-up3:before {
+  content: "\e64c";
+}
+
+/* line 269, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-uniE64D:before {
+  content: "\e64d";
+}
+
+/* line 272, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-arrow-left4:before {
+  content: "\e64e";
+}
+
+/* line 275, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-arrow-down4:before {
+  content: "\e64f";
+}
+
+/* line 278, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-arrow-up4:before {
+  content: "\e650";
+}
+
+/* line 281, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-arrow-right3:before {
+  content: "\e651";
+}
+
+/* line 284, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-list3:before {
+  content: "\e656";
+}
+
+/* line 287, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-layout:before {
+  content: "\e657";
+}
+
+/* line 290, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-list4:before {
+  content: "\e658";
+}
+
+/* line 293, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-text:before {
+  content: "\e659";
+}
+
+/* line 296, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_icons.scss */
+.icon-text2:before, #nav-widget .btn-details:before {
+  content: "\e65a";
+}
+
+/*Form elements*/
+/*Dimensions*/
+/* line 4, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_forms.scss */
+input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type=""], input:not([type]) {
+  width: 60%;
+  max-width: 20em;
+}
+
+/* line 8, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_forms.scss */
+input[type="text"].squeeze, input[type="password"].squeeze, input[type="email"].squeeze, input[type="url"].squeeze, input[type="search"].squeeze, input[type="tel"].squeeze, input[type=""].squeeze, input:not([type]).squeeze {
+  width: 40%;
+  max-width: 14em;
+}
+
+/* line 12, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_forms.scss */
+textarea {
+  width: 60%;
+  max-width: 32em;
+  height: 10.72em;
+}
+
+/* line 17, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_forms.scss */
+textarea.squeeze {
+  width: 40%;
+  height: 4.02em;
+  max-width: 20em;
+}
+
+/*Resets*/
+/* line 26, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_forms.scss */
+button.plain, input.plain, textarea.plain {
+  border-width: 0;
+  border-style: solid;
+  background-color: transparent;
+  padding: 0;
+}
+
+/* line 32, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_forms.scss */
+button.plain, input[type="submit"].plain, input[type="button"].plain, input[type="reset"].plain {
+  line-height: inherit;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+/*Explicit padding for input elements*/
+/* line 41, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_forms.scss */
+input.buffer, input.buffer-top, textarea.buffer, textarea.buffer-top {
+  padding-top: 0.35em;
+}
+
+/* line 44, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_forms.scss */
+input.buffer, input.buffer-right, textarea.buffer, textarea.buffer-right {
+  padding-right: 0.6em;
+}
+
+/* line 47, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_forms.scss */
+input.buffer, input.buffer-bottom, textarea.buffer, textarea.buffer-bottom {
+  padding-bottom: 0.4em;
+}
+
+/* line 50, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_forms.scss */
+input.buffer, input.buffer-left, textarea.buffer, textarea.buffer-left {
+  padding-left: 0.6em;
+}
+
+/* line 61, /Users/wellcaffeinated/.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+* html {
+  font-size: 100%;
+}
+
+/* line 64, /Users/wellcaffeinated/.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+/* line 10, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_type.scss */
+body {
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -epub-hyphens: auto;
+  hyphens: auto;
+}
+
+/* line 19, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_type.scss */
+input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"] {
+  word-break: normal;
+}
+
+/* line 23, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_type.scss */
+h1 {
+  font-size: 3.5em;
+  line-height: 1.28571em;
+  margin: 0.85714em 0;
+}
+
+/* line 29, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_type.scss */
+h2 {
+  font-size: 2.625em;
+  line-height: 1.14286em;
+  margin: 1.14286em 0;
+}
+
+/* line 35, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_type.scss */
+h3 {
+  font-size: 1.75em;
+  line-height: 1.28571em;
+  margin: 1.71429em 0;
+}
+
+/* line 41, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_type.scss */
+h4, h5, h6 {
+  font-size: 1em;
+  line-height: 1.5em;
+  margin: 1.5em 0;
+}
+
+/* line 46, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_type.scss */
+p {
+  margin-bottom: 1.5em;
+}
+
+/* line 40, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_buttons.scss */
+button,
+a.btn {
+  position: relative;
+  font-size: 1.125em;
+  line-height: 1.33333em;
+  font-family: "latin-modern-mono", Courier, monospace;
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+  padding: 0.7em 1.4em;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transition: all 0.15s ease-out;
+  -moz-transition: all 0.15s ease-out;
+  -o-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+  color: #434343;
+  background: white;
+  border: 1px solid #c8c8c8;
+}
+/* line 9, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_buttons.scss */
+button:hover,
+a.btn:hover {
+  color: #343434;
+  border-color: #afafaf;
+  z-index: 1;
+  -webkit-transform: translate3d(0, -4px, 0);
+  -moz-transform: translate3d(0, -4px, 0);
+  -ms-transform: translate3d(0, -4px, 0);
+  -o-transform: translate3d(0, -4px, 0);
+  transform: translate3d(0, -4px, 0);
+  -webkit-box-shadow: 0px 4px 0 #afafaf;
+  -moz-box-shadow: 0px 4px 0 #afafaf;
+  box-shadow: 0px 4px 0 #afafaf;
+}
+/* line 19, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_buttons.scss */
+button:active,
+a.btn:active {
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+/* line 26, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_buttons.scss */
+button.disabled, button[disabled],
+a.btn.disabled,
+a.btn[disabled] {
+  color: gray;
+  background: #f1f1f1;
+  border-color: #d0d0d0;
+}
+/* line 32, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_buttons.scss */
+button.disabled:hover, button[disabled]:hover,
+a.btn.disabled:hover,
+a.btn[disabled]:hover {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+/* line 57, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_buttons.scss */
+button.ok,
+a.btn.ok {
+  color: #408000;
+  background: #7df281;
+  border: 1px solid #408000;
+}
+/* line 9, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_buttons.scss */
+button.ok:hover,
+a.btn.ok:hover {
+  color: #316100;
+  border-color: #274d00;
+  z-index: 1;
+  -webkit-transform: translate3d(0, -4px, 0);
+  -moz-transform: translate3d(0, -4px, 0);
+  -ms-transform: translate3d(0, -4px, 0);
+  -o-transform: translate3d(0, -4px, 0);
+  transform: translate3d(0, -4px, 0);
+  -webkit-box-shadow: 0px 4px 0 #274d00;
+  -moz-box-shadow: 0px 4px 0 #274d00;
+  box-shadow: 0px 4px 0 #274d00;
+}
+/* line 19, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_buttons.scss */
+button.ok:active,
+a.btn.ok:active {
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+/* line 26, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_buttons.scss */
+button.ok.disabled, button.ok[disabled],
+a.btn.ok.disabled,
+a.btn.ok[disabled] {
+  color: #7ea458;
+  background: #a3e9a5;
+  border-color: #7ea458;
+}
+/* line 32, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_buttons.scss */
+button.ok.disabled:hover, button.ok[disabled]:hover,
+a.btn.ok.disabled:hover,
+a.btn.ok[disabled]:hover {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+/* line 62, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_buttons.scss */
+button.danger,
+a.btn.danger {
+  color: #a72a22;
+  background: #f4b7a8;
+  border: 1px solid #a72a22;
+}
+/* line 9, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_buttons.scss */
+button.danger:hover,
+a.btn.danger:hover {
+  color: #8e241d;
+  border-color: #7d1f19;
+  z-index: 1;
+  -webkit-transform: translate3d(0, -4px, 0);
+  -moz-transform: translate3d(0, -4px, 0);
+  -ms-transform: translate3d(0, -4px, 0);
+  -o-transform: translate3d(0, -4px, 0);
+  transform: translate3d(0, -4px, 0);
+  -webkit-box-shadow: 0px 4px 0 #7d1f19;
+  -moz-box-shadow: 0px 4px 0 #7d1f19;
+  box-shadow: 0px 4px 0 #7d1f19;
+}
+/* line 19, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_buttons.scss */
+button.danger:active,
+a.btn.danger:active {
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+/* line 26, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_buttons.scss */
+button.danger.disabled, button.danger[disabled],
+a.btn.danger.disabled,
+a.btn.danger[disabled] {
+  color: #bc716c;
+  background: #eac5bc;
+  border-color: #bc716c;
+}
+/* line 32, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_buttons.scss */
+button.danger.disabled:hover, button.danger[disabled]:hover,
+a.btn.danger.disabled:hover,
+a.btn.danger[disabled]:hover {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+/* line 67, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_buttons.scss */
+button.inverse,
+a.btn.inverse {
+  color: #ededed;
+  background: #434343;
+  border: 1px solid #1a1a1a;
+}
+/* line 9, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_buttons.scss */
+button.inverse:hover,
+a.btn.inverse:hover {
+  border-color: black;
+  z-index: 1;
+  -webkit-transform: translate3d(0, -4px, 0);
+  -moz-transform: translate3d(0, -4px, 0);
+  -ms-transform: translate3d(0, -4px, 0);
+  -o-transform: translate3d(0, -4px, 0);
+  transform: translate3d(0, -4px, 0);
+  -webkit-box-shadow: 0px 4px 0 black;
+  -moz-box-shadow: 0px 4px 0 black;
+  box-shadow: 0px 4px 0 black;
+}
+/* line 19, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_buttons.scss */
+button.inverse:active,
+a.btn.inverse:active {
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+/* line 26, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_buttons.scss */
+button.inverse.disabled, button.inverse[disabled],
+a.btn.inverse.disabled,
+a.btn.inverse[disabled] {
+  color: #e6e6e6;
+  background: gray;
+  border-color: #676767;
+}
+/* line 32, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_buttons.scss */
+button.inverse.disabled:hover, button.inverse[disabled]:hover,
+a.btn.inverse.disabled:hover,
+a.btn.inverse[disabled]:hover {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+/* line 72, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_buttons.scss */
+.btn-group {
+  *zoom: 1;
+  margin: 1.5em 0;
+}
+/* line 4, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_mixins.scss */
+.btn-group:before, .btn-group:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+/* line 11, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_mixins.scss */
+.btn-group:after {
+  clear: both;
+}
+/* line 77, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_buttons.scss */
+.btn-group button,
+.btn-group a.btn {
+  float: left;
+  display: block;
+  margin-left: -1px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+}
+/* line 83, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_buttons.scss */
+.btn-group button:first-child,
+.btn-group a.btn:first-child {
+  margin-left: 0;
+  -webkit-border-radius: 4px 0 0 4px;
+  -moz-border-radius: 4px 0 0 4px;
+  -ms-border-radius: 4px 0 0 4px;
+  -o-border-radius: 4px 0 0 4px;
+  border-radius: 4px 0 0 4px;
+}
+/* line 87, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_buttons.scss */
+.btn-group button:last-child,
+.btn-group a.btn:last-child {
+  -webkit-border-radius: 0 4px 4px 0;
+  -moz-border-radius: 0 4px 4px 0;
+  -ms-border-radius: 0 4px 4px 0;
+  -o-border-radius: 0 4px 4px 0;
+  border-radius: 0 4px 4px 0;
+}
+/* line 94, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_buttons.scss */
+.btn-group.block button,
+.btn-group.block a.btn {
+  float: none;
+  width: 100%;
+  margin-left: 0;
+  margin-top: -1px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+}
+/* line 101, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_buttons.scss */
+.btn-group.block button:first-child,
+.btn-group.block a.btn:first-child {
+  margin-top: 0;
+  -webkit-border-radius: 4px 4px 0 0;
+  -moz-border-radius: 4px 4px 0 0;
+  -ms-border-radius: 4px 4px 0 0;
+  -o-border-radius: 4px 4px 0 0;
+  border-radius: 4px 4px 0 0;
+}
+/* line 105, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_buttons.scss */
+.btn-group.block button:last-child,
+.btn-group.block a.btn:last-child {
+  -webkit-border-radius: 0 0 4px 4px;
+  -moz-border-radius: 0 0 4px 4px;
+  -ms-border-radius: 0 0 4px 4px;
+  -o-border-radius: 0 0 4px 4px;
+  border-radius: 0 0 4px 4px;
+}
+
+/* line 3, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_off-canvas.scss */
+#wrap-outer {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+/* line 9, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_off-canvas.scss */
+#wrap-inner {
+  position: relative;
+  width: 100%;
+  left: 0;
+}
+/* line 14, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_off-canvas.scss */
+.offcanvas-active #wrap-inner {
+  left: 400px;
+}
+/* line 17, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_off-canvas.scss */
+.csstransforms3d.csstransitions #wrap-inner {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transition: -webkit-transform 0.35s ease-out;
+  -moz-transition: -moz-transform 0.35s ease-out;
+  -o-transition: -o-transform 0.35s ease-out;
+  transition: transform 0.35s ease-out;
+}
+/* line 21, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_off-canvas.scss */
+.csstransforms3d.csstransitions .offcanvas-active #wrap-inner {
+  left: 0;
+  -webkit-transform: translate3d(400px, 0, 0);
+  -moz-transform: translate3d(400px, 0, 0);
+  -ms-transform: translate3d(400px, 0, 0);
+  -o-transform: translate3d(400px, 0, 0);
+  transform: translate3d(400px, 0, 0);
+}
+
+/* line 27, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_off-canvas.scss */
+[data-offcanvas] {
+  position: absolute;
+  top: 0;
+  left: -400px;
+  width: 400px;
+  height: 100%;
+  overflow: auto;
+}
+/* line 35, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_off-canvas.scss */
+.csstransforms3d.csstransitions [data-offcanvas] {
+  left: 0;
+  -webkit-transform: translate3d(-400px, 0, 0);
+  -moz-transform: translate3d(-400px, 0, 0);
+  -ms-transform: translate3d(-400px, 0, 0);
+  -o-transform: translate3d(-400px, 0, 0);
+  transform: translate3d(-400px, 0, 0);
+}
+
+/* line 6, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_full-page.scss */
+.full-page,
+.full-page body,
+.full-page #wrap-outer,
+.full-page #wrap-inner,
+.full-page #viewport {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 17, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_labs.scss */
+body {
+  font-family: "pt-sans", Helvetica, Arial, sans-serif;
+  color: #434343;
+}
+
+/* line 22, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_labs.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #1a1a1a;
+  font-family: "latin-modern-mono", Courier, monospace;
+  text-rendering: optimizeLegibility;
+}
+
+/* line 28, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_labs.scss */
+.invert {
+  background: #1a1a1a;
+  color: #c8c8c8;
+}
+/* line 32, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_labs.scss */
+.invert h1, .invert h2, .invert h3, .invert h4, .invert h5, .invert h6 {
+  color: gainsboro;
+}
+
+/* line 37, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_labs.scss */
+.comic {
+  font-family: "sf_cartoonist_hand", Helvetica, Arial, sans-serif;
+  letter-spacing: 1px;
+}
+
+/* line 41, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_labs.scss */
+p.comic {
+  font-size: 1.125em;
+  line-height: 1.33333em;
+}
+
+/* line 47, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_labs.scss */
+#nav-widget {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 32px;
+  z-index: 1000;
+}
+/* line 17, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_nav-widget.scss */
+#nav-widget,
+#nav-widget a {
+  color: white;
+  text-decoration: none;
+}
+/* line 22, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_nav-widget.scss */
+#nav-widget .logo {
+  position: absolute;
+  display: block;
+  background: #1a1a1a;
+  margin: 0;
+  height: 38px;
+  padding: 10px;
+  border-bottom: 1px solid black;
+  -webkit-box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.4);
+}
+/* line 32, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_nav-widget.scss */
+#nav-widget .logo img {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 38, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_nav-widget.scss */
+#nav-widget .top,
+#nav-widget .bottom {
+  float: left;
+  position: relative;
+  margin-left: 60px;
+  background: #1a1a1a;
+  font-family: "latin-modern-mono-light";
+  font-size: 14px;
+  line-height: 2.2;
+  overflow: hidden;
+  -webkit-border-radius: 0 0 3px;
+  -moz-border-radius: 0 0 3px;
+  -ms-border-radius: 0 0 3px;
+  -o-border-radius: 0 0 3px;
+  border-radius: 0 0 3px;
+  -webkit-box-shadow: 1px 2px 3px -1px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 1px 2px 3px -1px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 2px 3px -1px rgba(0, 0, 0, 0.4);
+}
+/* line 52, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_nav-widget.scss */
+#nav-widget .top a,
+#nav-widget .bottom a {
+  display: block;
+  padding: 0 0.6em;
+}
+/* line 58, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_nav-widget.scss */
+#nav-widget .top a.on, #nav-widget .top a:hover,
+#nav-widget .bottom a.on,
+#nav-widget .bottom a:hover {
+  background: #125497;
+}
+/* line 62, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_nav-widget.scss */
+#nav-widget .top a:active,
+#nav-widget .bottom a:active {
+  background: #176dc5;
+}
+/* line 72, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_nav-widget.scss */
+#nav-widget .bottom {
+  display: block;
+  float: left;
+  bottom: 1px;
+  border-top-width: 0;
+  z-index: 1;
+}
+/* line 80, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_nav-widget.scss */
+#nav-widget .title {
+  font-size: 1em;
+  line-height: 2.2;
+  display: block;
+  float: left;
+  clear: none;
+  margin: 0 2em 0 0.58em;
+  color: white;
+  font-family: "latin-modern-mono-light";
+  font-weight: normal;
+}
+/* line 95, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_nav-widget.scss */
+#nav-widget ul,
+#nav-widget ul li {
+  display: block;
+  float: left;
+  clear: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* line 110, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_nav-widget.scss */
+#nav-widget a.btn-prev,
+#nav-widget a.btn-next {
+  font: 0/0 'a';
+  padding: 0 8px;
+}
+/* line 118, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_nav-widget.scss */
+#nav-widget .btn-details,
+#nav-widget .btn-subscribe,
+#nav-widget .btn-prev,
+#nav-widget .btn-next {
+  vertical-align: middle;
+}
+/* line 121, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_nav-widget.scss */
+#nav-widget .btn-details:before,
+#nav-widget .btn-subscribe:before,
+#nav-widget .btn-prev:before,
+#nav-widget .btn-next:before {
+  font: 16px/1.9 'minutelabs-icons';
+  overflow: hidden;
+}
+/* line 128, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_nav-widget.scss */
+#nav-widget .btn-subscribe:before,
+#nav-widget .btn-details:before {
+  line-height: 1.6;
+  position: relative;
+  top: 3px;
+  right: 4px;
+}
+/* line 135, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_nav-widget.scss */
+#nav-widget a.btn-subscribe {
+  background: #823d26;
+  padding-left: 1em;
+  margin-left: 0.4em;
+}
+/* line 140, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_nav-widget.scss */
+#nav-widget a.btn-subscribe:hover {
+  background: #eb6033;
+}
+/* line 144, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_nav-widget.scss */
+#nav-widget a.btn-subscribe:active {
+  background: #823d26;
+}
+
+/* line 53, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_labs.scss */
+#viewport {
+  overflow: hidden;
+}
+
+/* line 57, /Users/wellcaffeinated/Documents/github/minutephysics/Labs-Boilerplate/app/library/styles/labs/_labs.scss */
+#details {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 2em;
+  -webkit-box-shadow: inset -1px 0px 4px rgba(50, 50, 50, 0.3);
+  -moz-box-shadow: inset -1px 0px 4px rgba(50, 50, 50, 0.3);
+  box-shadow: inset -1px 0px 4px rgba(50, 50, 50, 0.3);
+}

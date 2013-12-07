@@ -1,0 +1,39 @@
+$width: 400px;
+
+#wrap-outer {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+#wrap-inner {
+    position: relative;
+    width: 100%;
+    left: 0;
+
+    .offcanvas-active & {
+        left: $width;
+    }
+    .csstransforms3d.csstransitions & {
+        @include transform( translate3d(0, 0, 0) );
+        @include transition( transform .35s ease-out );
+    }
+    .csstransforms3d.csstransitions .offcanvas-active & {
+        left: 0;
+        @include transform( translate3d($width, 0, 0) );
+    }
+}
+
+[data-offcanvas] {
+    position: absolute;
+    top: 0;
+    left: -$width;
+    width: $width;
+    height: 100%;
+    overflow: auto;
+
+    .csstransforms3d.csstransitions & {
+        left: 0;
+        @include transform( translate3d(-$width, 0, 0) );
+    }
+}

@@ -1,0 +1,10 @@
+permalink: pretty
+markdown: rdiscount
+exclude: ["README.md", "CNAME", "LICENSE"]
+
+title : Minute Labs
+description : "Experiments with Interactive Visualization"
+social :
+  email : info@minutelabs.io
+  github : minute-labs-io
+  twitter : minutelabsio
