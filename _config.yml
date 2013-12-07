@@ -1,10 +1,13 @@
-permalink: pretty
+permalink: /:year-:month-:day/:title
 markdown: rdiscount
 exclude: ["README.md", "CNAME", "LICENSE"]
 
 title : Minute Labs
 description : "Experiments with Interactive Visualization"
 social :
-  email : info@minutelabs.io
-  github : minute-labs-io
-  twitter : minutelabsio
+    email : info@minutelabs.io
+    github : minute-labs-io
+    twitter : minutelabsio
+limits :
+    posts : 20
+
