@@ -1,10 +1,10 @@
 @mixin nav-widget($bg: $deep-grey-dark, $textColor: white, $highlight: $blue-dark, $textSize: 14px) {
     $imgWidth: 40px;
     $imgHeight: 38px;
-    $fontFamily: 'latin-modern-mono';
+    $fontFamily: $font-family-mono;
 
     @if (lightness($bg) < 50){
-        $fontFamily: 'latin-modern-mono-light';
+        $fontFamily: $font-family-mono-light;
     }
 
     position: absolute;
@@ -147,7 +147,7 @@
     }
 
     .btn-subscribe:before {
-        @extend .icon-feed;
+        @extend .icon-feed:before;
     }
 
     .btn-details:before {

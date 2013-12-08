@@ -1,8 +1,116 @@
+#sidebar {
+    background: $deep-grey-dark;
+    color: #fff;
+    border-right: 1px solid darken($deep-grey-dark, 5);
+}
+
+#site-nav {
+
+    ul, li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    ul {
+        border-top: 1px solid darken($deep-grey-dark, 3);
+        border-bottom: 1px solid lighten($deep-grey-dark, 3);
+    }
+
+    li {
+        border-bottom: 1px solid darken($deep-grey-dark, 3);
+        border-top: 1px solid lighten($deep-grey-dark, 3);
+    }
+
+    h1, a {
+        color: #fff;
+        @include adjust-font-size-to(20px, 1);
+        font-family: $font-family-mono-light;
+    }
+
+    h1 {
+        padding: 2em;
+    }
+
+    a {
+        padding: 1em 1.4em;
+        display: block;
+        text-decoration: none;
+        border-left: 0.6em solid $deep-grey-dark;
+        @include transition( all .1s ease-out );
+
+        &:hover {
+            background: $blue-dark;
+            border-left-color: $blue-dark;
+        }
+
+        &:active {
+            background: $blue;
+            border-left-color: $blue;
+        }
+
+        &.on {
+            border-left-color: $red-orange-dark;
+            background: none;
+        }
+    }
+}
+
+#btn-navigate {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    background: $deep-grey-dark;
+    color: #fff;
+    font: 1.3em/1 $font-family-mono-light;
+    padding: 1em 2em 1em 3em;
+    text-decoration: none;
+    @include transition( all .1s ease-out );
+    @include border-radius( 0 0 3px 0 );
+    @include transform( translate3d(0, 0, 0) );
+
+    &:before {
+        position: absolute;
+        top: 0;
+        left: 1em;
+        font: 1em/3 'minutelabs-icons';
+        overflow: hidden;
+        @extend .icon-list2:before;
+    }
+
+    &:hover {
+        background: $blue-dark;
+    }
+
+    &.on {
+        background: $blue-dark;
+        &:before {
+            left: 0.65em;
+            font-size: 1.4em;
+            line-height: 2.2;
+            @extend .icon-cancel2:before;
+        }
+    }
+
+    &:active {
+        background: $blue;
+    }
+}
+
+
 // phones
 @media screen and (max-width: 480px){
 
     #wrap-outer {
         @include offcanvas( 100% );
+    }
+
+    .no-csstransforms3d #btn-navigate.on {
+        right: 3em;
+    }
+
+    .csstransforms3d #btn-navigate.on {
+        @include transform( translate3d(-3em, 0, 0) );
     }
 }
 
@@ -23,7 +131,6 @@
             @include box-sizing( border-box );
             width: 100%;
             padding-left: 300px;
-            @include transform( translate(0, 0) );
         }
         [data-offcanvas="offcanvas"]{
             position: fixed;
@@ -31,7 +138,6 @@
             left: 0;
             width: 300px;
             height: 100%;
-            @include transform( translate(0, 0) );
         }
         [data-offcanvas="toggle"]{
             display: none;

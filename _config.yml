@@ -11,3 +11,16 @@ social :
 limits :
     posts : 20
 
+nav:
+    - title: Labs
+      url: /
+
+    - title: About
+      url: /about
+
+    - title: Code
+      url: /code
+
+    - title: Subscribe
+      url: /subscribe
+

@@ -1,4 +1,8 @@
 
 @import "labs/_labs";
-
 @import "_navigation";
+@import "_post-list";
+
+html, body, #wrap-outer {
+    min-height: 100%;
+}
