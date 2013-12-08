@@ -43,7 +43,7 @@ define(
 
                 var self = this;
 
-                $(document).on('click', '[href="#details"]', function(){
+                $(document).on('click', '[data-offcanvas="toggle"]', function(){
                     $(document.body).toggleClass('offcanvas-active');
                     $(this).toggleClass('on');
                     return false;

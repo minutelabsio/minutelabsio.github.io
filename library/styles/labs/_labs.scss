@@ -43,6 +43,28 @@ p.comic {
 }
 
 // temporary
+// phones
+@media screen and (max-width: 480px){
+
+    body.lab {
+
+        #wrap-outer {
+            @include offcanvas( 100% );
+        }
+    }
+}
+
+// tablets
+@media screen and (max-width: 780px){
+    
+    body.lab {
+
+        #wrap-outer {
+            @include offcanvas( 300px );
+        }
+    }
+}
+
 
 #nav-widget {
     @include nav-widget();

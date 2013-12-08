@@ -31,8 +31,30 @@
   </head>
   <body>
     
-    <div id="viewport">
-    {{content}}
+    <div id="wrap-outer">
+      <div data-offcanvas="wrap">
+        <nav role="navigation">
+          <a href="#site-nav" id="btn-menu" data-offcanvas="toggle">Menu</a>
+        </nav>
+        <div data-offcanvas="offcanvas">
+          <header>
+            <nav id="site-nav">
+              <ul>
+                <li><a href="/">Labs</a></li>
+                <li><a href="/code">Code</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/subscribe">Subscribe</a></li>
+              </ul>
+            </nav>
+          </header>
+          <footer>
+            Share ...
+          </footer>
+        </div>
+        <div id="viewport">
+        {{content}}
+        </div>
+      </div>
     </div>
 
     <script src="/library/js/ga.js" async></script>

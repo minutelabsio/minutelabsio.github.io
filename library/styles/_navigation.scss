@@ -1,0 +1,40 @@
+// phones
+@media screen and (max-width: 480px){
+
+    #wrap-outer {
+        @include offcanvas( 100% );
+    }
+}
+
+// tablets
+@media screen and (min-width: 481px) and (max-width: 780px){
+
+    #wrap-outer {
+        @include offcanvas( 300px );
+    }
+}
+
+// desktop
+@media screen and (min-width: 781px){
+    
+    #wrap-outer {
+        
+        [data-offcanvas="wrap"]{
+            @include box-sizing( border-box );
+            width: 100%;
+            padding-left: 300px;
+            @include transform( translate(0, 0) );
+        }
+        [data-offcanvas="offcanvas"]{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 300px;
+            height: 100%;
+            @include transform( translate(0, 0) );
+        }
+        [data-offcanvas="toggle"]{
+            display: none;
+        }
+    }
+}

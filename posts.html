@@ -5,7 +5,7 @@ layout: default
 <h1>Posts</h1>
 <div class="post-list">
     {% for post in site.posts limit:site.limits.posts %}
-        {% capture url %}{{ post.url }}{% endcapture %}
+        {% capture url %}{% if post.lab %}{{ post.lab }}{% else %}{{ post.url }}{% endif %}{% endcapture %}
         <article class="post" data-id="{{ post.id }}" data-index="{{ forloop.index }}">
             {% if post.image %}
             <a href="{{ url }}">
@@ -13,7 +13,7 @@ layout: default
             </a>
             {% endif %}
             <h2 class="title"><a href="{{ url }}">{{ post.title }}</a></h2>
-            <time datetime="{{ post.date | date:'%Y-%m-%dT%H:%M:%S' }}" class="date">{{ post.date | date: '%B %Y' }}</time>
+            <time datetime="{{ post.date | date:'%Y-%m-%dT%H:%M:%S' }}" class="date">{{ post.date | date: '%d %b %Y' }}</time>
             <div class="desc">
                 {{ post.excerpt }}
             </div>
