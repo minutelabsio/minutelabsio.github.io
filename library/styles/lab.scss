@@ -1,0 +1,39 @@
+// main css for lab inclusion
+@import "labs/_labs";
+
+// temporary
+// phones
+@media screen and (max-width: 480px){
+
+    #wrap-outer {
+        @include offcanvas( 100% );
+    }
+}
+
+// tablets
+@media screen and (min-width: 481px){
+    
+    #wrap-outer {
+        @include offcanvas( 300px );
+    }
+}
+
+
+#nav-widget {
+    @include nav-widget();
+    // @include nav-widget(#fff, #333);
+}
+
+
+#viewport {
+    overflow: hidden;
+}
+
+#details {
+    @include box-sizing( border-box );
+    padding: 0 2em;
+    // background: #fafafa;
+    // @extend .invert;
+    
+    @include box-shadow( inset -1px 0px 4px rgba(50, 50, 50, 0.3) );
+}

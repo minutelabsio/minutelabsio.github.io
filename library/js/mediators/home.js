@@ -44,7 +44,7 @@ define(
                 var self = this;
 
                 $(document).on('click', '[data-offcanvas="toggle"]', function(){
-                    $(document.body).toggleClass('offcanvas-active');
+                    $('#wrap-outer').toggleClass('offcanvas-active');
                     $(this).toggleClass('on');
                     return false;
                 });

@@ -42,46 +42,5 @@ p.comic {
     @include adjust-font-size-to( 18px );
 }
 
-// temporary
-// phones
-@media screen and (max-width: 480px){
 
-    body.lab {
-
-        #wrap-outer {
-            @include offcanvas( 100% );
-        }
-    }
-}
-
-// tablets
-@media screen and (max-width: 780px){
-    
-    body.lab {
-
-        #wrap-outer {
-            @include offcanvas( 300px );
-        }
-    }
-}
-
-
-#nav-widget {
-    @include nav-widget();
-    // @include nav-widget(#fff, #333);
-}
-
-
-#viewport {
-    overflow: hidden;
-}
-
-#details {
-    @include box-sizing( border-box );
-    padding: 0 2em;
-    // background: #fafafa;
-    // @extend .invert;
-    
-    @include box-shadow( inset -1px 0px 4px rgba(50, 50, 50, 0.3) );
-}
 
