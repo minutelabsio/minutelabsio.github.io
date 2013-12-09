@@ -42,5 +42,7 @@ p.comic {
     @include adjust-font-size-to( 18px );
 }
 
-
+a {
+    color: $blue-dark;
+}
 

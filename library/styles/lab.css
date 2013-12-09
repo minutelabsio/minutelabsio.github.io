@@ -1983,6 +1983,11 @@ p.comic {
   line-height: 1.33333em;
 }
 
+/* line 45, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_labs.scss */
+a {
+  color: #125497;
+}
+
 @media screen and (max-width: 480px) {
   /* line 8, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/lab.scss */
   #wrap-outer {
@@ -2232,13 +2237,12 @@ p.comic {
 #nav-widget a.btn-subscribe {
   background: #823d26;
   padding-left: 1em;
-  margin-left: 0.4em;
 }
-/* line 140, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_nav-widget.scss */
+/* line 139, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_nav-widget.scss */
 #nav-widget a.btn-subscribe:hover {
   background: #eb6033;
 }
-/* line 144, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_nav-widget.scss */
+/* line 143, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_nav-widget.scss */
 #nav-widget a.btn-subscribe:active {
   background: #823d26;
 }

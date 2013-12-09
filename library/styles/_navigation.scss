@@ -1,7 +1,32 @@
+$sidebar-bg: #fff;
+$sidebar-text: $deep-grey-dark;
+
 #sidebar {
-    background: $deep-grey-dark;
-    color: #fff;
-    border-right: 1px solid darken($deep-grey-dark, 5);
+    background: $sidebar-bg;
+    color: $sidebar-text;
+    border-right: 10px solid darken($deep-grey-dark, 5);
+
+    .logo {
+        text-align: center;
+        font-family: $font-family-mono;
+        @include adjust-font-size-to( 26px, 1.5 );
+        margin-bottom: 1.5em;
+        font-weight: normal;
+
+        img {
+            display: block;
+            margin: auto;
+        }
+
+        small {
+            font-size: 1em;
+            color: darken($grey-dark, 8);
+        }
+    }
+
+    footer {
+        margin: 2em;
+    }
 }
 
 #site-nav {
@@ -12,46 +37,39 @@
         list-style: none;
     }
 
-    ul {
-        border-top: 1px solid darken($deep-grey-dark, 3);
-        border-bottom: 1px solid lighten($deep-grey-dark, 3);
-    }
-
-    li {
-        border-bottom: 1px solid darken($deep-grey-dark, 3);
-        border-top: 1px solid lighten($deep-grey-dark, 3);
-    }
-
-    h1, a {
-        color: #fff;
+    a {
         @include adjust-font-size-to(20px, 1);
         font-family: $font-family-mono-light;
-    }
-
-    h1 {
-        padding: 2em;
-    }
-
-    a {
-        padding: 1em 1.4em;
+        color: $sidebar-text;
+        padding: 1em 0 1em 2.7em;
         display: block;
         text-decoration: none;
-        border-left: 0.6em solid $deep-grey-dark;
-        @include transition( all .1s ease-out );
+        border: 0 solid $sidebar-bg;
+        border-right-width: 3em;
+        // border-left-width: 1em;
+        @include transition( all .2s ease-out );
 
         &:hover {
-            background: $blue-dark;
-            border-left-color: $blue-dark;
+            // background: $blue-light;
+            // border-right-color: $blue-light;
+            border-right-width: 5em;
         }
 
         &:active {
-            background: $blue;
-            border-left-color: $blue;
+            background: $grey;
+            border-right-color: $grey;
+            border-right-width: 5em;
         }
 
         &.on {
-            border-left-color: $red-orange-dark;
-            background: none;
+            border-right-width: 5em;
+        }
+    }
+
+    $border-colors: $blue-dark, $green-dark, $deep-grey, $red-orange-dark;
+    @for $i from 1 through length( $border-colors ) {
+        ul li:nth-child( #{$i} ) a {
+            border-color: nth($border-colors, $i);
         }
     }
 }
@@ -83,7 +101,7 @@
     }
 
     &.on {
-        background: $blue-dark;
+        // background: $blue-dark;
         &:before {
             left: 0.65em;
             font-size: 1.4em;
@@ -100,6 +118,10 @@
 
 // phones
 @media screen and (max-width: 480px){
+
+    #sidebar {
+        border-right-width: 4px;
+    }
 
     #wrap-outer {
         @include offcanvas( 100% );
