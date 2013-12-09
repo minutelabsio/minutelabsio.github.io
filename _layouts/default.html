@@ -41,7 +41,7 @@
               <ul>
                 {% for nav in site.nav %}
                 {% capture id %}{{ nav.title | downcase }}{% endcapture %}
-                <li><a{% if page.section == id %} class="on"{% endif %} href="{{ nav.url }}">{{ nav.title | capitalize }}</a></li>
+                <li><a class="{{ id }}{% if page.section == id %} on{% endif %}" href="{{ nav.url }}">{{ nav.title | capitalize }}</a></li>
                 {% endfor %}
               </ul>
             </nav>

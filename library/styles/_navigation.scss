@@ -2,6 +2,7 @@ $sidebar-bg: #fff;
 $sidebar-text: $deep-grey-dark;
 
 #sidebar {
+    @include box-sizing( border-box );
     background: $sidebar-bg;
     color: $sidebar-text;
     border-right: 10px solid darken($deep-grey-dark, 5);
@@ -10,7 +11,7 @@ $sidebar-text: $deep-grey-dark;
         text-align: center;
         font-family: $font-family-mono;
         @include adjust-font-size-to( 26px, 1.5 );
-        margin-bottom: 1.5em;
+        margin: 1.2em 0 1.5em;
         font-weight: normal;
 
         img {
@@ -38,10 +39,11 @@ $sidebar-text: $deep-grey-dark;
     }
 
     a {
-        @include adjust-font-size-to(20px, 1);
+        position: relative;
+        @include adjust-font-size-to(22px, 1);
         font-family: $font-family-mono-light;
         color: $sidebar-text;
-        padding: 1em 0 1em 2.7em;
+        padding: 1em 0 1em 50px;
         display: block;
         text-decoration: none;
         border: 0 solid $sidebar-bg;
@@ -64,12 +66,41 @@ $sidebar-text: $deep-grey-dark;
         &.on {
             border-right-width: 5em;
         }
+
+        &:after {
+            font: 1.7em/1.9 'minutelabs-icons';
+            color: #fff;
+            position: absolute;
+            top: 0;
+            right: -1.45em;
+        }
+
+        // specific items
+        &.labs:after {
+            @extend .icon-atom:before;
+        }
+
+        &.about:after {
+            @extend .icon-info:before;
+        }
+
+        &.code:after {
+            @extend .icon-code:before;
+        }
+
+        &.subscribe:after {
+            @extend .icon-feed:before;
+        }
     }
 
     $border-colors: $blue-dark, $green-dark, $deep-grey, $red-orange-dark;
     @for $i from 1 through length( $border-colors ) {
         ul li:nth-child( #{$i} ) a {
-            border-color: nth($border-colors, $i);
+            $color: nth($border-colors, $i);
+            border-color: $color;
+            &:after {
+                color: darken($color, 14);
+            }
         }
     }
 }
