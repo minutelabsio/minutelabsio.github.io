@@ -5,7 +5,7 @@ $sidebar-text: $deep-grey-dark;
     @include box-sizing( border-box );
     background: $sidebar-bg;
     color: $sidebar-text;
-    border-right: 10px solid darken($deep-grey-dark, 5);
+    border-right: 3px solid $grey-light;
 
     .logo {
         text-align: center;
@@ -97,7 +97,14 @@ $sidebar-text: $deep-grey-dark;
     @for $i from 1 through length( $border-colors ) {
         ul li:nth-child( #{$i} ) a {
             $color: nth($border-colors, $i);
+
             border-color: $color;
+
+            &.on,
+            &:hover {
+                color: $color;
+            }
+            
             &:after {
                 color: darken($color, 14);
             }

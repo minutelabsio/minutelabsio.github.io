@@ -1,5 +1,89 @@
 .post-list {
-	.post {
-		padding: 0 10em;
-	}
+    padding: 0 10%;
+    // background: url(http://i1.ytimg.com/vi/th_9ZR2I0_w/maxresdefault.jpg) no-repeat right bottom fixed;
+    background-size: 80%;
+    overflow: hidden;
+
+    .date {
+        display: block;
+        font: 1.3em/.8 $font-family-mono;
+        background: $blue-dark;
+        color: darken($blue-dark, 15);
+        color: lighten($blue-light, 25);
+        text-align: center;
+        text-transform: uppercase;
+        padding: 0.4em;
+        @include border-radius( 3px );
+    }
+
+    .post {
+        position: relative;
+        @include clearfix2;
+        background: rgba(255, 255, 255, 0.95);
+        border: 1px solid $grey-dark;
+        padding: 5%;
+        max-width: 500px;
+        margin: rhythm(2) auto;
+        @include border-radius( 5px );
+        @include transform( translateX(0) );
+
+        .post-image {
+            clear: none;
+            float: right;
+            width: 50%;
+            margin-left: 2em;
+            text-align: right;
+
+            > .thumb {
+                display: block;
+                border: 1px solid $grey;
+                margin-bottom: rhythm(1);
+            }
+
+            .btn {
+                display: block;
+            }
+        }
+
+        .inner {
+            clear: none;
+            overflow: hidden;
+        }
+
+        .title {
+            @include adjust-font-size-to(28px, 1);
+            margin: 0 0 rhythm(0.5);
+            
+            a { 
+                text-decoration: none;
+                color: $deep-grey-dark;
+            }
+        }
+
+        .desc {
+            font-family: $font-family-mono-light;
+        }
+
+        .date {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 1.85em;
+            
+            &:first-line {
+                font-size: 1.7em;
+            }
+        }
+
+        .btn-launch:before {
+            @extend .icon-rocket:before;
+            // color: darken($blue-dark, 15);
+        }
+    }
+
+    .sep-year {
+        display: block;
+        width: 100px;
+        margin: auto;
+    }
 }

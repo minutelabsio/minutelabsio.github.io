@@ -4,19 +4,34 @@ section: labs
 ---
 
 <div class="post-list">
-    {% for post in site.categories.lab limit:site.limits.posts %}
+    {% for post in site.categories.lab limit:nil %}
+        {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+        {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+        {% if nyear != '' and year != nyear %}
+        <time class="date sep-year">{{ year }}</time>
+        {% endif %}
+        
         {% capture url %}{% if post.lab %}{{ post.lab }}{% else %}{{ post.url }}{% endif %}{% endcapture %}
+        
         <article class="post" data-id="{{ post.id }}" data-index="{{ forloop.index }}">
             {% if post.image %}
-            <a href="{{ url }}">
-                <img src="{{ post.image }}" class="post-image" title="{{ post.title }}"/>
-            </a>
+            <div class="post-image">
+                <a href="{{ url }}" class="thumb">
+                    <img src="{{ post.image }}" title="{{ post.title }}"/>
+                </a>
+
+                <a href="{{ url }}" class="btn pop btn-launch">Launch</a>
+            </div>
             {% endif %}
-            <h2 class="title"><a href="{{ url }}">{{ post.title }}</a></h2>
-            <time datetime="{{ post.date | date:'%Y-%m-%dT%H:%M:%S' }}" class="date">{{ post.date | date: '%d %b %Y' }}</time>
-            <div class="desc">
-                {{ post.excerpt }}
+            <div class="inner">
+                <h2 class="title"><a href="{{ url }}">{{ post.title }}</a></h2>
+                <div class="desc">
+                    {{ post.excerpt }}
+                </div>
+                
+                <time datetime="{{ post.date | date:'%Y-%m-%dT%H:%M:%S' }}" class="date">{{ post.date | date: '%d<br/>%b' }}</time>
             </div>
         </article>
+        
     {% endfor %}
 </div>
