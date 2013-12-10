@@ -6,3 +6,27 @@
 html, body, #wrap-outer {
     height: 100%;
 }
+
+#viewport {
+    padding: 0 rhythm(4);
+    max-width: 800px;
+}
+
+@media screen and (max-width: 780px){
+
+    #viewport {
+        margin-top: -60px;
+        padding: 5%;
+        padding-top: 110px !important;
+        background: image-url('logo-no-text-minute-labs.png') no-repeat top right;
+        background-size: 140px;
+    }
+}
+
+@media screen and (max-width: 480px){
+
+    #viewport {
+        margin-top: 0;
+        background-position: center 10px;
+    }
+}

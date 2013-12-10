@@ -1,6 +1,20 @@
 $sidebar-bg: #fff;
 $sidebar-text: $deep-grey-dark;
 
+@mixin nav-icon( $color: #fff ){
+
+    border-color: $color;
+
+    &.on,
+    &:hover {
+        color: $color;
+    }
+    
+    &:after {
+        color: darken($color, 14);
+    }
+}
+
 #sidebar {
     @include box-sizing( border-box );
     background: $sidebar-bg;
@@ -76,37 +90,35 @@ $sidebar-text: $deep-grey-dark;
         }
 
         // specific items
-        &.labs:after {
-            @extend .icon-atom:before;
-        }
+        &.labs {
+            @include nav-icon( $blue-dark );
 
-        &.about:after {
-            @extend .icon-info:before;
-        }
-
-        &.code:after {
-            @extend .icon-code:before;
-        }
-
-        &.subscribe:after {
-            @extend .icon-feed:before;
-        }
-    }
-
-    $border-colors: $blue-dark, $green-dark, $deep-grey, $red-orange-dark;
-    @for $i from 1 through length( $border-colors ) {
-        ul li:nth-child( #{$i} ) a {
-            $color: nth($border-colors, $i);
-
-            border-color: $color;
-
-            &.on,
-            &:hover {
-                color: $color;
-            }
-            
             &:after {
-                color: darken($color, 14);
+                @extend .icon-atom:before;
+            }
+        }
+
+        &.about {
+            @include nav-icon( $green-dark );
+
+            &:after {
+                @extend .icon-info:before;
+            }
+        }
+
+        &.code {
+            @include nav-icon( $deep-grey );
+
+            &:after {
+                @extend .icon-code:before;
+            }
+        }
+
+        &.subscribe {
+            @include nav-icon( $red-orange-dark );
+
+            &:after {
+                @extend .icon-feed:before;
             }
         }
     }
@@ -158,7 +170,7 @@ $sidebar-text: $deep-grey-dark;
 @media screen and (max-width: 480px){
 
     #sidebar {
-        border-right-width: 4px;
+        border-right-width: 0;
     }
 
     #wrap-outer {

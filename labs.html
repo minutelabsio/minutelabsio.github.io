@@ -19,17 +19,17 @@ section: labs
                 <a href="{{ url }}" class="thumb">
                     <img src="{{ post.image }}" title="{{ post.title }}"/>
                 </a>
-
-                <a href="{{ url }}" class="btn pop btn-launch">Launch</a>
             </div>
             {% endif %}
             <div class="inner">
                 <h2 class="title"><a href="{{ url }}">{{ post.title }}</a></h2>
+                <time datetime="{{ post.date | date:'%Y-%m-%dT%H:%M:%S' }}" class="date">{{ post.date | date: '%d<br/>%b' }}</time>
                 <div class="desc">
                     {{ post.excerpt }}
                 </div>
-                
-                <time datetime="{{ post.date | date:'%Y-%m-%dT%H:%M:%S' }}" class="date">{{ post.date | date: '%d<br/>%b' }}</time>
+            </div>
+            <div class="controls">
+                <a href="{{ url }}" class="btn pop btn-launch">Launch</a>
             </div>
         </article>
         

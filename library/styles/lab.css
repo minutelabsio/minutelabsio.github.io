@@ -2082,21 +2082,20 @@ time {
   /* line 8, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/lab.scss */
   #wrap-outer {
     position: relative;
-    overflow: hidden;
     width: 100%;
   }
-  /* line 7, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_off-canvas.scss */
+  /* line 6, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_off-canvas.scss */
   #wrap-outer [data-offcanvas="wrap"] {
     position: relative;
     width: 100%;
     min-height: 100%;
     left: 0;
   }
-  /* line 14, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_off-canvas.scss */
+  /* line 13, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_off-canvas.scss */
   #wrap-outer.offcanvas-active [data-offcanvas="wrap"] {
     left: 100%;
   }
-  /* line 17, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_off-canvas.scss */
+  /* line 16, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_off-canvas.scss */
   .csstransforms3d.csstransitions #wrap-outer [data-offcanvas="wrap"] {
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
@@ -2108,7 +2107,7 @@ time {
     -o-transition: -o-transform 0.35s ease-out;
     transition: transform 0.35s ease-out;
   }
-  /* line 21, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_off-canvas.scss */
+  /* line 20, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_off-canvas.scss */
   .csstransforms3d.csstransitions #wrap-outer.offcanvas-active [data-offcanvas="wrap"] {
     left: 0;
     -webkit-transform: translate3d(100%, 0, 0);
@@ -2117,7 +2116,7 @@ time {
     -o-transform: translate3d(100%, 0, 0);
     transform: translate3d(100%, 0, 0);
   }
-  /* line 26, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_off-canvas.scss */
+  /* line 25, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_off-canvas.scss */
   #wrap-outer [data-offcanvas="offcanvas"] {
     position: absolute;
     top: 0;
@@ -2126,7 +2125,7 @@ time {
     height: 100%;
     overflow: auto;
   }
-  /* line 34, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_off-canvas.scss */
+  /* line 33, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_off-canvas.scss */
   .csstransforms3d.csstransitions #wrap-outer [data-offcanvas="offcanvas"] {
     left: 0;
     -webkit-transform: translate3d(-100%, 0, 0);
@@ -2140,21 +2139,20 @@ time {
   /* line 16, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/lab.scss */
   #wrap-outer {
     position: relative;
-    overflow: hidden;
     width: 100%;
   }
-  /* line 7, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_off-canvas.scss */
+  /* line 6, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_off-canvas.scss */
   #wrap-outer [data-offcanvas="wrap"] {
     position: relative;
     width: 100%;
     min-height: 100%;
     left: 0;
   }
-  /* line 14, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_off-canvas.scss */
+  /* line 13, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_off-canvas.scss */
   #wrap-outer.offcanvas-active [data-offcanvas="wrap"] {
     left: 300px;
   }
-  /* line 17, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_off-canvas.scss */
+  /* line 16, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_off-canvas.scss */
   .csstransforms3d.csstransitions #wrap-outer [data-offcanvas="wrap"] {
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
@@ -2166,7 +2164,7 @@ time {
     -o-transition: -o-transform 0.35s ease-out;
     transition: transform 0.35s ease-out;
   }
-  /* line 21, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_off-canvas.scss */
+  /* line 20, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_off-canvas.scss */
   .csstransforms3d.csstransitions #wrap-outer.offcanvas-active [data-offcanvas="wrap"] {
     left: 0;
     -webkit-transform: translate3d(300px, 0, 0);
@@ -2175,7 +2173,7 @@ time {
     -o-transform: translate3d(300px, 0, 0);
     transform: translate3d(300px, 0, 0);
   }
-  /* line 26, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_off-canvas.scss */
+  /* line 25, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_off-canvas.scss */
   #wrap-outer [data-offcanvas="offcanvas"] {
     position: absolute;
     top: 0;
@@ -2184,7 +2182,7 @@ time {
     height: 100%;
     overflow: auto;
   }
-  /* line 34, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_off-canvas.scss */
+  /* line 33, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_off-canvas.scss */
   .csstransforms3d.csstransitions #wrap-outer [data-offcanvas="offcanvas"] {
     left: 0;
     -webkit-transform: translate3d(-300px, 0, 0);

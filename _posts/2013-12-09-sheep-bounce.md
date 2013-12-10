@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Sheep Bounce"
-image: http://wellcaffeinated.net/images/sheepbounce.gif
+image: /assets/images/sheepbounce.gif
 lab: /test-lab.html
 category: lab
 tags:

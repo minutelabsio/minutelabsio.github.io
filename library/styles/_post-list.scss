@@ -1,3 +1,8 @@
+.page-labs #viewport {
+    max-width: none;
+    padding: 0;
+}
+
 .post-list {
     padding: 0 10%;
     // background: url(http://i1.ytimg.com/vi/th_9ZR2I0_w/maxresdefault.jpg) no-repeat right bottom fixed;
@@ -18,36 +23,35 @@
 
     .post {
         position: relative;
-        @include clearfix2;
+        @include clearfix;
+        @include box-sizing( border-box );
         background: rgba(255, 255, 255, 0.95);
         border: 1px solid $grey-dark;
-        padding: 5%;
         max-width: 500px;
         margin: rhythm(2) auto;
         @include border-radius( 5px );
         @include transform( translateX(0) );
+        background: lighten(mix($blue-light, lighten($grey-light, 6), 4), 1);
 
         .post-image {
-            clear: none;
-            float: right;
-            width: 50%;
-            margin-left: 2em;
-            text-align: right;
+            width: 100%;
 
-            > .thumb {
-                display: block;
-                border: 1px solid $grey;
-                margin-bottom: rhythm(1);
-            }
-
-            .btn {
+            > .thumb,
+            > .thumb > img {
                 display: block;
             }
         }
 
         .inner {
+            padding: rhythm(1) 5% 0;
             clear: none;
             overflow: hidden;
+            border-top: 1px solid $grey-dark;
+        }
+
+        .controls {
+            padding: 0 5% 5%;
+            text-align: right;
         }
 
         .title {
@@ -62,6 +66,10 @@
 
         .desc {
             font-family: $font-family-mono-light;
+
+            p:last-child {
+                margin-bottom: rhythm(.5);
+            }
         }
 
         .date {
@@ -78,6 +86,24 @@
         .btn-launch:before {
             @extend .icon-rocket:before;
             // color: darken($blue-dark, 15);
+        }
+
+        &.layout-right {
+            padding: 5%;
+
+            > * {
+                padding: 0;
+                text-align: left;
+            }
+            
+            .post-image {
+                clear: none;
+                float: right;
+                width: 50%;
+                margin-left: 2em;
+
+                border: 1px solid $grey;
+            }
         }
     }
 

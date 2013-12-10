@@ -29,7 +29,7 @@
     <script>var require = { urlArgs: 'v=@@pkg.version' };</script>
     <script src="/library/js/vendor/require.js?v=@@pkg.version" data-main="library/js/page-home"></script>
   </head>
-  <body>
+  <body class="{% if page.section %}page-{{ page.section }}{% else %}page-default{% endif %}">
     
     <div id="wrap-outer">
       <div data-offcanvas="wrap">
@@ -47,7 +47,7 @@
             </nav>
           </header>
           <footer>
-            Share ...
+            footer content...
           </footer>
         </div>
         <div id="viewport">

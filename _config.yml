@@ -5,22 +5,23 @@ exclude: ["README.md", "CNAME", "LICENSE"]
 title : Minute Labs
 description : "Experiments with Interactive Visualization"
 social :
-    email : info@minutelabs.io
-    github : minute-labs-io
-    twitter : minutelabsio
+  email : info@minutelabs.io
+  github : minute-labs-io
+  twitter : minutelabsio
 limits :
-    posts : 20
+  posts : 20
 
 nav:
-    - title: Labs
-      url: /
+  - title: Labs
+    url: /labs
 
-    - title: About
-      url: /about
+  - title: About
+    url: /about
 
-    - title: Code
-      url: /code
+  - title: Code
+    url: /code
 
-    - title: Subscribe
-      url: /subscribe
+  - title: Subscribe
+    url: /subscribe
+
 
