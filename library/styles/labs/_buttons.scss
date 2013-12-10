@@ -54,6 +54,25 @@ a.btn {
     @include transition( all .15s ease-out );
     @include btn-colors( $btn-normal-bg, $btn-normal-text, $btn-normal-border );
 
+    &:before,
+    &:after {
+        font-family: 'minutelabs-icons';
+        content: none;
+        position: relative;
+        font-size: 1.5em;
+        line-height: 0;
+        vertical-align: middle;
+        margin: 0 -0.1em;
+    }
+
+    &:before {
+        right: 0.35em;
+    }
+
+    &:after {
+        left: 0.35em;
+    }
+
     // ok
     &.ok {
         @include btn-colors( $btn-ok-bg, $btn-ok-text, $btn-ok-border );
