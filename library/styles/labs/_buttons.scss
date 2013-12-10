@@ -40,11 +40,12 @@ button,
 a.btn {
     position: relative;
     @include adjust-font-size-to( 18px );
-    font-family: $font-family-minute-labs;
+    font-family: $font-family-mono-light;
     display: inline-block;
     text-align: center;
     margin: 0;
     padding: 0.7em 1.4em;
+    letter-spacing: 1px;
     text-decoration: none;
     cursor: pointer;
     outline: none;
@@ -56,6 +57,11 @@ a.btn {
     // ok
     &.ok {
         @include btn-colors( $btn-ok-bg, $btn-ok-text, $btn-ok-border );
+    }
+
+    // pop
+    &.pop {
+        @include btn-colors( $btn-pop-bg, $btn-pop-text, $btn-pop-border );
     }
 
     // danger

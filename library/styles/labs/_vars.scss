@@ -44,15 +44,20 @@ $btn-normal-bg: lighten($grey-light, 10); //#FFFDCB;
 $btn-normal-text: $deep-grey; //#444;
 $btn-normal-border: $grey-dark; //#CECBA3;
 
+// pop
+$btn-pop-bg: $blue-dark; //#FFFDCB;
+$btn-pop-text: lighten($blue-light, 25); //#444;
+$btn-pop-border: darken($blue-dark, 10); //#CECBA3;
+
 // ok
-$btn-ok-bg: $green-light; //#8BFCA1;
-$btn-ok-text: $green-dark; //#17411F;
-$btn-ok-border: $green-dark; //#76AC81;
+$btn-ok-bg: $green-dark; //#8BFCA1;
+$btn-ok-text: lighten($green-light, 25); //#17411F;
+$btn-ok-border: darken($green-dark, 10); //#76AC81;
 
 // danger
-$btn-danger-bg: $red-light; //#FF9B89;
-$btn-danger-text: $red-dark; //#630F00;
-$btn-danger-border: $red-dark; //#B87063;
+$btn-danger-bg: $red-dark; //#FF9B89;
+$btn-danger-text: lighten($red-light, 25); //#630F00;
+$btn-danger-border: darken($red-dark, 10); //#B87063;
 
 // inverse
 $btn-inverse-bg: $deep-grey; //#2C2E57;
