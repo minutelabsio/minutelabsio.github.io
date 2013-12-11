@@ -2079,7 +2079,7 @@ time {
 }
 
 @media screen and (max-width: 480px) {
-  /* line 8, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/lab.scss */
+  /* line 7, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/lab.scss */
   #wrap-outer {
     position: relative;
     width: 100%;
@@ -2136,7 +2136,7 @@ time {
   }
 }
 @media screen and (min-width: 481px) {
-  /* line 16, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/lab.scss */
+  /* line 15, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/lab.scss */
   #wrap-outer {
     position: relative;
     width: 100%;
@@ -2150,7 +2150,7 @@ time {
   }
   /* line 13, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_off-canvas.scss */
   #wrap-outer.offcanvas-active [data-offcanvas="wrap"] {
-    left: 300px;
+    left: 500px;
   }
   /* line 16, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_off-canvas.scss */
   .csstransforms3d.csstransitions #wrap-outer [data-offcanvas="wrap"] {
@@ -2167,32 +2167,32 @@ time {
   /* line 20, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_off-canvas.scss */
   .csstransforms3d.csstransitions #wrap-outer.offcanvas-active [data-offcanvas="wrap"] {
     left: 0;
-    -webkit-transform: translate3d(300px, 0, 0);
-    -moz-transform: translate3d(300px, 0, 0);
-    -ms-transform: translate3d(300px, 0, 0);
-    -o-transform: translate3d(300px, 0, 0);
-    transform: translate3d(300px, 0, 0);
+    -webkit-transform: translate3d(500px, 0, 0);
+    -moz-transform: translate3d(500px, 0, 0);
+    -ms-transform: translate3d(500px, 0, 0);
+    -o-transform: translate3d(500px, 0, 0);
+    transform: translate3d(500px, 0, 0);
   }
   /* line 25, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_off-canvas.scss */
   #wrap-outer [data-offcanvas="offcanvas"] {
     position: absolute;
     top: 0;
-    left: -300px;
-    width: 300px;
+    left: -500px;
+    width: 500px;
     height: 100%;
     overflow: auto;
   }
   /* line 33, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_off-canvas.scss */
   .csstransforms3d.csstransitions #wrap-outer [data-offcanvas="offcanvas"] {
     left: 0;
-    -webkit-transform: translate3d(-300px, 0, 0);
-    -moz-transform: translate3d(-300px, 0, 0);
-    -ms-transform: translate3d(-300px, 0, 0);
-    -o-transform: translate3d(-300px, 0, 0);
-    transform: translate3d(-300px, 0, 0);
+    -webkit-transform: translate3d(-500px, 0, 0);
+    -moz-transform: translate3d(-500px, 0, 0);
+    -ms-transform: translate3d(-500px, 0, 0);
+    -o-transform: translate3d(-500px, 0, 0);
+    transform: translate3d(-500px, 0, 0);
   }
 }
-/* line 22, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/lab.scss */
+/* line 21, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/lab.scss */
 #nav-widget {
   position: absolute;
   top: 0;
@@ -2325,30 +2325,65 @@ time {
 }
 /* line 135, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_nav-widget.scss */
 #nav-widget a.btn-subscribe {
-  background: #823d26;
+  background: #408000;
+  background: #336700;
+  color: #f1fef1;
   padding-left: 1em;
 }
-/* line 139, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_nav-widget.scss */
+/* line 141, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_nav-widget.scss */
 #nav-widget a.btn-subscribe:hover {
-  background: #eb6033;
+  background: #408000;
 }
-/* line 143, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_nav-widget.scss */
+/* line 145, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_nav-widget.scss */
 #nav-widget a.btn-subscribe:active {
-  background: #823d26;
+  background: #336700;
 }
 
-/* line 28, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/lab.scss */
+/* line 27, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/lab.scss */
 #viewport {
   overflow: hidden;
 }
 
-/* line 32, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/lab.scss */
+/* line 31, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/lab.scss */
 #details {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 0 2em;
+  padding: 0 2.5em;
+  background: #f9fbfc;
   -webkit-box-shadow: inset -1px 0px 4px rgba(50, 50, 50, 0.3);
   -moz-box-shadow: inset -1px 0px 4px rgba(50, 50, 50, 0.3);
   box-shadow: inset -1px 0px 4px rgba(50, 50, 50, 0.3);
+}
+/* line 37, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/lab.scss */
+#details header {
+  overflow: hidden;
+  *zoom: 1;
+  margin-bottom: 3em;
+}
+/* line 41, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/lab.scss */
+#details .title {
+  font-size: 2.625em;
+  line-height: 0.91429em;
+  margin-bottom: 0;
+}
+/* line 45, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/lab.scss */
+#details .title-by {
+  text-align: right;
+  margin: 0;
+  font-size: 1.25em;
+  line-height: 1.68em;
+}
+/* line 50, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/lab.scss */
+#details .title-by a {
+  color: #1a1a1a;
+  text-decoration: none;
+}
+/* line 54, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/lab.scss */
+#details .title-by a:hover span:last-child {
+  color: #8b8117;
+}
+/* line 59, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/lab.scss */
+#details .title-by span {
+  color: #b4b4b4;
 }

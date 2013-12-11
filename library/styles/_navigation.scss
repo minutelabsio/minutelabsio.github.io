@@ -40,7 +40,10 @@ $sidebar-text: $deep-grey-dark;
     }
 
     footer {
-        margin: 2em;
+        position: absolute;
+        bottom: 0;
+        margin: 0 rhythm(2) rhythm(1);
+        @include adjust-font-size-to(11px, 1);
     }
 }
 
@@ -57,7 +60,7 @@ $sidebar-text: $deep-grey-dark;
         @include adjust-font-size-to(22px, 1);
         font-family: $font-family-mono-light;
         color: $sidebar-text;
-        padding: 1em 0 1em 50px;
+        padding: 1em 0 1em 60px;
         display: block;
         text-decoration: none;
         border: 0 solid $sidebar-bg;
@@ -98,8 +101,16 @@ $sidebar-text: $deep-grey-dark;
             }
         }
 
-        &.about {
+        &.subscribe {
             @include nav-icon( $green-dark );
+
+            &:after {
+                @extend .icon-feed:before;
+            }
+        }
+
+        &.about {
+            @include nav-icon( $yellow-dark );
 
             &:after {
                 @extend .icon-info:before;
@@ -114,11 +125,12 @@ $sidebar-text: $deep-grey-dark;
             }
         }
 
-        &.subscribe {
+        
+        &.store {
             @include nav-icon( $red-orange-dark );
 
             &:after {
-                @extend .icon-feed:before;
+                @extend .icon-gift:before;
             }
         }
     }

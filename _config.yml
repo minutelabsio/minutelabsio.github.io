@@ -2,18 +2,22 @@ permalink: /:year-:month-:day/:title
 markdown: rdiscount
 exclude: ["README.md", "CNAME", "LICENSE"]
 
-title : Minute Labs
-description : "Experiments with Interactive Visualization"
+title : MinuteLabs.io
+url : http://minutelabs.io
+description : "Experiments in Interactive Explanations"
 social :
   email : info@minutelabs.io
   github : minute-labs-io
   twitter : minutelabsio
 limits :
-  posts : 20
+  posts : nil
 
 nav:
   - title: Labs
     url: /labs
+
+  - title: Subscribe
+    url: /subscribe
 
   - title: About
     url: /about
@@ -21,7 +25,7 @@ nav:
   - title: Code
     url: /code
 
-  - title: Subscribe
-    url: /subscribe
+  - title: Store
+    url: http://dftba.com/artist/60/MinutePhysics
 
 

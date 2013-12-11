@@ -133,15 +133,17 @@
     }
 
     a.btn-subscribe {
-        background: mix($red-orange, $bg, 50);
+        background: $green-dark;
+        background: darken($green-dark, 5);
+        color: lighten($green-light, 25);
         padding-left: 1em;
 
         &:hover {
-            background: $red-orange;
+            background: darken($green-dark, 0);
         }
 
         &:active {
-            background: mix($red-orange, $bg, 50);
+            background: darken($green-dark, 5);
         }
     }
 
