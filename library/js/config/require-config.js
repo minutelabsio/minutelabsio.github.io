@@ -8,7 +8,7 @@ require.config({
     },
     
     shim: {
-        // Add shims for things here
+        // shim
     },
 
     paths: {
@@ -30,7 +30,10 @@ require.config({
         'moddef': 'util/module',
         
         // jQuery
-        'jquery': 'vendor/jquery'
+        'jquery': 'vendor/jquery',
+
+        // jquery plugins
+        'frosty': 'vendor/frosty'
     },
 
     packages: [

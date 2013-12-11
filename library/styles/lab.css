@@ -1501,6 +1501,16 @@ ul.collapse > li, ol.collapse > li, dl.collapse > dt, dl.collapse > dd {
   content: "\e65c";
 }
 
+/* line 305, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_icons.scss */
+.icon-tablet2:before {
+  content: "\e65d";
+}
+
+/* line 308, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_icons.scss */
+.icon-mobile:before {
+  content: "\e65e";
+}
+
 /*Form elements*/
 /*Dimensions*/
 /* line 4, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_forms.scss */

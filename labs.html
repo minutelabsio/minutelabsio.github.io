@@ -37,7 +37,11 @@ section: labs
                 </div>
             </div>
             <div class="controls">
+                {% if post.lab %}
                 <a href="{{ url }}" class="btn ok btn-launch">Launch</a>
+                {% else %}
+                <a href="{{ url }}" class="btn btn-read">Keep Reading</a>
+                {% endif %}
             </div>
         </article>
         

@@ -1,14 +1,20 @@
 define(
     [
         'jquery',
-        'moddef'
+        'moddef',
+        'frosty'
     ],
     function(
         $,
-        M
+        M,
+        _f
     ) {
 
         'use strict';
+
+        var err = function( arg ){
+            console.error( arg );
+        };
 
         /**
          * Page-level Mediator
@@ -32,7 +38,7 @@ define(
 
                 self.after('domready').then(function(){
                     self.onDomReady();
-                });
+                }).otherwise( err );
             },
 
             /**
@@ -58,6 +64,7 @@ define(
 
                 var self = this;
 
+                $('a[title], abbr[title]').frosty();
             }
 
         }, ['events']);

@@ -130,12 +130,17 @@
 
             .tag-phone {
                 @extend .tag;
-                @extend .icon-phone;
+                @extend .icon-mobile;
             }
 
             .tag-article {
                 @extend .tag;
                 @extend .icon-book;
+            }
+
+            .tag-video {
+                @extend .tag;
+                @extend .icon-youtube;
             }
         }
 
