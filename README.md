@@ -1,7 +1,7 @@
-minute-labs-io.github.io
+MinuteLabs(.io) Website
 ========================
 
-Minute Labs (.io) Website
+Source code for our website.
 
 License
 =======
