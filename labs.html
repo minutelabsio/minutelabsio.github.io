@@ -1,4 +1,5 @@
 ---
+title: Labs
 layout: default
 section: labs
 ---
@@ -13,14 +14,21 @@ section: labs
         
         {% capture url %}{% if post.lab %}{{ post.lab }}{% else %}{{ post.url }}{% endif %}{% endcapture %}
         
-        <article class="post" data-id="{{ post.id }}" data-index="{{ forloop.index }}">
-            {% if post.image %}
-            <div class="post-image">
-                <a href="{{ url }}" class="thumb">
-                    <img src="{{ post.image }}" title="{{ post.title }}"/>
-                </a>
+        <article class="post" data-id="{{ post.id }}" data-index="{{ forloop.index }}" data-tags="{{ post.tags | join(' ') }}">
+            <div class="top">
+                {% if post.image %}
+                <div class="post-image">
+                    <a href="{{ url }}" class="thumb">
+                        <img src="{{ post.image }}" title="{{ post.title }}"/>
+                    </a>
+                </div>
+                {% endif %}
+                <div class="tags">
+                    {% for tag in post.tags %}
+                    <abbr class="tag-{{ tag }}" title="{{ tag }}"></abbr>
+                    {% endfor %}
+                </div>
             </div>
-            {% endif %}
             <div class="inner">
                 <h2 class="title"><a href="{{ url }}">{{ post.title }}</a></h2>
                 <time datetime="{{ post.date | date:'%Y-%m-%dT%H:%M:%S' }}" class="date">{{ post.date | date: '%d<br/>%b' }}</time>

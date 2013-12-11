@@ -9,6 +9,11 @@ $sidebar-text: $deep-grey-dark;
     &:hover {
         color: $color;
     }
+
+    &:active {
+        background: $color;
+        color: darken($color, 14);
+    }
     
     &:after {
         color: darken($color, 14);

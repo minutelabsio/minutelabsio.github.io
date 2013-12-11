@@ -4,6 +4,23 @@
 }
 
 .post-list {
+
+    // "abstract" class
+    .tag {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        font-size: 32px;
+        text-decoration: none;
+        text-align: center;
+
+        &:before {
+            font-family: 'minutelabs-icons';
+            color: lighten($blue-light, 25);
+            line-height: 40px;
+        }
+    }
+
     padding: 0 10%;
     // background: url(http://i1.ytimg.com/vi/th_9ZR2I0_w/maxresdefault.jpg) no-repeat right bottom fixed;
     background-size: 80%;
@@ -13,7 +30,6 @@
         display: block;
         font: 1.3em/.8 $font-family-mono;
         background: $blue-dark;
-        color: darken($blue-dark, 15);
         color: lighten($blue-light, 25);
         text-align: center;
         text-transform: uppercase;
@@ -56,7 +72,7 @@
 
         .title {
             @include adjust-font-size-to(28px, 1);
-            margin: 0 0 rhythm(0.5);
+            margin: 0 80px rhythm(0.5) 0;
             
             a { 
                 text-decoration: none;
@@ -77,10 +93,58 @@
             top: 0;
             right: 0;
             width: 1.85em;
+            @include border-radius( 0 3px 0 3px );
             
             &:first-line {
                 font-size: 1.7em;
             }
+        }
+
+        .top {
+            position: relative;
+        }
+
+        .tags {
+            position: absolute;
+            right: 0;
+            top: 0;
+            margin-right: 55px;
+            padding: 0 4px;
+            background: $blue-dark;
+            @include border-radius( 0 0 0 3px );
+            // @include opacity( 0.5 );
+        
+            > span {
+                display: none;
+            }
+
+            .tag-desktop {
+                @extend .tag;
+                @extend .icon-monitor;
+            }
+
+            .tag-tablet {
+                @extend .tag;
+                @extend .icon-tablet;
+            }
+
+            .tag-phone {
+                @extend .tag;
+                @extend .icon-phone;
+            }
+
+            .tag-article {
+                @extend .tag;
+                @extend .icon-book;
+            }
+        }
+
+        .post-image + .tags {
+            right: auto;
+            top: auto;
+            left: 0;
+            bottom: 0;
+            @include border-radius( 0 3px 0 0 );
         }
 
         .btn-launch:before {

@@ -1,4 +1,5 @@
 ---
+title: Code
 layout: default
 section: code
 ---

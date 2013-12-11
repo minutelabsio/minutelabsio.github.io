@@ -1,4 +1,5 @@
 ---
+title: Subscribe
 layout: default
 section: subscribe
 ---
