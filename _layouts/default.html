@@ -45,6 +45,10 @@
                 {% endfor %}
               </ul>
             </nav>
+            <form action="/search" method="GET" id="site-search">
+              <input type="text" name="q" autocomplete="off" />
+              <button type="submit">search</button>
+            </form>
           </header>
           <footer>
             <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />Work on <a xmlns:cc="http://creativecommons.org/ns#" href="http://minutelabs.io" property="cc:attributionName" rel="cc:attributionURL">MinuteLabs.io</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
@@ -57,5 +61,17 @@
     </div>
 
     <script src="/library/js/ga.js" async></script>
+    <script>
+      (function() {
+        var cx = '001536797515560662833:dybu8gdsi1u';
+        var gcse = document.createElement('script');
+        gcse.type = 'text/javascript';
+        gcse.async = true;
+        gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+            '//www.google.com/cse/cse.js?cx=' + cx;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(gcse, s);
+      })();
+    </script>
   </body>
 </html>

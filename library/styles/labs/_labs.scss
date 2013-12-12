@@ -14,6 +14,23 @@
 @import "_nav-widget";
 @import "_full-page";
 
+::-ms-selection {
+    background: $yellow;
+    color: $deep-grey-dark;
+}
+::-moz-selection {
+    background: $yellow;
+    color: $deep-grey-dark;
+}
+::-webkit-selection {
+    background: $yellow;
+    color: $deep-grey-dark;
+}
+::selection {
+    background: $yellow;
+    color: $deep-grey-dark;
+}
+
 body {
     font-family: $font-family-sans-serif;
     color: $deep-grey;
@@ -44,10 +61,22 @@ p.comic {
 
 a {
     color: $blue-dark;
+
+    &:hover,
+    &:focus {
+        color: $deep-blue;
+    }
 }
 
 time {
     font-family: $font-family-mono;
+}
+
+// input elements
+input {
+    border: 1px solid $grey-dark;
+    padding: 0.15em;
+    @include border-radius( 3px );
 }
 
 // scale youtube videos proportionally

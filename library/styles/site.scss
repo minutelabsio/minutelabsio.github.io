@@ -17,7 +17,7 @@ iframe {
 }
 
 #viewport {
-    padding: 0 rhythm(4);
+    padding: 0 rhythm(4) rhythm(4);
     max-width: 800px;
 }
 
@@ -34,6 +34,57 @@ iframe {
         &:hover {
             color: #4183c4; // github highlight
         }
+    }
+}
+
+#site-search {
+    position: relative;
+    margin: 1.5em 2em;
+
+    input {
+        @include box-sizing( border-box );
+        width: 100%;
+    }
+
+    button[type="submit"] {
+        font-size: 10px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        overflow: hidden;
+        text-indent: -9099em;
+        line-height: 0;
+        &:after {
+            @extend .icon-magnifier:before;
+            display: block;
+            line-height: 1;
+            text-indent: 0;
+            left: 0;
+        }
+    }
+}
+
+#search-results {
+
+    padding-top: rhythm( 2 );
+
+    .gsc-control-cse {
+        font-family: inherit;
+    }
+
+    .gsc-search-box-tools .gsc-search-box .gsc-input {
+        vertical-align: top;
+        padding-top: 0px;
+        line-height: 1;
+    }
+
+    .gsst_a .gscb_a {
+        line-height: 0.85;
+    }
+
+    input {
+        max-width: none;
+        margin: 0;
     }
 }
 
