@@ -82,6 +82,12 @@ iframe {
         line-height: 0.85;
     }
 
+    .gs-no-results-result .gs-snippet,
+    .gs-error-result .gs-snippet {
+        background: $yellow-light;
+        border-color: $yellow;
+    }
+
     input {
         max-width: none;
         margin: 0;
