@@ -10,9 +10,31 @@ html, body, #wrap-outer {
     height: 100%;
 }
 
+iframe {
+    width: 560px;
+    margin: auto;
+    display: block;
+}
+
 #viewport {
     padding: 0 rhythm(4);
     max-width: 800px;
+}
+
+#github-link {
+    @include adjust-font-size-to( 20px );
+    text-align: center;
+
+    a {
+        font-size: 90px;
+        text-decoration: none;
+        color: black;
+        @include transition( color .3s ease );
+
+        &:hover {
+            color: #4183c4; // github highlight
+        }
+    }
 }
 
 @media screen and (max-width: 780px){

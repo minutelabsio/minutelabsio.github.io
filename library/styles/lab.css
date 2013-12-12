@@ -2088,6 +2088,30 @@ time {
   font-family: "latin-modern-mono", Courier, monospace;
 }
 
+/* line 54, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_labs.scss */
+.yt-scale {
+  position: relative;
+  width: 100%;
+  max-width: 720px;
+  margin: auto;
+}
+/* line 61, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_labs.scss */
+.yt-scale:after {
+  content: '';
+  display: block;
+  width: 100%;
+  padding-top: 56.25%;
+}
+/* line 68, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_labs.scss */
+.yt-scale iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
 @media screen and (max-width: 480px) {
   /* line 7, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/lab.scss */
   #wrap-outer {

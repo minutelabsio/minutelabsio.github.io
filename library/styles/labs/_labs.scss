@@ -50,3 +50,27 @@ time {
     font-family: $font-family-mono;
 }
 
+// scale youtube videos proportionally
+.yt-scale {
+    position: relative;
+    width: 100%;
+
+    max-width: 720px;
+    margin: auto;
+
+    &:after {
+        content: '';
+        display: block;
+        width: 100%;
+        padding-top: (9/16) * 100%;
+    }
+    
+    iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+}

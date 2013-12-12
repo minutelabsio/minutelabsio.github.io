@@ -2088,6 +2088,30 @@ time {
   font-family: "latin-modern-mono", Courier, monospace;
 }
 
+/* line 54, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_labs.scss */
+.yt-scale {
+  position: relative;
+  width: 100%;
+  max-width: 720px;
+  margin: auto;
+}
+/* line 61, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_labs.scss */
+.yt-scale:after {
+  content: '';
+  display: block;
+  width: 100%;
+  padding-top: 56.25%;
+}
+/* line 68, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_labs.scss */
+.yt-scale iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
 /*  ========================================================================
  *  Frosty.js
  *  https://github.com/owensbla/frosty
@@ -2756,13 +2780,41 @@ html, body, #wrap-outer {
 }
 
 /* line 13, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/site.scss */
+iframe {
+  width: 560px;
+  margin: auto;
+  display: block;
+}
+
+/* line 19, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/site.scss */
 #viewport {
   padding: 0 6em;
   max-width: 800px;
 }
 
+/* line 24, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/site.scss */
+#github-link {
+  font-size: 1.25em;
+  line-height: 1.2em;
+  text-align: center;
+}
+/* line 28, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/site.scss */
+#github-link a {
+  font-size: 90px;
+  text-decoration: none;
+  color: black;
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+/* line 34, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/site.scss */
+#github-link a:hover {
+  color: #4183c4;
+}
+
 @media screen and (max-width: 780px) {
-  /* line 20, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/site.scss */
+  /* line 42, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/site.scss */
   #viewport {
     margin-top: -60px;
     padding: 5%;
@@ -2772,7 +2824,7 @@ html, body, #wrap-outer {
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 31, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/site.scss */
+  /* line 53, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/site.scss */
   #viewport {
     margin-top: 0;
     background-position: center 10px;
