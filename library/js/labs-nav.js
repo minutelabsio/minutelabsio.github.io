@@ -7,12 +7,12 @@
         }
 
         var str = el.className
-            ,idx = str.indexOf(className)
+            ,idx = str.indexOf(cls)
             ;
         if ( idx === -1 ) {
-            str += ' ' + className;
+            str += ' ' + cls;
         } else {
-            str = str.substr(0, idx) + str.substr(idx + className.length);
+            str = str.substr(0, idx) + str.substr(idx + cls.length);
         }
 
         el.className = str;
