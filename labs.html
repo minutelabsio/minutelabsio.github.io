@@ -34,7 +34,7 @@ section: labs
                     </a>
                 </div>
                 {% endif %}
-                <div class="tags">
+                <a href="{{ url }}" class="tags">
                     {% for tag in post.tags %}
                     {% assign desc = tag %}
                     {% for el in site.tag_legend %}
@@ -44,7 +44,7 @@ section: labs
                     {% endfor %}
                     <abbr class="tag-{{ tag }}" title="{{ desc }}"></abbr>
                     {% endfor %}
-                </div>
+                </a>
             </div>
             <div class="inner">
                 <h2 class="title"><a href="{{ url }}">{{ post.title }}</a></h2>
