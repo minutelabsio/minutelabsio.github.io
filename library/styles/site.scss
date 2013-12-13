@@ -112,6 +112,52 @@ iframe {
     }
 }
 
+#minute-links {
+    @include clearfix;
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+}
+
+#contributors {
+    text-align: center;
+    color: $deep-grey-light;
+    font-family: $font-family-minute-labs;
+
+    .row {
+        @include clearfix;
+        margin-bottom: rhythm(2);
+    }
+
+    .thumb {
+        img {
+            display: block;
+            margin: 0 auto rhythm(1);
+            width: 80%;
+            @include border-radius( 50% );
+        }
+    }
+
+    .contributor {
+        display: block;
+        color: $deep-grey-dark;
+    }
+
+    .twitter-handle {
+        font-size: 0.75em;
+    }
+
+    ul, ul li {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    ul li {
+        margin-bottom: rhythm(1);
+    }
+}
+
 @media screen and (max-width: 780px){
 
     #viewport {
