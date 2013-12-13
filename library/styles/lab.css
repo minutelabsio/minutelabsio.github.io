@@ -1715,7 +1715,15 @@ a.btn[disabled]:hover {
   -moz-box-shadow: none;
   box-shadow: none;
 }
-/* line 58, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_buttons.scss */
+/* line 57, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_buttons.scss */
+button:active,
+a.btn:active {
+  -webkit-transition-duration: 0.05s;
+  -moz-transition-duration: 0.05s;
+  -o-transition-duration: 0.05s;
+  transition-duration: 0.05s;
+}
+/* line 62, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_buttons.scss */
 button:before, button:after,
 a.btn:before,
 a.btn:after {
@@ -1727,17 +1735,17 @@ a.btn:after {
   vertical-align: middle;
   margin: 0 -0.1em;
 }
-/* line 68, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_buttons.scss */
+/* line 72, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_buttons.scss */
 button:before,
 a.btn:before {
   right: 0.35em;
 }
-/* line 72, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_buttons.scss */
+/* line 76, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_buttons.scss */
 button:after,
 a.btn:after {
   left: 0.35em;
 }
-/* line 77, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_buttons.scss */
+/* line 81, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_buttons.scss */
 button.ok,
 a.btn.ok {
   color: #f1fef1;
@@ -1791,7 +1799,7 @@ a.btn.ok[disabled]:hover {
   -moz-box-shadow: none;
   box-shadow: none;
 }
-/* line 82, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_buttons.scss */
+/* line 86, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_buttons.scss */
 button.pop,
 a.btn.pop {
   color: #d2edfc;
@@ -1845,7 +1853,7 @@ a.btn.pop[disabled]:hover {
   -moz-box-shadow: none;
   box-shadow: none;
 }
-/* line 87, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_buttons.scss */
+/* line 91, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_buttons.scss */
 button.danger,
 a.btn.danger {
   color: white;
@@ -1899,7 +1907,7 @@ a.btn.danger[disabled]:hover {
   -moz-box-shadow: none;
   box-shadow: none;
 }
-/* line 92, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_buttons.scss */
+/* line 96, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_buttons.scss */
 button.inverse,
 a.btn.inverse {
   color: #ededed;
@@ -1954,7 +1962,7 @@ a.btn.inverse[disabled]:hover {
   box-shadow: none;
 }
 
-/* line 97, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_buttons.scss */
+/* line 101, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_buttons.scss */
 .btn-group {
   *zoom: 1;
   margin: 1.5em 0;
@@ -1969,7 +1977,7 @@ a.btn.inverse[disabled]:hover {
 .btn-group:after {
   clear: both;
 }
-/* line 102, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_buttons.scss */
+/* line 106, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_buttons.scss */
 .btn-group button,
 .btn-group a.btn {
   float: left;
@@ -1981,7 +1989,7 @@ a.btn.inverse[disabled]:hover {
   -o-border-radius: 0px;
   border-radius: 0px;
 }
-/* line 108, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_buttons.scss */
+/* line 112, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_buttons.scss */
 .btn-group button:first-child,
 .btn-group a.btn:first-child {
   margin-left: 0;
@@ -1991,7 +1999,7 @@ a.btn.inverse[disabled]:hover {
   -o-border-radius: 4px 0 0 4px;
   border-radius: 4px 0 0 4px;
 }
-/* line 112, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_buttons.scss */
+/* line 116, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_buttons.scss */
 .btn-group button:last-child,
 .btn-group a.btn:last-child {
   -webkit-border-radius: 0 4px 4px 0;
@@ -2000,7 +2008,7 @@ a.btn.inverse[disabled]:hover {
   -o-border-radius: 0 4px 4px 0;
   border-radius: 0 4px 4px 0;
 }
-/* line 119, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_buttons.scss */
+/* line 123, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_buttons.scss */
 .btn-group.block button,
 .btn-group.block a.btn {
   float: none;
@@ -2013,7 +2021,7 @@ a.btn.inverse[disabled]:hover {
   -o-border-radius: 0px;
   border-radius: 0px;
 }
-/* line 126, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_buttons.scss */
+/* line 130, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_buttons.scss */
 .btn-group.block button:first-child,
 .btn-group.block a.btn:first-child {
   margin-top: 0;
@@ -2023,7 +2031,7 @@ a.btn.inverse[disabled]:hover {
   -o-border-radius: 4px 4px 0 0;
   border-radius: 4px 4px 0 0;
 }
-/* line 130, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_buttons.scss */
+/* line 134, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_buttons.scss */
 .btn-group.block button:last-child,
 .btn-group.block a.btn:last-child {
   -webkit-border-radius: 0 0 4px 4px;

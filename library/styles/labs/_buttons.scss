@@ -54,6 +54,10 @@ a.btn {
     @include transition( all .15s ease-out );
     @include btn-colors( $btn-normal-bg, $btn-normal-text, $btn-normal-border );
 
+    &:active {
+        @include transition-duration( .05s );
+    }
+
     &:before,
     &:after {
         font-family: 'minutelabs-icons';
