@@ -28,4 +28,11 @@ nav:
   - title: Store
     url: http://dftba.com/artist/60/MinutePhysics
 
+tag_legend:
+  desktop: "works on desktop browsers"
+  tablet: "works on tablets"
+  phone: "works on mobile phones"
+  video: "contains video"
+  article: "article"
+
 

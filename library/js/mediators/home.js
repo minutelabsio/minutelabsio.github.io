@@ -54,6 +54,11 @@ define(
                     $(this).toggleClass('on');
                     return false;
                 });
+
+                $(document).on('click', '#legend .tog', function(){
+                    $('#legend').toggleClass('on');
+                    return false;
+                });
             },
 
             /**

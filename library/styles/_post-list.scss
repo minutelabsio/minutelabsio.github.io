@@ -4,6 +4,11 @@
 }
 
 .post-list {
+    
+    padding: 0 10%;
+    // background: url(http://i1.ytimg.com/vi/th_9ZR2I0_w/maxresdefault.jpg) no-repeat right bottom fixed;
+    background-size: 80%;
+    overflow: hidden;
 
     // "abstract" class
     .tag {
@@ -16,15 +21,91 @@
 
         &:before {
             font-family: 'minutelabs-icons';
-            color: lighten($blue-light, 25);
+            // color: lighten($blue-light, 25);
             line-height: 40px;
         }
     }
 
-    padding: 0 10%;
-    // background: url(http://i1.ytimg.com/vi/th_9ZR2I0_w/maxresdefault.jpg) no-repeat right bottom fixed;
-    background-size: 80%;
-    overflow: hidden;
+    .tag-desktop {
+        @extend .tag;
+        @extend .icon-monitor;
+    }
+
+    .tag-tablet {
+        @extend .tag;
+        @extend .icon-tablet;
+    }
+
+    .tag-phone {
+        @extend .tag;
+        @extend .icon-mobile;
+    }
+
+    .tag-article {
+        @extend .tag;
+        @extend .icon-book;
+    }
+
+    .tag-video {
+        @extend .tag;
+        @extend .icon-youtube;
+    }
+
+    #legend {
+        position: relative;
+        float: right;
+        margin: rhythm(2) 0;
+        width: 296px;
+        text-align: right;
+
+        .tog {
+            display: inline-block;
+            background: $blue-light;
+            padding: 0.5em;
+            text-decoration: none;
+            @include border-radius( 5px );
+        }
+
+        .btn-close {
+            display: none;
+        }
+
+        dl {
+            display: none;
+            position: absolute;
+            text-align: left;
+            z-index: 2;
+            background: #fff;
+            border: 1px solid $grey-dark;
+            padding: 1em 1.5em;
+            @include border-radius( 3px );
+
+            dt {
+                clear: none;
+                float: left;
+                width: 2.5em;
+                color: $deep-grey-dark;
+            }
+            dd {
+                clear: none;
+                display: block;
+                padding: 0.4em 0.5em 0.7em;
+            }
+        }
+
+        &.on,
+        &:target {
+            .btn-leg {
+                display: none;
+            }
+            .btn-close {
+                display: inline-block;
+            }
+            dl {
+                display: block;
+            }
+        }
+    }
 
     .date {
         display: block;
@@ -111,37 +192,8 @@
             margin-right: 55px;
             padding: 0 4px;
             background: $blue-dark;
+            color: lighten($blue-light, 25);
             @include border-radius( 0 0 0 3px );
-            // @include opacity( 0.5 );
-        
-            > span {
-                display: none;
-            }
-
-            .tag-desktop {
-                @extend .tag;
-                @extend .icon-monitor;
-            }
-
-            .tag-tablet {
-                @extend .tag;
-                @extend .icon-tablet;
-            }
-
-            .tag-phone {
-                @extend .tag;
-                @extend .icon-mobile;
-            }
-
-            .tag-article {
-                @extend .tag;
-                @extend .icon-book;
-            }
-
-            .tag-video {
-                @extend .tag;
-                @extend .icon-youtube;
-            }
         }
 
         .post-image + .tags {
