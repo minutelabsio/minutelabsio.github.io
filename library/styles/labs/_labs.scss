@@ -31,6 +31,25 @@
     color: $deep-grey-dark;
 }
 
+// bad browser msg
+#bad-browser {
+    display: none;
+    visibility: hidden;
+}
+
+.lt-ie9 {
+    #wrap-outer {
+        display: none;
+    }
+    #bad-browser {
+        display: block;
+        visibility: visible;
+        width: 60%;
+        margin: 10% auto;
+        font-size: 20px;
+    }
+}
+
 body {
     font-family: $font-family-sans-serif;
     color: $deep-grey;
