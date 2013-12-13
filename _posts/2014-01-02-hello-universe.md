@@ -6,6 +6,7 @@ tags:
     - article
 ---
 
-This is the first post of our new project: MinuteLabs.io!
+This is the first post of our new project: MinuteLabs.io!  
 
-We're excited to be here
+Come join us -
+>We're excited to be here
