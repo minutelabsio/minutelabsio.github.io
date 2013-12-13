@@ -8,5 +8,6 @@ tags:
 
 This is the first post of our new project: MinuteLabs.io!  
 
-Come join us -
+Come join us -  
+
 >We're excited to be here
