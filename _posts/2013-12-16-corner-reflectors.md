@@ -2,7 +2,7 @@
 layout: lab
 title: "Corner Reflectors"
 image: /assets/images/corner-reflector.gif
-lab: /test-lab.html
+lab: http://minutelabs.io/Optics/corner-reflector
 category: lab
 tags:
     - desktop

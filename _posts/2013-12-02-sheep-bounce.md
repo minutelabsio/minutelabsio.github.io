@@ -2,7 +2,7 @@
 layout: lab
 title: "Sheep Bounce"
 image: /assets/images/sheepbounce.gif
-lab: /test-lab.html
+lab: http://minutelabs.io/Sheep-Bounce
 category: lab
 tags:
     - desktop

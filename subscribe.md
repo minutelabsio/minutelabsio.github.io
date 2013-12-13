@@ -13,7 +13,7 @@ MinuteLabs.io might not be a YouTube channel, but you can still subscribe to us 
 	<p>We'll give you cookies! (browser cookies)</p>
 </div>
 
-Subscription is free, but paid subscribers will get perks. The more funds we get, the more awesome stuff we can do!
+Subscription is free, but paid subscribers will get perks. We don't get money from advertisements, so all of these labs are thanks to sponsors like you. The more funds we get, the more awesome stuff we can do!
 
 ## Other ways to follow us
 
