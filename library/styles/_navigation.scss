@@ -45,9 +45,7 @@ $sidebar-text: $deep-grey-dark;
     }
 
     footer {
-        position: absolute;
-        bottom: 0;
-        margin: 0 rhythm(2) rhythm(1);
+        margin: rhythm(2) rhythm(2) rhythm(1);
         @include adjust-font-size-to(11px, 1);
     }
 }
@@ -209,10 +207,18 @@ $sidebar-text: $deep-grey-dark;
     #wrap-outer {
         @include offcanvas( 300px );
     }
+
+    #sidebar {
+        overflow: visible;
+    }
 }
 
 // desktop
 @media screen and (min-width: 781px){
+
+    #sidebar {
+        overflow: auto;
+    }
     
     #wrap-outer {
         

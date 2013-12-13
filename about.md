@@ -16,17 +16,6 @@ We post new stuff regularly, so [be sure to subscribe][sub]!
 
 If you need to get in touch with us, you can send an email to: [info@minutelabs.io](mailto:info@minutelabs.io). You can also send us a tweet: [@minutelabsio](http://twitter.com/minutelabsio)
 
-## Need more awesome science?
-
-<div class="row" id="minute-links">
-    <div class="column half">
-        <a href="http://youtube.com/minutephysics"><img width="240" src="http://i1.ytimg.com/i/UHW94eEFW7hkUMVaZz4eDg/mq1.jpg" alt="MinutePhysics"/></a>
-    </div>
-    <div class="column half last">
-        <a href="http://youtube.com/minuteearth"><img width="240" src="/assets/images/ME-Square Profile_larger.png" alt="MinuteEarth"/></a>
-    </div>
-</div>
-
 
 ## Credits
 

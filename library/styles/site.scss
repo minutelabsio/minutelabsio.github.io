@@ -158,6 +158,60 @@ iframe {
     }
 }
 
+#subscribe-cta {
+    text-align: center;
+    font-family: $font-family-minute-labs;
+
+    .btn-subscribe {
+        @extend .icon-feed;
+    }
+}
+
+#follow-us {
+
+    text-align: center;
+
+    ul, ul li {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    ul li {
+        display: inline-block;
+        padding: 0 0.5em;
+
+        a {
+            font-family: $font-family-minute-labs;
+            color: $deep-grey-dark;
+            text-decoration: none;
+            @include transition( color .3s ease );
+
+            &:before {
+                font-family: 'minutelabs-icons';
+                font-size: 2em;
+                display: block;
+            }
+
+            &.icon-twitter:hover {
+                color: $blue;
+            }
+
+            &.icon-facebook:hover {
+                color: $blue-dark;
+            }
+
+            &.icon-google-plus:hover {
+                color: $red;
+            }
+
+            &.icon-github:hover {
+                color: $blue;
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 780px){
 
     #viewport {
