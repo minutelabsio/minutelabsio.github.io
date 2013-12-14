@@ -4,39 +4,5 @@
  * Version: 0.1.1 (2011/11/17)
  * Released under the MIT license
  */
-define(function(){
 
-    var DEFAULT_PARAM_NAME = 'callback',
-        _uid = 0;
-
-    function injectScript(src){
-        var s, t;
-        s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = src;
-        t = document.getElementsByTagName('script')[0]; t.parentNode.insertBefore(s,t);
-    }
-
-    function formatUrl(name, id){
-        var paramRegex = /!(.+)/,
-            url = name.replace(paramRegex, ''),
-            param = (paramRegex.test(name))? name.replace(/.+!/, '') : DEFAULT_PARAM_NAME;
-        url += (url.indexOf('?') < 0)? '?' : '&';
-        return url + param +'='+ id;
-    }
-
-    function uid() {
-        _uid += 1;
-        return '__async_req_'+ _uid +'__';
-    }
-
-    return{
-        load : function(name, req, onLoad, config){
-            if(config.isBuild){
-                onLoad(null); //avoid errors on the optimizer
-            }else{
-                var id = uid();
-                window[id] = onLoad; //create a global variable that stores onLoad so callback function can define new module after async load
-                injectScript(formatUrl(name, id));
-            }
-        }
-    };
-});
+define([],function(){function n(e){var t,n;t=document.createElement("script"),t.type="text/javascript",t.async=!0,t.src=e,n=document.getElementsByTagName("script")[0],n.parentNode.insertBefore(t,n)}function r(t,n){var r=/!(.+)/,i=t.replace(r,""),s=r.test(t)?t.replace(/.+!/,""):e;return i+=i.indexOf("?")<0?"?":"&",i+s+"="+n}function i(){return t+=1,"__async_req_"+t+"__"}var e="callback",t=0;return{load:function(e,t,s,o){if(o.isBuild)s(null);else{var u=i();window[u]=s,n(r(e,u))}}}});

@@ -5,16 +5,19 @@ exclude: ["README.md", "CNAME", "LICENSE"]
 title : MinuteLabs.io
 url : http://minutelabs.io
 description : "Experiments in Interactive Explanations"
+library_path: "/library"
+
 social :
   email : info@minutelabs.io
   github : minutelabsio
   twitter : minutelabsio
+
 limits :
   posts : nil
 
 nav:
   - title: Labs
-    url: /labs
+    url: /
 
   - title: Subscribe
     url: /subscribe

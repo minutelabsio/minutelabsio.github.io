@@ -1,0 +1,10 @@
+.full-page {
+    &,
+    body,
+    #wrap-outer,
+    #wrap-inner,
+    #viewport {
+        width: 100%;
+        height: 100%;
+    }
+}

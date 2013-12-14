@@ -1,0 +1,180 @@
+@mixin nav-widget($bg: $deep-grey-dark, $textColor: white, $highlight: $blue-dark, $textSize: 14px) {
+    $imgWidth: 40px;
+    $imgHeight: 38px;
+    $fontFamily: $font-family-mono;
+
+    @if (lightness($bg) < 50){
+        $fontFamily: $font-family-mono-light;
+    }
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2 * $textSize + 4px;
+    z-index: 1000;
+
+    &,
+    a {
+        color: $textColor;
+        text-decoration: none;
+    }
+    
+    .logo {
+        position: absolute;
+        display: block;
+        background: $bg;
+        margin: 0;
+        height: $imgHeight;
+        padding: 10px;
+        border-bottom: 1px solid darken($bg, 20);
+        @include box-shadow( 2px 1px 3px rgba(0, 0, 0, 0.4) );
+
+        img {
+            @include border-radius( 3px );
+        }
+    }
+
+    .top,
+    .bottom {
+        float: left;
+        position: relative;
+        margin-left: 2 * 10px + $imgWidth;
+        background: $bg;
+        font-family: $fontFamily;
+        font-size: $textSize;
+        line-height: 2.2;
+        overflow: hidden;
+        // border: 0px solid darken($bg, 20);
+        // border-width: 0 1px 1px 0;
+        @include border-radius( 0 0 3px );
+        @include box-shadow( 1px 2px 3px -1px rgba(0, 0, 0, 0.4) );
+
+        a {
+            display: block;
+            padding: 0 0.6em;
+            // @include border-radius( 3px );
+
+            &.on,
+            &:hover {
+                background: $highlight;
+            }
+
+            &:active {
+                background: lighten($highlight, 10);
+            }
+        }
+    }
+
+    .top {
+
+    }
+
+    .bottom {
+        display: block;
+        float: left;
+        bottom: 1px;
+        border-top-width: 0;
+        z-index: 1;
+    }
+
+    .title {
+        font-size: 1em;
+        line-height: 2.2;
+        display: block;
+        float: left;
+        clear: none;
+        margin: 0 2em 0 0.58em;
+        color: $textColor;
+        font-family: $fontFamily;
+        font-weight: normal;
+    }
+
+    ul {
+
+        &,
+        li {
+            display: block;
+            float: left;
+            clear: none;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            
+        }
+    }
+
+    a.btn-prev,
+    a.btn-next {
+        font: 0/0 'a';
+        padding: 0 8px;
+    }
+
+    .btn-details,
+    .btn-subscribe,
+    .btn-prev,
+    .btn-next {
+        vertical-align: middle;
+        
+        &:before {
+            font: 16px/1.9 'minutelabs-icons';
+            overflow: hidden;
+        }
+    }
+
+    .btn-subscribe:before,
+    .btn-details:before {
+        line-height: 1.6;
+        position: relative;
+        top: 3px;
+        right: 4px;
+    }
+
+    a.btn-subscribe {
+        background: $green-dark;
+        background: darken($green-dark, 5);
+        color: lighten($green-light, 25);
+        padding-left: 1em;
+
+        &:hover {
+            background: darken($green-dark, 0);
+        }
+
+        &:active {
+            background: darken($green-dark, 5);
+        }
+    }
+
+    .btn-subscribe:before {
+        @extend .icon-feed:before;
+    }
+
+    .btn-details:before {
+        @extend .icon-text2:before;
+    }
+
+    .btn-prev:before {
+        @extend .icon-arrow-left:before;
+    }
+
+    .btn-next:before {
+        @extend .icon-arrow-right:before;
+    }
+
+    &.no-branding {
+        .top .btn-details {
+            display: inline-block;
+            float: left;
+            clear: none;
+            margin-right: 0.5em;
+        }
+
+        .top,
+        .bottom {
+            margin-left: 0;
+        }
+    }
+}
+

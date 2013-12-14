@@ -1,0 +1,124 @@
+@import "compass/css3";
+
+@import "_normalize";
+@import "_mixins";
+@import "_vars";
+@import "_layers-grid";
+@import "_layers-lists";
+@import "_fonts";
+@import "_icons";
+@import "_forms";
+@import "_type";
+@import "_buttons";
+@import "_off-canvas";
+@import "_nav-widget";
+@import "_full-page";
+
+::-ms-selection {
+    background: $yellow;
+    color: $deep-grey-dark;
+}
+::-moz-selection {
+    background: $yellow;
+    color: $deep-grey-dark;
+}
+::-webkit-selection {
+    background: $yellow;
+    color: $deep-grey-dark;
+}
+::selection {
+    background: $yellow;
+    color: $deep-grey-dark;
+}
+
+// bad browser msg
+#bad-browser {
+    display: none;
+    visibility: hidden;
+}
+
+.lt-ie9 {
+    #wrap-outer {
+        display: none;
+    }
+    #bad-browser {
+        display: block;
+        visibility: visible;
+        width: 60%;
+        margin: 10% auto;
+        font-size: 20px;
+    }
+}
+
+body {
+    font-family: $font-family-sans-serif;
+    color: $deep-grey;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: $deep-grey-dark;
+    font-family: $font-family-minute-labs;
+    text-rendering: optimizeLegibility;
+}
+
+.invert {
+    background: $deep-grey-dark;
+    color: $grey-dark;
+
+    h1, h2, h3, h4, h5, h6 {
+        color: $grey;
+    }
+}
+
+.comic {
+    font-family: $font-family-comic;
+    letter-spacing: 1px;
+}
+p.comic {
+    @include adjust-font-size-to( 18px );
+}
+
+a {
+    color: $blue-dark;
+
+    &:hover,
+    &:focus {
+        color: $deep-blue;
+    }
+}
+
+time {
+    font-family: $font-family-mono;
+}
+
+// input elements
+input {
+    border: 1px solid $grey-dark;
+    padding: 0.15em;
+    @include border-radius( 3px );
+}
+
+// scale youtube videos proportionally
+.yt-scale {
+    position: relative;
+    width: 100%;
+
+    max-width: 720px;
+    margin: auto;
+
+    &:after {
+        content: '';
+        display: block;
+        width: 100%;
+        padding-top: (9/16) * 100%;
+    }
+    
+    iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+}

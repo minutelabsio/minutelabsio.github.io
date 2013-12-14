@@ -1,0 +1,139 @@
+$btn-pop: 4px;
+$btn-border-radius: 4px;
+
+@mixin btn-colors($bg, $text, $border){
+    color: $text;
+    background: $bg;
+    border: $btn-border-width solid $border;
+    
+    &:hover {
+        @if (lightness($text) < 50){
+            color: darken($text, 6);
+        }
+        border-color: darken($border, 10);
+        z-index: 1;
+        @include transform( translate3d(0, -$btn-pop, 0) );
+        @include box-shadow( 0px $btn-pop 0 darken($border, 10));
+    }
+
+    &:active {
+        @include transform( translate(0, 0) );
+        @include box-shadow( none );
+    }
+
+    // disabled
+    &.disabled,
+    &[disabled] {
+        color: mix($grey, $text, 40);
+        background: mix($grey, $bg, 40);
+        border-color: mix($grey, $border, 40);
+
+
+        &:hover {
+            @include transform( translate3d(0, 0, 0) );
+            @include box-shadow( none );
+        }
+    }
+}
+
+button,
+a.btn {
+    position: relative;
+    @include adjust-font-size-to( 18px );
+    font-family: $font-family-mono-light;
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    padding: 0.7em 1.4em;
+    letter-spacing: 1px;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    @include border-radius( $btn-border-radius );
+    @include transform( translate3d(0, 0, 0) );
+    @include transition( all .15s ease-out );
+    @include btn-colors( $btn-normal-bg, $btn-normal-text, $btn-normal-border );
+
+    &:active {
+        @include transition-duration( .05s );
+    }
+
+    &:before,
+    &:after {
+        font-family: 'minutelabs-icons';
+        content: none;
+        position: relative;
+        font-size: 1.5em;
+        line-height: 0;
+        vertical-align: middle;
+        margin: 0 -0.1em;
+    }
+
+    &:before {
+        right: 0.35em;
+    }
+
+    &:after {
+        left: 0.35em;
+    }
+
+    // ok
+    &.ok {
+        @include btn-colors( $btn-ok-bg, $btn-ok-text, $btn-ok-border );
+    }
+
+    // pop
+    &.pop {
+        @include btn-colors( $btn-pop-bg, $btn-pop-text, $btn-pop-border );
+    }
+
+    // danger
+    &.danger {
+        @include btn-colors( $btn-danger-bg, $btn-danger-text, $btn-danger-border );
+    }
+
+    // inverse
+    &.inverse {
+        @include btn-colors( $btn-inverse-bg, $btn-inverse-text, $btn-inverse-border );
+    }
+}
+
+.btn-group {
+    @include clearfix2;
+    margin: rhythm(1) 0;
+
+    button,
+    a.btn {
+        float: left;
+        display: block;
+        margin-left: -$btn-border-width;
+        @include border-radius( 0px );
+
+        &:first-child {
+            margin-left: 0;
+            @include border-radius( $btn-border-radius 0 0 $btn-border-radius );
+        }
+        &:last-child {
+            @include border-radius( 0 $btn-border-radius $btn-border-radius 0 );
+        }
+    }
+
+    &.block {
+        button,
+        a.btn {
+            float: none;
+            width: 100%;
+            margin-left: 0;
+            margin-top: -$btn-border-width;
+            @include border-radius( 0px );
+
+            &:first-child {
+                margin-top: 0;
+                @include border-radius( $btn-border-radius $btn-border-radius 0 0 );
+            }
+            &:last-child {
+                @include border-radius( 0 0 $btn-border-radius $btn-border-radius );
+            }
+        }        
+    }
+}

@@ -1,7 +1,7 @@
 # Require any additional compass plugins here.
 
 # Set this to the root of your project when deployed:
-project_path = "library"
+project_path = "library-dev"
 http_path = "/"
 css_dir = "styles"
 sass_dir = "styles"

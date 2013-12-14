@@ -1,0 +1,238 @@
+.page-labs #viewport {
+    max-width: none;
+    padding: 0;
+}
+
+.post-list {
+    
+    padding: 0 10%;
+    // background: url(http://i1.ytimg.com/vi/th_9ZR2I0_w/maxresdefault.jpg) no-repeat right bottom fixed;
+    background-size: 80%;
+    overflow: hidden;
+
+    // "abstract" class
+    .tag {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        font-size: 32px;
+        text-decoration: none;
+        text-align: center;
+
+        &:before {
+            font-family: 'minutelabs-icons';
+            // color: lighten($blue-light, 25);
+            line-height: 40px;
+        }
+    }
+
+    .tag-desktop {
+        @extend .tag;
+        @extend .icon-monitor;
+    }
+
+    .tag-tablet {
+        @extend .tag;
+        @extend .icon-tablet;
+    }
+
+    .tag-phone {
+        @extend .tag;
+        @extend .icon-mobile;
+    }
+
+    .tag-article {
+        @extend .tag;
+        @extend .icon-book;
+    }
+
+    .tag-video {
+        @extend .tag;
+        @extend .icon-youtube;
+    }
+
+    #legend {
+        position: relative;
+        float: right;
+        margin: rhythm(2) 0;
+        width: 296px;
+        text-align: right;
+
+        .tog {
+            display: inline-block;
+            background: $blue-light;
+            padding: 0.5em;
+            text-decoration: none;
+            @include border-radius( 5px );
+        }
+
+        .btn-close {
+            display: none;
+        }
+
+        dl {
+            display: none;
+            position: absolute;
+            text-align: left;
+            z-index: 2;
+            background: #fff;
+            border: 1px solid $grey-dark;
+            padding: 1em 1.5em;
+            @include border-radius( 3px );
+
+            dt {
+                clear: none;
+                float: left;
+                width: 2.5em;
+                color: $deep-grey-dark;
+            }
+            dd {
+                clear: none;
+                display: block;
+                padding: 0.4em 0.5em 0.7em;
+            }
+        }
+
+        &.on,
+        &:target {
+            .btn-leg {
+                display: none;
+            }
+            .btn-close {
+                display: inline-block;
+            }
+            dl {
+                display: block;
+            }
+        }
+    }
+
+    .date {
+        display: block;
+        font: 1.3em/.8 $font-family-mono;
+        background: $blue-dark;
+        color: lighten($blue-light, 25);
+        text-align: center;
+        text-transform: uppercase;
+        padding: 0.4em;
+        @include border-radius( 3px );
+    }
+
+    .post {
+        position: relative;
+        @include clearfix;
+        @include box-sizing( border-box );
+        background: rgba(255, 255, 255, 0.95);
+        border: 1px solid $grey-dark;
+        max-width: 500px;
+        margin: rhythm(2) auto;
+        @include border-radius( 5px );
+        @include transform( translateX(0) );
+        background: lighten(mix($blue-light, lighten($grey-light, 6), 4), 1);
+
+        .post-image {
+            width: 100%;
+
+            > .thumb,
+            > .thumb > img {
+                display: block;
+            }
+        }
+
+        .inner {
+            padding: rhythm(1) 5% 0;
+            clear: none;
+            overflow: hidden;
+            border-top: 1px solid $grey-dark;
+        }
+
+        .controls {
+            padding: 0 5% 5%;
+            text-align: right;
+        }
+
+        .title {
+            @include adjust-font-size-to(28px, 1);
+            margin: 0 80px rhythm(0.5) 0;
+            
+            a { 
+                text-decoration: none;
+                color: $deep-grey-dark;
+            }
+        }
+
+        .desc {
+            font-family: $font-family-mono-light;
+
+            p:last-child {
+                margin-bottom: rhythm(.5);
+            }
+        }
+
+        .date {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 1.85em;
+            @include border-radius( 0 3px 0 3px );
+            
+            &:first-line {
+                font-size: 1.7em;
+            }
+        }
+
+        .top {
+            position: relative;
+        }
+
+        .tags {
+            position: absolute;
+            right: 0;
+            top: 0;
+            display: block;
+            text-decoration: none;
+            margin-right: 55px;
+            padding: 0 4px;
+            background: $blue-dark;
+            color: lighten($blue-light, 25);
+            @include border-radius( 0 0 0 3px );
+        }
+
+        .post-image + .tags {
+            right: auto;
+            top: auto;
+            left: 0;
+            bottom: 0;
+            @include border-radius( 0 3px 0 0 );
+        }
+
+        .btn-launch:before {
+            @extend .icon-rocket:before;
+            // color: darken($blue-dark, 15);
+        }
+
+        &.layout-right {
+            padding: 5%;
+
+            > * {
+                padding: 0;
+                text-align: left;
+            }
+            
+            .post-image {
+                clear: none;
+                float: right;
+                width: 50%;
+                margin-left: 2em;
+
+                border: 1px solid $grey;
+            }
+        }
+    }
+
+    .sep-year {
+        display: block;
+        width: 100px;
+        margin: auto;
+    }
+}

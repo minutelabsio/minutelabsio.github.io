@@ -14,20 +14,18 @@
     <meta name="description" content="{{ site.description | escape }}">
     {% endif %}
     
-    <meta name="author" content="{{ site.author.name }}" />
-
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
     <meta http-equiv="cleartype" content="on">
     <!-- css -->
-    <link rel="stylesheet" href="/library/styles/site.css" />
+    <link rel="stylesheet" href="{{ site.library_path }}/styles/site.css" />
 
     <!-- js includes -->
-    <script src="/library/js/vendor/modernizr.js"></script>
-    <script>var require = { urlArgs: 'v=@@pkg.version' };</script>
-    <script src="/library/js/vendor/require.js?v=@@pkg.version" data-main="/library/js/page-home"></script>
+    <script src="{{ site.library_path }}/js/vendor/modernizr.js"></script>
+    <script>var require = { urlArgs: 'v={{ site.version }}' };</script>
+    <script src="{{ site.library_path }}/js/vendor/require.js" data-main="{{ site.library_path }}/js/page-home"></script>
   </head>
   <body class="{% if page.section %}page-{{ page.section }}{% else %}page-default{% endif %}">
     
@@ -37,7 +35,7 @@
         <div id="sidebar" data-offcanvas="offcanvas">
           <header>
             <nav id="site-nav" role="navigation">
-              <h1 class="logo"><img width="100" src="/library/images/logo-no-text-minute-labs.png" alt="{{ site.title }}">MinuteLabs<small>.io</small></h1>
+              <h1 class="logo"><img width="100" src="{{ site.library_path }}/images/logo-no-text-minute-labs.png" alt="{{ site.title }}">MinuteLabs<small>.io</small></h1>
               <ul>
                 {% for nav in site.nav %}
                 {% capture id %}{{ nav.title | downcase }}{% endcapture %}
@@ -51,7 +49,7 @@
             </form>
           </header>
           <footer>
-            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />Work on <a xmlns:cc="http://creativecommons.org/ns#" href="http://minutelabs.io" property="cc:attributionName" rel="cc:attributionURL">MinuteLabs.io</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />Work on <a xmlns:cc="http://creativecommons.org/ns#" href="{{ site.url }}" property="cc:attributionName" rel="cc:attributionURL">MinuteLabs.io</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
           </footer>
         </div>
         <div id="viewport">
@@ -60,7 +58,7 @@
       </div>
     </div>
 
-    <script src="/library/js/ga.js" async></script>
+    <script src="{{ site.library_path }}/js/ga.js" async></script>
     <script>
       (function() {
         var cx = '001536797515560662833:dybu8gdsi1u';

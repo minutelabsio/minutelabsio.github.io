@@ -1,0 +1,109 @@
+/*  ========================================================================
+ *  Frosty.js
+ *  https://github.com/owensbla/frosty
+ *  http://labs.blakeowens.com/frosty
+ *  ======================================================================== */
+
+$defaultColorRGB: rgb(0, 0, 0);
+$defaultColorRGBA: transparentize($deep-grey, 0.1);
+$defaultFontColor: $grey-light;
+$errorColorRGB: rgb(255, 127, 134);
+$errorColorRGBA: rgba(255, 127, 134, 0.8);
+$errorFontColor: rgb(127,0,6);
+$lightColorRGB: rgb(235, 235, 235);
+$lightColorRGBA: rgba(235, 235, 235, 0.8);
+$lightFontColor: #222;
+$successColorRGB: rgb(71, 254, 66);
+$successColorRGBA: rgba(71, 254, 66, 0.8);
+$successFontColor: rgb(2, 86, 0);
+
+.tip {
+    font-family: $font-family-minute-labs;
+    background-color: $defaultColorRGB;
+    background-color: $defaultColorRGBA;
+    color: $defaultFontColor;
+    font-size: 1em;
+    line-height: 16px;
+    max-width: 200px;
+    padding: 4px 8px;
+
+    &.success {
+        background-color: $successColorRGB;
+        background-color: $successColorRGBA;
+        color: $successFontColor;
+    }
+
+    &.error {
+        background-color: $errorColorRGB;
+        background-color: $errorColorRGBA;
+        color: $errorFontColor;
+    }
+
+    &.light {
+        background-color: $lightColorRGB;
+        background-color: $lightColorRGBA;
+        color: $lightFontColor;
+    }
+}
+
+.tip[class*="arrow"]:before {
+    content: ' ';
+    position: absolute;
+    border: solid transparent;
+    width: 0px;
+    height: 0px;
+    border-width: 5px;
+    border-color: $defaultColorRGB;
+    border-color: $defaultColorRGBA;
+}
+
+.success[class*="arrow"]:before {
+    border-color: $successColorRGB;
+    border-color: $successColorRGBA;
+}
+
+.error[class*="arrow"]:before {
+    border-color: $errorColorRGB;
+    border-color: $errorColorRGBA;
+}
+
+.light[class*="arrow"]:before {
+    border-color: $lightColorRGB;
+    border-color: $lightColorRGBA;
+}
+
+.tip.arrow-right:before {
+    border-right-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    margin-top: -5px;
+    top: 50%;
+    left: 100%;
+}
+
+.tip.arrow-left:before {
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    margin-top: -5px;
+    top: 50%;
+    right: 100%;
+}
+
+.tip.arrow-top:before {
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    margin-left: -5px;
+    bottom: 100%;
+    left: 50%;
+}
+
+.tip.arrow-bottom:before {
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    margin-left: -5px;
+    top: 100%;
+    left: 50%;
+}

@@ -13,7 +13,7 @@ define(
         'use strict';
 
         var err = function( arg ){
-            console.error( arg );
+            window.console.error( arg );
         };
 
         /**
