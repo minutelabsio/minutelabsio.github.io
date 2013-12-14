@@ -94,6 +94,16 @@ iframe {
     }
 }
 
+.page-404 {
+    #search-results {
+        padding-top: 0;
+
+        .gsc-control-cse {
+            padding: 0;
+        }
+    }
+}
+
 #minute-links {
     @include clearfix;
     text-align: center;
