@@ -2438,6 +2438,18 @@ input {
 #nav-widget a.btn-subscribe:active {
   background: #336700;
 }
+/* line 167, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_nav-widget.scss */
+#nav-widget.no-branding .top .btn-details {
+  display: inline-block;
+  float: left;
+  clear: none;
+  margin-right: 0.5em;
+}
+/* line 175, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/labs/_nav-widget.scss */
+#nav-widget.no-branding .top,
+#nav-widget.no-branding .bottom {
+  margin-left: 0;
+}
 
 /* line 27, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library/styles/lab.scss */
 #viewport {

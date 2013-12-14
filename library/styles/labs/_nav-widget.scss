@@ -162,5 +162,19 @@
     .btn-next:before {
         @extend .icon-arrow-right:before;
     }
+
+    &.no-branding {
+        .top .btn-details {
+            display: inline-block;
+            float: left;
+            clear: none;
+            margin-right: 0.5em;
+        }
+
+        .top,
+        .bottom {
+            margin-left: 0;
+        }
+    }
 }
 
