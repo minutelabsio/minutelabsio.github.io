@@ -29,11 +29,15 @@
         if ( nextEl && next ){
             nextEl.setAttribute('href', next.url);
             nextEl.setAttribute('title', "Next Lab: " + next.title);
+        } else if ( nextEl ){
+            nextEl.setAttribute('disabled', 'disabled');
         }
 
         if ( prevEl && prev ){
             prevEl.setAttribute('href', prev.url);
             prevEl.setAttribute('title', "Previous Lab: " + prev.title);
+        } else if ( prevEl ){
+            prevEl.setAttribute('disabled', 'disabled');
         }
     }
 
