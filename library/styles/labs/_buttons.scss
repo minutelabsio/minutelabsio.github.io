@@ -126,6 +126,7 @@ a.btn {
             margin-left: 0;
             margin-top: -$btn-border-width;
             @include border-radius( 0px );
+            @include box-sizing( border-box );
 
             &:first-child {
                 margin-top: 0;

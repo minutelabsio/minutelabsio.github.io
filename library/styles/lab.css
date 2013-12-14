@@ -2020,8 +2020,11 @@ a.btn.inverse[disabled]:hover {
   -ms-border-radius: 0px;
   -o-border-radius: 0px;
   border-radius: 0px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
-/* line 130, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_buttons.scss */
+/* line 131, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_buttons.scss */
 .btn-group.block button:first-child,
 .btn-group.block a.btn:first-child {
   margin-top: 0;
@@ -2031,7 +2034,7 @@ a.btn.inverse[disabled]:hover {
   -o-border-radius: 4px 4px 0 0;
   border-radius: 4px 4px 0 0;
 }
-/* line 134, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_buttons.scss */
+/* line 135, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_buttons.scss */
 .btn-group.block button:last-child,
 .btn-group.block a.btn:last-child {
   -webkit-border-radius: 0 0 4px 4px;
