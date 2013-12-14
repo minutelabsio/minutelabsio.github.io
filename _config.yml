@@ -5,6 +5,7 @@ exclude: ["README.md", "CNAME", "LICENSE"]
 title : MinuteLabs.io
 url : http://minutelabs.io
 description : "Experiments in Interactive Explanations"
+version: "0.0.1"
 library_path: "/library"
 
 social :
