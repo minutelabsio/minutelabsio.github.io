@@ -23,7 +23,7 @@
     function updateNavUrls( prev, next ){
 
         var nextEl = document.getElementById('lab-nav-next')
-            ,prevEl = document.getElementById('lav-nav-prev')
+            ,prevEl = document.getElementById('lab-nav-prev')
             ;
 
         if ( nextEl && next ){
