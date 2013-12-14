@@ -1,0 +1,4 @@
+[
+{% for post in site.posts %}{% capture url %}{% if post.lab %}{{ post.lab }}{% else %}{{ site.url }}{{ post.url }}{% endif %}{% endcapture %}
+{"title":"{{ post.title }}","url":"{{ url }}", "id": "{{ post.id }}"}{% unless forloop.last %},{% endunless %}{% endfor %}
+]
