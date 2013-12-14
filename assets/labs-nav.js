@@ -28,10 +28,12 @@
 
         if ( nextEl && next ){
             nextEl.setAttribute('href', next.url);
+            nextEl.setAttribute('title', "Next Lab: " + next.title);
         }
 
         if ( prevEl && prev ){
             prevEl.setAttribute('href', prev.url);
+            prevEl.setAttribute('title', "Previous Lab: " + prev.title);
         }
     }
 
