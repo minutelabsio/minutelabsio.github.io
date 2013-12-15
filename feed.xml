@@ -17,11 +17,11 @@ layout: none
         </image>
         <atom:link href="{{ site.url }}/feed.links.xml" rel="self" type="application/rss+xml" />
         {% for post in site.posts %}
-            {% capture fchar %}{{ post.lab | truncate:1 }}{% endcapture %}
+            {% capture fchar %}{{ post.lab | split:'' | first }}{% endcapture %}
             {% capture url %}{% if post.lab %}{% if fchar == '/' %}{{ site.url }}{% endif %}{{ post.lab }}{% else %}{{ site.url }}{{ post.url }}{% endif %}{% endcapture %}
             {% capture end %}
                 {% if post.lab %}
-                    {% capture fchar %}{{ post.image | truncate:1 }}{% endcapture %}
+                    {% capture fchar %}{{ post.image | split:'' | first }}{% endcapture %}
                     <p>
                         <a href="{{ url }}"><img src="{% if fchar == '/' %}{{ site.url }}{% endif %}{{ post.image }}"></a>
                         <br/><a href="{{ url }}">Launch the Lab!</a>
