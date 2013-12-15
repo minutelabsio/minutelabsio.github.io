@@ -93,6 +93,7 @@ module.exports = function(grunt) {
     
     // Tasks
     grunt.registerTask('compress-only', ['compass', 'requirejs:app'])
+    grunt.registerTask('server', ['bgShell:httpserver']);
 
     // Primary tasks
     grunt.registerTask('cleanup', ['clean', 'bgShell:cleanCompass']);
