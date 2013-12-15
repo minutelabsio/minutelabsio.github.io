@@ -1362,7 +1362,7 @@ ul.collapse > li, ol.collapse > li, dl.collapse > dt, dl.collapse > dd {
 }
 
 /* line 221, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
-.icon-feed:before, #nav-widget .btn-subscribe:before {
+.icon-feed:before, #nav-widget .btn-subscribe:before, #nav-widget.light .btn-subscribe:before {
   content: "\e640";
 }
 
@@ -1392,7 +1392,7 @@ ul.collapse > li, ol.collapse > li, dl.collapse > dt, dl.collapse > dd {
 }
 
 /* line 239, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
-.icon-arrow-left:before, #nav-widget .btn-prev:before {
+.icon-arrow-left:before, #nav-widget .btn-prev:before, #nav-widget.light .btn-prev:before {
   content: "\e642";
 }
 
@@ -1407,7 +1407,7 @@ ul.collapse > li, ol.collapse > li, dl.collapse > dt, dl.collapse > dd {
 }
 
 /* line 248, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
-.icon-arrow-right:before, #nav-widget .btn-next:before {
+.icon-arrow-right:before, #nav-widget .btn-next:before, #nav-widget.light .btn-next:before {
   content: "\e645";
 }
 
@@ -1492,7 +1492,7 @@ ul.collapse > li, ol.collapse > li, dl.collapse > dt, dl.collapse > dd {
 }
 
 /* line 299, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
-.icon-text2:before, #nav-widget .btn-details:before {
+.icon-text2:before, #nav-widget .btn-details:before, #nav-widget.light .btn-details:before {
   content: "\e65a";
 }
 
@@ -2601,7 +2601,7 @@ input {
 }
 
 /* line 221, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
-.icon-feed:before, #nav-widget .btn-subscribe:before {
+.icon-feed:before, #nav-widget .btn-subscribe:before, #nav-widget.light .btn-subscribe:before {
   content: "\e640";
 }
 
@@ -2631,7 +2631,7 @@ input {
 }
 
 /* line 239, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
-.icon-arrow-left:before, #nav-widget .btn-prev:before {
+.icon-arrow-left:before, #nav-widget .btn-prev:before, #nav-widget.light .btn-prev:before {
   content: "\e642";
 }
 
@@ -2646,7 +2646,7 @@ input {
 }
 
 /* line 248, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
-.icon-arrow-right:before, #nav-widget .btn-next:before {
+.icon-arrow-right:before, #nav-widget .btn-next:before, #nav-widget.light .btn-next:before {
   content: "\e645";
 }
 
@@ -2731,7 +2731,7 @@ input {
 }
 
 /* line 299, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
-.icon-text2:before, #nav-widget .btn-details:before {
+.icon-text2:before, #nav-widget .btn-details:before, #nav-widget.light .btn-details:before {
   content: "\e65a";
 }
 
@@ -2758,6 +2758,7 @@ input {
   height: 32px;
   z-index: 1000;
   display: block;
+  visibility: visible;
 }
 /* line 17, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
 #nav-widget,
@@ -2811,19 +2812,20 @@ input {
 #nav-widget .bottom a {
   display: block;
   padding: 0 0.6em;
+  line-height: 2.2;
 }
-/* line 58, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
+/* line 59, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
 #nav-widget .top a.on, #nav-widget .top a:hover,
 #nav-widget .bottom a.on,
 #nav-widget .bottom a:hover {
   background: #125497;
 }
-/* line 62, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
+/* line 63, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
 #nav-widget .top a:active,
 #nav-widget .bottom a:active {
   background: #176dc5;
 }
-/* line 72, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
+/* line 73, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
 #nav-widget .bottom {
   display: block;
   float: left;
@@ -2831,7 +2833,7 @@ input {
   border-top-width: 0;
   z-index: 1;
 }
-/* line 80, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
+/* line 81, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
 #nav-widget .title {
   font-size: 1em;
   line-height: 2.2;
@@ -2843,7 +2845,7 @@ input {
   font-family: "latin-modern-mono-light", Courier, monospace;
   font-weight: normal;
 }
-/* line 95, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
+/* line 96, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
 #nav-widget ul,
 #nav-widget ul li {
   display: block;
@@ -2853,20 +2855,20 @@ input {
   padding: 0;
   margin: 0;
 }
-/* line 110, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
+/* line 111, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
 #nav-widget a.btn-prev,
 #nav-widget a.btn-next {
   font: 0/0 'a';
   padding: 0 8px;
 }
-/* line 118, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
+/* line 119, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
 #nav-widget .btn-details,
 #nav-widget .btn-subscribe,
 #nav-widget .btn-prev,
 #nav-widget .btn-next {
   vertical-align: middle;
 }
-/* line 121, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
+/* line 122, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
 #nav-widget .btn-details:before,
 #nav-widget .btn-subscribe:before,
 #nav-widget .btn-prev:before,
@@ -2874,7 +2876,7 @@ input {
   font: 16px/1.9 'minutelabs-icons';
   overflow: hidden;
 }
-/* line 128, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
+/* line 129, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
 #nav-widget .btn-subscribe:before,
 #nav-widget .btn-details:before {
   line-height: 1.6;
@@ -2882,31 +2884,190 @@ input {
   top: 3px;
   right: 4px;
 }
-/* line 135, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
+/* line 136, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
 #nav-widget a.btn-subscribe {
   background: #408000;
   background: #336700;
   color: #f1fef1;
   padding-left: 1em;
 }
-/* line 141, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
+/* line 142, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
 #nav-widget a.btn-subscribe:hover {
   background: #408000;
 }
-/* line 145, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
+/* line 146, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
 #nav-widget a.btn-subscribe:active {
   background: #336700;
 }
-/* line 167, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
+/* line 168, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
 #nav-widget.no-branding .top .btn-details {
   display: inline-block;
   float: left;
   clear: none;
   margin-right: 0.5em;
 }
-/* line 175, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
+/* line 176, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
 #nav-widget.no-branding .top,
 #nav-widget.no-branding .bottom {
+  margin-left: 0;
+}
+/* line 12, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs-nav.scss */
+#nav-widget.light {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 32px;
+  z-index: 1000;
+}
+/* line 17, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
+#nav-widget.light,
+#nav-widget.light a {
+  color: #333333;
+  text-decoration: none;
+}
+/* line 22, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
+#nav-widget.light .logo {
+  position: absolute;
+  display: block;
+  background: white;
+  margin: 0;
+  height: 38px;
+  padding: 10px;
+  border-bottom: 1px solid #cccccc;
+  -webkit-box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.4);
+}
+/* line 32, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
+#nav-widget.light .logo img {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 38, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
+#nav-widget.light .top,
+#nav-widget.light .bottom {
+  float: left;
+  position: relative;
+  margin-left: 60px;
+  background: white;
+  font-family: "latin-modern-mono", Courier, monospace;
+  font-size: 14px;
+  line-height: 2.2;
+  overflow: hidden;
+  -webkit-border-radius: 0 0 3px;
+  -moz-border-radius: 0 0 3px;
+  -ms-border-radius: 0 0 3px;
+  -o-border-radius: 0 0 3px;
+  border-radius: 0 0 3px;
+  -webkit-box-shadow: 1px 2px 3px -1px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 1px 2px 3px -1px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 2px 3px -1px rgba(0, 0, 0, 0.4);
+}
+/* line 52, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
+#nav-widget.light .top a,
+#nav-widget.light .bottom a {
+  display: block;
+  padding: 0 0.6em;
+  line-height: 2.2;
+}
+/* line 59, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
+#nav-widget.light .top a.on, #nav-widget.light .top a:hover,
+#nav-widget.light .bottom a.on,
+#nav-widget.light .bottom a:hover {
+  background: #125497;
+}
+/* line 63, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
+#nav-widget.light .top a:active,
+#nav-widget.light .bottom a:active {
+  background: #176dc5;
+}
+/* line 73, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
+#nav-widget.light .bottom {
+  display: block;
+  float: left;
+  bottom: 1px;
+  border-top-width: 0;
+  z-index: 1;
+}
+/* line 81, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
+#nav-widget.light .title {
+  font-size: 1em;
+  line-height: 2.2;
+  display: block;
+  float: left;
+  clear: none;
+  margin: 0 2em 0 0.58em;
+  color: #333333;
+  font-family: "latin-modern-mono", Courier, monospace;
+  font-weight: normal;
+}
+/* line 96, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
+#nav-widget.light ul,
+#nav-widget.light ul li {
+  display: block;
+  float: left;
+  clear: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* line 111, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
+#nav-widget.light a.btn-prev,
+#nav-widget.light a.btn-next {
+  font: 0/0 'a';
+  padding: 0 8px;
+}
+/* line 119, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
+#nav-widget.light .btn-details,
+#nav-widget.light .btn-subscribe,
+#nav-widget.light .btn-prev,
+#nav-widget.light .btn-next {
+  vertical-align: middle;
+}
+/* line 122, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
+#nav-widget.light .btn-details:before,
+#nav-widget.light .btn-subscribe:before,
+#nav-widget.light .btn-prev:before,
+#nav-widget.light .btn-next:before {
+  font: 16px/1.9 'minutelabs-icons';
+  overflow: hidden;
+}
+/* line 129, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
+#nav-widget.light .btn-subscribe:before,
+#nav-widget.light .btn-details:before {
+  line-height: 1.6;
+  position: relative;
+  top: 3px;
+  right: 4px;
+}
+/* line 136, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
+#nav-widget.light a.btn-subscribe {
+  background: #408000;
+  background: #336700;
+  color: #f1fef1;
+  padding-left: 1em;
+}
+/* line 142, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
+#nav-widget.light a.btn-subscribe:hover {
+  background: #408000;
+}
+/* line 146, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
+#nav-widget.light a.btn-subscribe:active {
+  background: #336700;
+}
+/* line 168, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
+#nav-widget.light.no-branding .top .btn-details {
+  display: inline-block;
+  float: left;
+  clear: none;
+  margin-right: 0.5em;
+}
+/* line 176, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
+#nav-widget.light.no-branding .top,
+#nav-widget.light.no-branding .bottom {
   margin-left: 0;
 }
 

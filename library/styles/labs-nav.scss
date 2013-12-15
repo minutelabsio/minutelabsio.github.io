@@ -8,5 +8,8 @@
 #nav-widget {
     @include nav-widget();
     display: block;
-    // @include nav-widget(#fff, #333);
+    visibility: visible;
+    &.light {
+    	@include nav-widget(#fff, #333);
+    }
 }
