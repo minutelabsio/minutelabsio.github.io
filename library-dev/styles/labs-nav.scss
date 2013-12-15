@@ -10,6 +10,6 @@
     display: block;
     visibility: visible;
     &.light {
-    	@include nav-widget(#fff, #333);
+    	@include nav-widget(#fff, #333, $blue-light);
     }
 }
