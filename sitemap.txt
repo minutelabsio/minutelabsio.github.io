@@ -1,5 +1,0 @@
-
-{% for page in site.pages %}{% unless page.section == 404 or page.section == 'hidden' %}
-{{ site.url }}{{ page.url | replace:'.html','' }}{% endunless %}{% endfor %}
-{% for post in site.posts %}{% unless post.draft %}{% capture fchar %}{% if post.lab %}{{ post.lab | split:'' | first }}{% endif %}{% endcapture %}{% capture url %}{% if post.lab %}{% if fchar == '/' %}{{ site.url }}{% endif %}{{ post.lab }}{% else %}{{ site.url }}{{ post.url }}{% endif %}{% endcapture %}
-{{ url }}{% endunless %}{% endfor %}
