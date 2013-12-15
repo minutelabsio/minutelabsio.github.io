@@ -10,9 +10,14 @@ layout: none
         <atom:link href="{{ site.url }}/feed.links.xml" rel="self" type="application/rss+xml" />
         {% for post in site.posts %}
             {% capture url %}{% if post.lab %}{{ post.lab }}{% else %}{{ site.url }}{{ post.url }}{% endif %}{% endcapture %}
+            {% capture end %}
+                {% if post.lab %}
+                    <p><a href="{{ url }}">Launch the Lab!</a></p>
+                {% endif %}
+            {% endcapture %}
             <item>
                 <title>{{ post.title | xml_escape }}</title>
-                <description>{{ post.content | xml_escape }}</description>
+                <description>{{ post.content | xml_escape }}{{ end | xml_escape }}</description>
                 <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
                 <link>{{ url | escape }}</link>
                 <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
