@@ -1,0 +1,7 @@
+---
+title : Sitemap
+---
+{% for page in site.pages %}
+{{ site.url }}{{ page.url }}{% endfor %}
+{% for post in site.posts %}{% unless post.draft %}{% capture fchar %}{% if post.lab %}{{ post.lab | split:'' | first }}{% endif %}{% endcapture %}{% capture url %}{% if post.lab %}{% if fchar == '/' %}{{ site.url }}{% endif %}{{ post.lab }}{% else %}{{ site.url }}{{ post.url }}{% endif %}{% endcapture %}
+{{ site.url }}{{ url }}{% endunless %}{% endfor %}
