@@ -1,5 +1,6 @@
 // main css for lab inclusion
 @import "labs/_labs";
+@import "labs-nav";
 
 // phones
 @media screen and (max-width: 480px){
@@ -16,13 +17,6 @@
         @include offcanvas( 500px );
     }
 }
-
-
-#nav-widget {
-    @include nav-widget();
-    // @include nav-widget(#fff, #333);
-}
-
 
 #viewport {
     overflow: hidden;
