@@ -63,7 +63,7 @@
         curr = labData[ i ];
         if ( id === curr.id || title === curr.title ){
 
-            updateNavUrls( labData[ i - 1 ], labData[ i + 1 ] );
+            updateNavUrls( labData[ i + 1 ], labData[ i - 1 ] );
             break;
         }
     }
