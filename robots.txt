@@ -1,5 +1,1 @@
----
-layout: none
-section: hidden
----
 User-agent: *
