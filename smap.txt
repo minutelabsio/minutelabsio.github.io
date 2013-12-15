@@ -1,5 +1,2 @@
----
-layout: none
-section: hidden
----
+
 test
