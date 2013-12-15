@@ -1,7 +1,7 @@
 ---
 section: hidden
 ---
-(function(window, document, undefined){
+(function(window, document, Lab, undefined){
     var el = document.getElementById('nav-toggle');
 
     function toggleClass( el, cls ){
@@ -52,21 +52,24 @@ section: hidden
         }, false);
     }
 
-    var labData = {% include labs_list.json %};
-    var curr
-        ,i
-        ,l
-        ,title = window.Lab.title
-        ,id = window.Lab.id
-        ;
+    if ( Lab ){
 
-    for ( i = 0, l = labData.length; i < l; i++ ){
-        curr = labData[ i ];
-        if ( id === curr.id || title === curr.title ){
+        var labData = {% include labs_list.json %};
+        var curr
+            ,i
+            ,l
+            ,title = window.Lab.title
+            ,id = window.Lab.id
+            ;
 
-            updateNavUrls( labData[ i + 1 ], labData[ i - 1 ] );
-            break;
+        for ( i = 0, l = labData.length; i < l; i++ ){
+            curr = labData[ i ];
+            if ( id === curr.id || title === curr.title ){
+
+                updateNavUrls( labData[ i + 1 ], labData[ i - 1 ] );
+                break;
+            }
         }
     }
 
-})(this, this.document);
+})(this, this.document, this.Lab);

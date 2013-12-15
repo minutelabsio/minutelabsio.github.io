@@ -1,0 +1,12 @@
+@import "compass/css3";
+@import "labs/_mixins";
+@import "labs/_vars";
+@import "labs/_fonts";
+@import "labs/_icons";
+@import "labs/_nav-widget";
+
+#nav-widget {
+    @include nav-widget();
+    display: block;
+    // @include nav-widget(#fff, #333);
+}
