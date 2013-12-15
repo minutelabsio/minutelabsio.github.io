@@ -7,7 +7,6 @@ category: lab
 tags:
     - desktop
     - tablet
-    - phone
     - video
 ---
 
