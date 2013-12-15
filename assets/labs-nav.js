@@ -42,7 +42,8 @@
     }
 
     if ( el ){
-        el.addEventListener('click', function(){
+        el.addEventListener('click', function( e ){
+            e.preventDefault();
             var wrap = document.getElementById('wrap-outer');
             toggleClass(wrap, 'offcanvas-active');
             toggleClass(el, 'on');
