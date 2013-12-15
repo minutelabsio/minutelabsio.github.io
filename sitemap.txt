@@ -1,5 +1,6 @@
 ---
 title : Sitemap
+layout: none
 ---
 {% for page in site.pages %}
 {{ site.url }}{{ page.url }}{% endfor %}
