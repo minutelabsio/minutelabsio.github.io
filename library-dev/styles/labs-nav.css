@@ -794,12 +794,12 @@
 #nav-widget.light .top a.on, #nav-widget.light .top a:hover,
 #nav-widget.light .bottom a.on,
 #nav-widget.light .bottom a:hover {
-  background: #125497;
+  background: #5bbff3;
 }
 /* line 63, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
 #nav-widget.light .top a:active,
 #nav-widget.light .bottom a:active {
-  background: #176dc5;
+  background: #8bd2f6;
 }
 /* line 73, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_nav-widget.scss */
 #nav-widget.light .bottom {
