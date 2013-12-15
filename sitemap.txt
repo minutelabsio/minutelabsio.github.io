@@ -1,5 +1,5 @@
 ---
-title : Sitemap
+title : sitemap
 layout: none
 section: hidden
 ---
