@@ -1,7 +1,3 @@
----
-layout: none
-section: hidden
----
 
 {% for page in site.pages %}{% unless page.section == 404 or page.section == 'hidden' %}
 {{ site.url }}{{ page.url | replace:'.html','' }}{% endunless %}{% endfor %}
