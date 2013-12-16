@@ -17,7 +17,7 @@
 				"order": 1,
 				"id": 36,
 				"prevSize": 32,
-				"code": 58880,
+				"code": 112,
 				"name": "phone",
 				"ligatures": ""
 			}
@@ -37,7 +37,7 @@
 				"order": 2,
 				"id": 37,
 				"prevSize": 32,
-				"code": 58881,
+				"code": 116,
 				"name": "tablet",
 				"ligatures": ""
 			}
@@ -59,7 +59,7 @@
 				"order": 3,
 				"id": 39,
 				"prevSize": 32,
-				"code": 58882,
+				"code": 109,
 				"name": "monitor",
 				"ligatures": ""
 			}
@@ -82,7 +82,7 @@
 				"order": 4,
 				"id": 44,
 				"prevSize": 32,
-				"code": 58883,
+				"code": 99,
 				"name": "camera",
 				"ligatures": ""
 			}
@@ -103,7 +103,7 @@
 				"order": 5,
 				"id": 45,
 				"prevSize": 32,
-				"code": 58884,
+				"code": 102,
 				"name": "film",
 				"ligatures": ""
 			}
@@ -125,7 +125,7 @@
 				"order": 6,
 				"id": 55,
 				"prevSize": 32,
-				"code": 58885,
+				"code": 111,
 				"name": "coffee",
 				"ligatures": ""
 			}
@@ -145,7 +145,7 @@
 				"order": 7,
 				"id": 64,
 				"prevSize": 32,
-				"code": 58886,
+				"code": 107,
 				"name": "checkmark",
 				"ligatures": ""
 			}
@@ -165,7 +165,7 @@
 				"order": 8,
 				"id": 65,
 				"prevSize": 32,
-				"code": 58887,
+				"code": 120,
 				"name": "cancel",
 				"ligatures": ""
 			}
@@ -185,7 +185,7 @@
 				"order": 9,
 				"id": 63,
 				"prevSize": 32,
-				"code": 58888,
+				"code": 113,
 				"name": "checkmark2",
 				"ligatures": ""
 			}
@@ -205,7 +205,7 @@
 				"order": 10,
 				"id": 66,
 				"prevSize": 32,
-				"code": 58889,
+				"code": 88,
 				"name": "cancel2",
 				"ligatures": ""
 			}
@@ -225,7 +225,7 @@
 				"order": 11,
 				"id": 67,
 				"prevSize": 32,
-				"code": 58890,
+				"code": 43,
 				"name": "plus",
 				"ligatures": ""
 			}
@@ -245,7 +245,7 @@
 				"order": 12,
 				"id": 68,
 				"prevSize": 32,
-				"code": 58891,
+				"code": 61,
 				"name": "plus2",
 				"ligatures": ""
 			}
@@ -266,7 +266,7 @@
 				"order": 13,
 				"id": 69,
 				"prevSize": 32,
-				"code": 58892,
+				"code": 45,
 				"name": "minus",
 				"ligatures": ""
 			}
@@ -287,7 +287,7 @@
 				"order": 14,
 				"id": 70,
 				"prevSize": 32,
-				"code": 58893,
+				"code": 95,
 				"name": "minus2",
 				"ligatures": ""
 			}
@@ -309,7 +309,7 @@
 				"order": 15,
 				"id": 71,
 				"prevSize": 32,
-				"code": 58894,
+				"code": 33,
 				"name": "notice",
 				"ligatures": ""
 			}
@@ -331,7 +331,7 @@
 				"order": 16,
 				"id": 72,
 				"prevSize": 32,
-				"code": 58895,
+				"code": 126,
 				"name": "notice2",
 				"ligatures": ""
 			}
@@ -353,7 +353,7 @@
 				"order": 17,
 				"id": 73,
 				"prevSize": 32,
-				"code": 58896,
+				"code": 79,
 				"name": "cog",
 				"ligatures": ""
 			}
@@ -375,7 +375,7 @@
 				"order": 18,
 				"id": 81,
 				"prevSize": 32,
-				"code": 58897,
+				"code": 105,
 				"name": "picture",
 				"ligatures": ""
 			}
@@ -397,7 +397,7 @@
 				"order": 19,
 				"id": 82,
 				"prevSize": 32,
-				"code": 58898,
+				"code": 73,
 				"name": "pictures",
 				"ligatures": ""
 			}
@@ -418,7 +418,7 @@
 				"order": 20,
 				"id": 89,
 				"prevSize": 32,
-				"code": 58899,
+				"code": 84,
 				"name": "chronometer",
 				"ligatures": ""
 			}
@@ -440,7 +440,7 @@
 				"order": 21,
 				"id": 96,
 				"prevSize": 32,
-				"code": 58900,
+				"code": 47,
 				"name": "checkmark3",
 				"ligatures": ""
 			}
@@ -462,7 +462,7 @@
 				"order": 22,
 				"id": 97,
 				"prevSize": 32,
-				"code": 58901,
+				"code": 122,
 				"name": "cancel3",
 				"ligatures": ""
 			}
@@ -483,7 +483,7 @@
 				"order": 23,
 				"id": 157,
 				"prevSize": 32,
-				"code": 58902,
+				"code": 94,
 				"name": "zoom-in",
 				"ligatures": ""
 			}
@@ -503,7 +503,7 @@
 				"order": 24,
 				"id": 158,
 				"prevSize": 32,
-				"code": 58903,
+				"code": 118,
 				"name": "zoom-out",
 				"ligatures": ""
 			}
@@ -525,7 +525,7 @@
 				"order": 25,
 				"id": 156,
 				"prevSize": 32,
-				"code": 58904,
+				"code": 115,
 				"name": "magnifier",
 				"ligatures": ""
 			}
@@ -545,7 +545,7 @@
 				"order": 26,
 				"id": 188,
 				"prevSize": 32,
-				"code": 58905,
+				"code": 108,
 				"name": "lamp",
 				"ligatures": ""
 			}
@@ -565,7 +565,7 @@
 				"order": 27,
 				"id": 186,
 				"prevSize": 32,
-				"code": 58906,
+				"code": 76,
 				"name": "lamp2",
 				"ligatures": ""
 			}
@@ -585,7 +585,7 @@
 				"order": 28,
 				"id": 187,
 				"prevSize": 32,
-				"code": 58907,
+				"code": 42,
 				"name": "lamp3",
 				"ligatures": ""
 			}
@@ -605,7 +605,7 @@
 				"order": 29,
 				"id": 195,
 				"prevSize": 32,
-				"code": 58908,
+				"code": 91,
 				"name": "grid",
 				"ligatures": ""
 			}
@@ -625,7 +625,7 @@
 				"order": 30,
 				"id": 196,
 				"prevSize": 32,
-				"code": 58909,
+				"code": 93,
 				"name": "grid2",
 				"ligatures": ""
 			}
@@ -646,7 +646,7 @@
 				"order": 31,
 				"id": 215,
 				"prevSize": 32,
-				"code": 58910,
+				"code": 35,
 				"name": "tools",
 				"ligatures": ""
 			}
@@ -668,7 +668,7 @@
 				"order": 32,
 				"id": 221,
 				"prevSize": 32,
-				"code": 58911,
+				"code": 37,
 				"name": "chat",
 				"ligatures": ""
 			}
@@ -691,7 +691,7 @@
 				"order": 33,
 				"id": 222,
 				"prevSize": 32,
-				"code": 58912,
+				"code": 38,
 				"name": "comments",
 				"ligatures": ""
 			}
@@ -712,7 +712,7 @@
 				"order": 34,
 				"id": 223,
 				"prevSize": 32,
-				"code": 58913,
+				"code": 55,
 				"name": "chat2",
 				"ligatures": ""
 			}
@@ -733,7 +733,7 @@
 				"order": 35,
 				"id": 224,
 				"prevSize": 32,
-				"code": 58914,
+				"code": 53,
 				"name": "chat3",
 				"ligatures": ""
 			}
@@ -754,7 +754,7 @@
 				"order": 36,
 				"id": 228,
 				"prevSize": 32,
-				"code": 58915,
+				"code": 124,
 				"name": "equalizer",
 				"ligatures": ""
 			}
@@ -776,7 +776,7 @@
 				"order": 37,
 				"id": 258,
 				"prevSize": 32,
-				"code": 58916,
+				"code": 114,
 				"name": "retweet",
 				"ligatures": ""
 			}
@@ -798,7 +798,7 @@
 				"order": 38,
 				"id": 256,
 				"prevSize": 32,
-				"code": 58917,
+				"code": 82,
 				"name": "reply",
 				"ligatures": ""
 			}
@@ -820,7 +820,7 @@
 				"order": 39,
 				"id": 257,
 				"prevSize": 32,
-				"code": 58918,
+				"code": 70,
 				"name": "forward",
 				"ligatures": ""
 			}
@@ -839,7 +839,7 @@
 				"order": 40,
 				"id": 283,
 				"prevSize": 32,
-				"code": 58919,
+				"code": 110,
 				"name": "info",
 				"ligatures": ""
 			}
@@ -858,7 +858,7 @@
 				"order": 41,
 				"id": 284,
 				"prevSize": 32,
-				"code": 58920,
+				"code": 78,
 				"name": "info2",
 				"ligatures": ""
 			}
@@ -878,7 +878,7 @@
 				"order": 42,
 				"id": 302,
 				"prevSize": 32,
-				"code": 58921,
+				"code": 98,
 				"name": "book",
 				"ligatures": ""
 			}
@@ -898,7 +898,7 @@
 				"order": 43,
 				"id": 301,
 				"prevSize": 32,
-				"code": 58922,
+				"code": 66,
 				"name": "book2",
 				"ligatures": ""
 			}
@@ -919,7 +919,7 @@
 				"order": 44,
 				"id": 300,
 				"prevSize": 32,
-				"code": 58923,
+				"code": 101,
 				"name": "rocket",
 				"ligatures": ""
 			}
@@ -941,7 +941,7 @@
 				"order": 45,
 				"id": 323,
 				"prevSize": 32,
-				"code": 58924,
+				"code": 103,
 				"name": "checked",
 				"ligatures": ""
 			}
@@ -963,7 +963,7 @@
 				"order": 46,
 				"id": 324,
 				"prevSize": 32,
-				"code": 58925,
+				"code": 71,
 				"name": "error",
 				"ligatures": ""
 			}
@@ -983,7 +983,7 @@
 				"order": 47,
 				"id": 325,
 				"prevSize": 32,
-				"code": 58926,
+				"code": 100,
 				"name": "add",
 				"ligatures": ""
 			}
@@ -1004,7 +1004,7 @@
 				"order": 48,
 				"id": 326,
 				"prevSize": 32,
-				"code": 58927,
+				"code": 83,
 				"name": "minus3",
 				"ligatures": ""
 			}
@@ -1024,7 +1024,7 @@
 				"order": 49,
 				"id": 329,
 				"prevSize": 32,
-				"code": 58928,
+				"code": 97,
 				"name": "atom",
 				"ligatures": ""
 			}
@@ -1044,7 +1044,7 @@
 				"order": 50,
 				"id": 349,
 				"prevSize": 32,
-				"code": 58929,
+				"code": 46,
 				"name": "switch",
 				"ligatures": ""
 			}
@@ -1064,7 +1064,7 @@
 				"order": 51,
 				"id": 160,
 				"prevSize": 32,
-				"code": 58930,
+				"code": 125,
 				"name": "stack",
 				"ligatures": ""
 			}
@@ -1085,7 +1085,7 @@
 				"order": 52,
 				"id": 106,
 				"prevSize": 32,
-				"code": 58931,
+				"code": 123,
 				"name": "chart",
 				"ligatures": ""
 			}
@@ -1105,7 +1105,7 @@
 				"order": 53,
 				"id": 316,
 				"prevSize": 32,
-				"code": 58932,
+				"code": 39,
 				"name": "cone",
 				"ligatures": ""
 			}
@@ -1126,7 +1126,7 @@
 				"order": 54,
 				"id": 317,
 				"prevSize": 32,
-				"code": 58933,
+				"code": 117,
 				"name": "blocked",
 				"ligatures": ""
 			}
@@ -1145,7 +1145,7 @@
 				"order": 55,
 				"id": 318,
 				"prevSize": 32,
-				"code": 58934,
+				"code": 121,
 				"name": "stop",
 				"ligatures": ""
 			}
@@ -1165,7 +1165,7 @@
 				"order": 56,
 				"id": 319,
 				"prevSize": 32,
-				"code": 58935,
+				"code": 75,
 				"name": "keyboard",
 				"ligatures": ""
 			}
@@ -1186,7 +1186,7 @@
 				"order": 57,
 				"id": 366,
 				"prevSize": 32,
-				"code": 58936,
+				"code": 119,
 				"name": "twitter",
 				"ligatures": ""
 			}
@@ -1206,7 +1206,7 @@
 				"order": 58,
 				"id": 363,
 				"prevSize": 32,
-				"code": 58937,
+				"code": 72,
 				"name": "facebook",
 				"ligatures": ""
 			}
@@ -1226,7 +1226,7 @@
 				"order": 59,
 				"id": 359,
 				"prevSize": 32,
-				"code": 58938,
+				"code": 86,
 				"name": "google-plus",
 				"ligatures": ""
 			}
@@ -1246,7 +1246,7 @@
 				"order": 60,
 				"id": 372,
 				"prevSize": 32,
-				"code": 58939,
+				"code": 89,
 				"name": "youtube",
 				"ligatures": ""
 			}
@@ -1267,7 +1267,7 @@
 				"order": 61,
 				"id": 395,
 				"prevSize": 32,
-				"code": 58940,
+				"code": 85,
 				"name": "github",
 				"ligatures": ""
 			}
@@ -1287,7 +1287,7 @@
 				"order": 62,
 				"id": 413,
 				"prevSize": 32,
-				"code": 58941,
+				"code": 68,
 				"name": "soundcloud",
 				"ligatures": ""
 			}
@@ -1307,7 +1307,7 @@
 				"order": 63,
 				"id": 412,
 				"prevSize": 32,
-				"code": 58942,
+				"code": 69,
 				"name": "soundcloud2",
 				"ligatures": ""
 			}
@@ -1327,7 +1327,7 @@
 				"order": 64,
 				"id": 373,
 				"prevSize": 32,
-				"code": 58943,
+				"code": 87,
 				"name": "youtube2",
 				"ligatures": ""
 			}
@@ -1348,7 +1348,7 @@
 				"order": 65,
 				"id": 369,
 				"prevSize": 32,
-				"code": 58944,
+				"code": 77,
 				"name": "feed",
 				"ligatures": ""
 			}
@@ -1368,7 +1368,7 @@
 				"order": 66,
 				"id": 351,
 				"prevSize": 32,
-				"code": 58945,
+				"code": 52,
 				"name": "share",
 				"ligatures": ""
 			}
@@ -1389,7 +1389,7 @@
 				"order": 67,
 				"id": 206,
 				"prevSize": 20,
-				"code": 58946,
+				"code": 81,
 				"name": "arrow-left",
 				"ligatures": ""
 			}
@@ -1410,7 +1410,7 @@
 				"order": 68,
 				"id": 207,
 				"prevSize": 20,
-				"code": 58947,
+				"code": 80,
 				"name": "arrow-down",
 				"ligatures": ""
 			}
@@ -1431,7 +1431,7 @@
 				"order": 69,
 				"id": 208,
 				"prevSize": 20,
-				"code": 58948,
+				"code": 65,
 				"name": "arrow-up",
 				"ligatures": ""
 			}
@@ -1452,7 +1452,7 @@
 				"order": 70,
 				"id": 209,
 				"prevSize": 20,
-				"code": 58949,
+				"code": 74,
 				"name": "arrow-right",
 				"ligatures": ""
 			}
@@ -1473,7 +1473,7 @@
 				"order": 71,
 				"id": 210,
 				"prevSize": 20,
-				"code": 58950,
+				"code": 60,
 				"name": "arrow-left2",
 				"ligatures": ""
 			}
@@ -1494,7 +1494,7 @@
 				"order": 72,
 				"id": 211,
 				"prevSize": 20,
-				"code": 58951,
+				"code": 58,
 				"name": "arrow-down2",
 				"ligatures": ""
 			}
@@ -1515,7 +1515,7 @@
 				"order": 73,
 				"id": 212,
 				"prevSize": 20,
-				"code": 58952,
+				"code": 34,
 				"name": "arrow-up2",
 				"ligatures": ""
 			}
@@ -1536,7 +1536,7 @@
 				"order": 74,
 				"id": 213,
 				"prevSize": 20,
-				"code": 58953,
+				"code": 62,
 				"name": "arrow-right2",
 				"ligatures": ""
 			}
@@ -1557,7 +1557,7 @@
 				"order": 75,
 				"id": 214,
 				"prevSize": 20,
-				"code": 58954,
+				"code": 59,
 				"name": "arrow-left3",
 				"ligatures": ""
 			}
@@ -1578,7 +1578,7 @@
 				"order": 76,
 				"id": 215,
 				"prevSize": 20,
-				"code": 58955,
+				"code": 92,
 				"name": "arrow-down3",
 				"ligatures": ""
 			}
@@ -1599,7 +1599,7 @@
 				"order": 77,
 				"id": 216,
 				"prevSize": 20,
-				"code": 58956,
+				"code": 44,
 				"name": "arrow-up3",
 				"ligatures": ""
 			}
@@ -1615,96 +1615,8 @@
 				"order": 78,
 				"id": 217,
 				"prevSize": 20,
-				"code": 58957,
+				"code": 96,
 				"name": "uniE64D",
-				"ligatures": ""
-			}
-		},
-		{
-			"icon": {
-				"paths": [
-					"M716.749 276.48l0.051 471.040-409.6-235.52z"
-				],
-				"tags": [
-					"arrow-left",
-					"left",
-					"triangle",
-					"previous"
-				],
-				"grid": 20
-			},
-			"properties": {
-				"order": 79,
-				"id": 202,
-				"prevSize": 20,
-				"code": 58958,
-				"name": "arrow-left4",
-				"ligatures": ""
-			}
-		},
-		{
-			"icon": {
-				"paths": [
-					"M747.52 307.251l-471.040-0.051 235.52 409.6z"
-				],
-				"tags": [
-					"arrow-down",
-					"triangle",
-					"down",
-					"bottom"
-				],
-				"grid": 20
-			},
-			"properties": {
-				"order": 80,
-				"id": 203,
-				"prevSize": 20,
-				"code": 58959,
-				"name": "arrow-down4",
-				"ligatures": ""
-			}
-		},
-		{
-			"icon": {
-				"paths": [
-					"M276.48 716.8h471.040l-235.571-409.6z"
-				],
-				"tags": [
-					"arrow-up",
-					"triangle",
-					"up",
-					"top"
-				],
-				"grid": 20
-			},
-			"properties": {
-				"order": 81,
-				"id": 204,
-				"prevSize": 20,
-				"code": 58960,
-				"name": "arrow-up4",
-				"ligatures": ""
-			}
-		},
-		{
-			"icon": {
-				"paths": [
-					"M307.251 276.48l-0.051 471.040 409.6-235.52z"
-				],
-				"tags": [
-					"arrow-right",
-					"triangle",
-					"right",
-					"next"
-				],
-				"grid": 20
-			},
-			"properties": {
-				"order": 82,
-				"id": 205,
-				"prevSize": 20,
-				"code": 58961,
-				"name": "arrow-right3",
 				"ligatures": ""
 			}
 		},
@@ -1723,10 +1635,10 @@
 				"grid": 16
 			},
 			"properties": {
-				"order": 83,
+				"order": 79,
 				"id": 181,
 				"prevSize": 16,
-				"code": 58962,
+				"code": 51,
 				"name": "list",
 				"ligatures": ""
 			}
@@ -1746,10 +1658,10 @@
 				"grid": 16
 			},
 			"properties": {
-				"order": 84,
+				"order": 80,
 				"id": 182,
 				"prevSize": 16,
-				"code": 58963,
+				"code": 50,
 				"name": "list2",
 				"ligatures": ""
 			}
@@ -1767,10 +1679,10 @@
 				"grid": 16
 			},
 			"properties": {
-				"order": 85,
+				"order": 81,
 				"id": 154,
 				"prevSize": 16,
-				"code": 58964,
+				"code": 49,
 				"name": "gift",
 				"ligatures": ""
 			}
@@ -1790,10 +1702,10 @@
 				"grid": 16
 			},
 			"properties": {
-				"order": 86,
+				"order": 82,
 				"id": 35,
 				"prevSize": 16,
-				"code": 58965,
+				"code": 48,
 				"name": "file",
 				"ligatures": ""
 			}
@@ -1812,10 +1724,10 @@
 				"grid": 20
 			},
 			"properties": {
-				"order": 87,
+				"order": 83,
 				"id": 151,
 				"prevSize": 20,
-				"code": 58966,
+				"code": 67,
 				"name": "list3",
 				"ligatures": ""
 			}
@@ -1834,10 +1746,10 @@
 				"grid": 20
 			},
 			"properties": {
-				"order": 88,
+				"order": 84,
 				"id": 150,
 				"prevSize": 20,
-				"code": 58967,
+				"code": 90,
 				"name": "layout",
 				"ligatures": ""
 			}
@@ -1856,7 +1768,7 @@
 				"grid": 20
 			},
 			"properties": {
-				"order": 89,
+				"order": 85,
 				"id": 148,
 				"prevSize": 20,
 				"code": 58968,
@@ -1877,7 +1789,7 @@
 				"grid": 20
 			},
 			"properties": {
-				"order": 90,
+				"order": 86,
 				"id": 152,
 				"prevSize": 20,
 				"code": 58969,
@@ -1898,7 +1810,7 @@
 				"grid": 20
 			},
 			"properties": {
-				"order": 91,
+				"order": 87,
 				"id": 153,
 				"prevSize": 20,
 				"code": 58970,
@@ -1919,10 +1831,10 @@
 				"grid": 32
 			},
 			"properties": {
-				"order": 92,
+				"order": 88,
 				"id": 127,
 				"prevSize": 32,
-				"code": 58971,
+				"code": 104,
 				"name": "lab",
 				"ligatures": ""
 			}
@@ -1940,10 +1852,10 @@
 				"grid": 14
 			},
 			"properties": {
-				"order": 93,
+				"order": 89,
 				"id": 260,
 				"prevSize": 28,
-				"code": 58972,
+				"code": 106,
 				"name": "code",
 				"ligatures": ""
 			}
@@ -1961,10 +1873,10 @@
 				"grid": 14
 			},
 			"properties": {
-				"order": 94,
+				"order": 90,
 				"id": 239,
 				"prevSize": 28,
-				"code": 58973,
+				"code": 36,
 				"name": "tablet",
 				"ligatures": ""
 			}
@@ -1982,10 +1894,10 @@
 				"grid": 14
 			},
 			"properties": {
-				"order": 95,
+				"order": 91,
 				"id": 240,
 				"prevSize": 28,
-				"code": 58974,
+				"code": 64,
 				"name": "mobile",
 				"ligatures": ""
 			}
