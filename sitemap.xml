@@ -1,0 +1,21 @@
+---
+layout: none
+section: hidden
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    {% for item in site.pages %}{% unless item.section == 404 or item.section == 'hidden' %}
+    <url>
+        <loc>{{ site.url }}{{ item.url | replace:'.html','' }}</loc>
+        <lastmod>{{ site.time | date:'%Y-%m-%d'}}</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    {% endunless %}{% endfor %}
+    {% for post in site.posts %}{% unless post.draft %}{% capture fchar %}{% if post.lab %}{{ post.lab | split:'' | first }}{% endif %}{% endcapture %}{% capture url %}{% if post.lab %}{% if fchar == '/' %}{{ site.url }}{% endif %}{{ post.lab }}{% else %}{{ site.url }}{{ post.url }}{% endif %}{% endcapture %}
+    <url>
+        <loc>{{ url }}</loc>
+        <lastmod>{{ post.date | date:'%Y-%m-%d'}}</lastmod>
+        <changefreq>monthly</changefreq>
+    </url>
+    {% endunless %}{% endfor %}
+</urlset>

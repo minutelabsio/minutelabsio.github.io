@@ -1,1 +1,3 @@
 User-agent: *
+
+Sitemap: http://minutelabs.io/sitemap.xml
