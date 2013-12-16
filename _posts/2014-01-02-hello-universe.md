@@ -2,6 +2,7 @@
 layout: lab
 title: 'Hello Universe!'
 category: lab
+draft: true
 tags:
     - article
 ---
