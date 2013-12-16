@@ -83,6 +83,10 @@ iframe {
         line-height: 0.85;
     }
 
+    table.gsc-search-box td {
+        vertical-align: top;
+    }
+
     .gs-no-results-result .gs-snippet,
     .gs-error-result .gs-snippet {
         background: $yellow-light;
