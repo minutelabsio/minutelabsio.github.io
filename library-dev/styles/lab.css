@@ -1038,477 +1038,457 @@ ul.collapse > li, ol.collapse > li, dl.collapse > dt, dl.collapse > dd {
 
 /* line 26, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-phone:before {
-  content: "\e600";
+  content: "\70";
 }
 
 /* line 29, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-tablet:before {
-  content: "\e601";
+  content: "\74";
 }
 
 /* line 32, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-monitor:before {
-  content: "\e602";
+  content: "\6d";
 }
 
 /* line 35, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-camera:before {
-  content: "\e603";
+  content: "\63";
 }
 
 /* line 38, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-film:before {
-  content: "\e604";
+  content: "\66";
 }
 
 /* line 41, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-coffee:before {
-  content: "\e605";
+  content: "\6f";
 }
 
 /* line 44, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-checkmark:before {
-  content: "\e606";
+  content: "\6b";
 }
 
 /* line 47, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-cancel:before {
-  content: "\e607";
+  content: "\78";
 }
 
 /* line 50, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-checkmark2:before {
-  content: "\e608";
+  content: "\71";
 }
 
 /* line 53, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-cancel2:before {
-  content: "\e609";
+  content: "\58";
 }
 
 /* line 56, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-plus:before {
-  content: "\e60a";
+  content: "\2b";
 }
 
 /* line 59, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-plus2:before {
-  content: "\e60b";
+  content: "\3d";
 }
 
 /* line 62, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-minus:before {
-  content: "\e60c";
+  content: "\2d";
 }
 
 /* line 65, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-minus2:before {
-  content: "\e60d";
+  content: "\5f";
 }
 
 /* line 68, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-notice:before {
-  content: "\e60e";
+  content: "\21";
 }
 
 /* line 71, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-notice2:before {
-  content: "\e60f";
+  content: "\7e";
 }
 
 /* line 74, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-cog:before {
-  content: "\e610";
+  content: "\4f";
 }
 
 /* line 77, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-picture:before {
-  content: "\e611";
+  content: "\69";
 }
 
 /* line 80, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-pictures:before {
-  content: "\e612";
+  content: "\49";
 }
 
 /* line 83, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-chronometer:before {
-  content: "\e613";
+  content: "\54";
 }
 
 /* line 86, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-checkmark3:before {
-  content: "\e614";
+  content: "\2f";
 }
 
 /* line 89, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-cancel3:before {
-  content: "\e615";
+  content: "\7a";
 }
 
 /* line 92, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-zoom-in:before {
-  content: "\e616";
+  content: "\5e";
 }
 
 /* line 95, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-zoom-out:before {
-  content: "\e617";
+  content: "\76";
 }
 
 /* line 98, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-magnifier:before {
-  content: "\e618";
+  content: "\73";
 }
 
 /* line 101, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-lamp:before {
-  content: "\e619";
+  content: "\6c";
 }
 
 /* line 104, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-lamp2:before {
-  content: "\e61a";
+  content: "\4c";
 }
 
 /* line 107, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-lamp3:before {
-  content: "\e61b";
+  content: "\2a";
 }
 
 /* line 110, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-grid:before {
-  content: "\e61c";
+  content: "\5b";
 }
 
 /* line 113, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-grid2:before {
-  content: "\e61d";
+  content: "\5d";
 }
 
 /* line 116, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-tools:before {
-  content: "\e61e";
+  content: "\23";
 }
 
 /* line 119, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-chat:before {
-  content: "\e61f";
+  content: "\25";
 }
 
 /* line 122, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-comments:before {
-  content: "\e620";
+  content: "\26";
 }
 
 /* line 125, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-chat2:before {
-  content: "\e621";
+  content: "\37";
 }
 
 /* line 128, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-chat3:before {
-  content: "\e622";
+  content: "\35";
 }
 
 /* line 131, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-equalizer:before {
-  content: "\e623";
+  content: "\7c";
 }
 
 /* line 134, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-retweet:before {
-  content: "\e624";
+  content: "\72";
 }
 
 /* line 137, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-reply:before {
-  content: "\e625";
+  content: "\52";
 }
 
 /* line 140, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-forward:before {
-  content: "\e626";
+  content: "\46";
 }
 
 /* line 143, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-info:before {
-  content: "\e627";
+  content: "\6e";
 }
 
 /* line 146, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-info2:before {
-  content: "\e628";
+  content: "\4e";
 }
 
 /* line 149, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-book:before {
-  content: "\e629";
+  content: "\62";
 }
 
 /* line 152, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-book2:before {
-  content: "\e62a";
+  content: "\42";
 }
 
 /* line 155, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-rocket:before {
-  content: "\e62b";
+  content: "\65";
 }
 
 /* line 158, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-checked:before {
-  content: "\e62c";
+  content: "\67";
 }
 
 /* line 161, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-error:before {
-  content: "\e62d";
+  content: "\47";
 }
 
 /* line 164, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-add:before {
-  content: "\e62e";
+  content: "\64";
 }
 
 /* line 167, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-minus3:before {
-  content: "\e62f";
+  content: "\53";
 }
 
 /* line 170, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-atom:before {
-  content: "\e630";
+  content: "\61";
 }
 
 /* line 173, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-switch:before {
-  content: "\e631";
+  content: "\2e";
 }
 
 /* line 176, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-stack:before {
-  content: "\e632";
+  content: "\7d";
 }
 
 /* line 179, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-chart:before {
-  content: "\e633";
+  content: "\7b";
 }
 
 /* line 182, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-cone:before {
-  content: "\e634";
+  content: "\27";
 }
 
 /* line 185, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-blocked:before {
-  content: "\e635";
+  content: "\75";
 }
 
 /* line 188, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-stop:before {
-  content: "\e636";
+  content: "\79";
 }
 
 /* line 191, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-keyboard:before {
-  content: "\e637";
+  content: "\4b";
 }
 
 /* line 194, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-lab:before {
-  content: "\e65b";
+  content: "\68";
 }
 
 /* line 197, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-twitter:before {
-  content: "\e638";
+  content: "\77";
 }
 
 /* line 200, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-facebook:before {
-  content: "\e639";
+  content: "\48";
 }
 
 /* line 203, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-google-plus:before {
-  content: "\e63a";
+  content: "\56";
 }
 
 /* line 206, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-youtube:before {
-  content: "\e63b";
+  content: "\59";
 }
 
 /* line 209, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-github:before {
-  content: "\e63c";
+  content: "\55";
 }
 
 /* line 212, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-soundcloud:before {
-  content: "\e63d";
+  content: "\44";
 }
 
 /* line 215, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-soundcloud2:before {
-  content: "\e63e";
+  content: "\45";
 }
 
 /* line 218, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-youtube2:before {
-  content: "\e63f";
+  content: "\57";
 }
 
 /* line 221, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-feed:before, #nav-widget .btn-subscribe:before, #nav-widget.light .btn-subscribe:before {
-  content: "\e640";
+  content: "\4d";
 }
 
 /* line 224, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-share:before {
-  content: "\e641";
+  content: "\34";
 }
 
 /* line 227, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-list:before {
-  content: "\e652";
+  content: "\33";
 }
 
 /* line 230, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-list2:before {
-  content: "\e653";
+  content: "\32";
 }
 
 /* line 233, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-gift:before {
-  content: "\e654";
+  content: "\31";
 }
 
 /* line 236, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-file:before {
-  content: "\e655";
+  content: "\30";
 }
 
 /* line 239, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-arrow-left:before, #nav-widget .btn-prev:before, #nav-widget.light .btn-prev:before {
-  content: "\e642";
+  content: "\51";
 }
 
 /* line 242, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-arrow-down:before {
-  content: "\e643";
+  content: "\50";
 }
 
 /* line 245, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-arrow-up:before {
-  content: "\e644";
+  content: "\41";
 }
 
 /* line 248, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-arrow-right:before, #nav-widget .btn-next:before, #nav-widget.light .btn-next:before {
-  content: "\e645";
+  content: "\4a";
 }
 
 /* line 251, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-arrow-left2:before {
-  content: "\e646";
+  content: "\3c";
 }
 
 /* line 254, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-arrow-down2:before {
-  content: "\e647";
+  content: "\3a";
 }
 
 /* line 257, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-arrow-up2:before {
-  content: "\e648";
+  content: "\22";
 }
 
 /* line 260, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-arrow-right2:before {
-  content: "\e649";
+  content: "\3e";
 }
 
 /* line 263, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-arrow-left3:before {
-  content: "\e64a";
+  content: "\3b";
 }
 
 /* line 266, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-arrow-down3:before {
-  content: "\e64b";
+  content: "\5c";
 }
 
 /* line 269, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-arrow-up3:before {
-  content: "\e64c";
+  content: "\2c";
 }
 
 /* line 272, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-uniE64D:before {
-  content: "\e64d";
+  content: "\60";
 }
 
 /* line 275, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
-.icon-arrow-left4:before {
-  content: "\e64e";
+.icon-list3:before {
+  content: "\43";
 }
 
 /* line 278, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
-.icon-arrow-down4:before {
-  content: "\e64f";
+.icon-layout:before {
+  content: "\5a";
 }
 
 /* line 281, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
-.icon-arrow-up4:before {
-  content: "\e650";
-}
-
-/* line 284, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
-.icon-arrow-right3:before {
-  content: "\e651";
-}
-
-/* line 287, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
-.icon-list3:before {
-  content: "\e656";
-}
-
-/* line 290, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
-.icon-layout:before {
-  content: "\e657";
-}
-
-/* line 293, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-list4:before {
   content: "\e658";
 }
 
-/* line 296, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
+/* line 284, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-text:before {
   content: "\e659";
 }
 
-/* line 299, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
+/* line 287, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-text2:before, #nav-widget .btn-details:before, #nav-widget.light .btn-details:before {
   content: "\e65a";
 }
 
-/* line 302, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
+/* line 290, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-code:before {
-  content: "\e65c";
+  content: "\6a";
 }
 
-/* line 305, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
-.icon-tablet2:before {
-  content: "\e65d";
+/* line 293, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
+.icon-tablet:before {
+  content: "\24";
 }
 
-/* line 308, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
+/* line 296, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-mobile:before {
-  content: "\e65e";
+  content: "\40";
 }
 
 /*Form elements*/
@@ -2277,477 +2257,457 @@ input {
 
 /* line 26, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-phone:before {
-  content: "\e600";
+  content: "\70";
 }
 
 /* line 29, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-tablet:before {
-  content: "\e601";
+  content: "\74";
 }
 
 /* line 32, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-monitor:before {
-  content: "\e602";
+  content: "\6d";
 }
 
 /* line 35, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-camera:before {
-  content: "\e603";
+  content: "\63";
 }
 
 /* line 38, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-film:before {
-  content: "\e604";
+  content: "\66";
 }
 
 /* line 41, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-coffee:before {
-  content: "\e605";
+  content: "\6f";
 }
 
 /* line 44, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-checkmark:before {
-  content: "\e606";
+  content: "\6b";
 }
 
 /* line 47, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-cancel:before {
-  content: "\e607";
+  content: "\78";
 }
 
 /* line 50, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-checkmark2:before {
-  content: "\e608";
+  content: "\71";
 }
 
 /* line 53, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-cancel2:before {
-  content: "\e609";
+  content: "\58";
 }
 
 /* line 56, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-plus:before {
-  content: "\e60a";
+  content: "\2b";
 }
 
 /* line 59, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-plus2:before {
-  content: "\e60b";
+  content: "\3d";
 }
 
 /* line 62, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-minus:before {
-  content: "\e60c";
+  content: "\2d";
 }
 
 /* line 65, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-minus2:before {
-  content: "\e60d";
+  content: "\5f";
 }
 
 /* line 68, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-notice:before {
-  content: "\e60e";
+  content: "\21";
 }
 
 /* line 71, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-notice2:before {
-  content: "\e60f";
+  content: "\7e";
 }
 
 /* line 74, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-cog:before {
-  content: "\e610";
+  content: "\4f";
 }
 
 /* line 77, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-picture:before {
-  content: "\e611";
+  content: "\69";
 }
 
 /* line 80, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-pictures:before {
-  content: "\e612";
+  content: "\49";
 }
 
 /* line 83, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-chronometer:before {
-  content: "\e613";
+  content: "\54";
 }
 
 /* line 86, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-checkmark3:before {
-  content: "\e614";
+  content: "\2f";
 }
 
 /* line 89, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-cancel3:before {
-  content: "\e615";
+  content: "\7a";
 }
 
 /* line 92, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-zoom-in:before {
-  content: "\e616";
+  content: "\5e";
 }
 
 /* line 95, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-zoom-out:before {
-  content: "\e617";
+  content: "\76";
 }
 
 /* line 98, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-magnifier:before {
-  content: "\e618";
+  content: "\73";
 }
 
 /* line 101, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-lamp:before {
-  content: "\e619";
+  content: "\6c";
 }
 
 /* line 104, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-lamp2:before {
-  content: "\e61a";
+  content: "\4c";
 }
 
 /* line 107, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-lamp3:before {
-  content: "\e61b";
+  content: "\2a";
 }
 
 /* line 110, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-grid:before {
-  content: "\e61c";
+  content: "\5b";
 }
 
 /* line 113, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-grid2:before {
-  content: "\e61d";
+  content: "\5d";
 }
 
 /* line 116, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-tools:before {
-  content: "\e61e";
+  content: "\23";
 }
 
 /* line 119, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-chat:before {
-  content: "\e61f";
+  content: "\25";
 }
 
 /* line 122, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-comments:before {
-  content: "\e620";
+  content: "\26";
 }
 
 /* line 125, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-chat2:before {
-  content: "\e621";
+  content: "\37";
 }
 
 /* line 128, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-chat3:before {
-  content: "\e622";
+  content: "\35";
 }
 
 /* line 131, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-equalizer:before {
-  content: "\e623";
+  content: "\7c";
 }
 
 /* line 134, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-retweet:before {
-  content: "\e624";
+  content: "\72";
 }
 
 /* line 137, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-reply:before {
-  content: "\e625";
+  content: "\52";
 }
 
 /* line 140, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-forward:before {
-  content: "\e626";
+  content: "\46";
 }
 
 /* line 143, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-info:before {
-  content: "\e627";
+  content: "\6e";
 }
 
 /* line 146, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-info2:before {
-  content: "\e628";
+  content: "\4e";
 }
 
 /* line 149, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-book:before {
-  content: "\e629";
+  content: "\62";
 }
 
 /* line 152, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-book2:before {
-  content: "\e62a";
+  content: "\42";
 }
 
 /* line 155, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-rocket:before {
-  content: "\e62b";
+  content: "\65";
 }
 
 /* line 158, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-checked:before {
-  content: "\e62c";
+  content: "\67";
 }
 
 /* line 161, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-error:before {
-  content: "\e62d";
+  content: "\47";
 }
 
 /* line 164, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-add:before {
-  content: "\e62e";
+  content: "\64";
 }
 
 /* line 167, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-minus3:before {
-  content: "\e62f";
+  content: "\53";
 }
 
 /* line 170, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-atom:before {
-  content: "\e630";
+  content: "\61";
 }
 
 /* line 173, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-switch:before {
-  content: "\e631";
+  content: "\2e";
 }
 
 /* line 176, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-stack:before {
-  content: "\e632";
+  content: "\7d";
 }
 
 /* line 179, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-chart:before {
-  content: "\e633";
+  content: "\7b";
 }
 
 /* line 182, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-cone:before {
-  content: "\e634";
+  content: "\27";
 }
 
 /* line 185, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-blocked:before {
-  content: "\e635";
+  content: "\75";
 }
 
 /* line 188, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-stop:before {
-  content: "\e636";
+  content: "\79";
 }
 
 /* line 191, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-keyboard:before {
-  content: "\e637";
+  content: "\4b";
 }
 
 /* line 194, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-lab:before {
-  content: "\e65b";
+  content: "\68";
 }
 
 /* line 197, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-twitter:before {
-  content: "\e638";
+  content: "\77";
 }
 
 /* line 200, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-facebook:before {
-  content: "\e639";
+  content: "\48";
 }
 
 /* line 203, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-google-plus:before {
-  content: "\e63a";
+  content: "\56";
 }
 
 /* line 206, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-youtube:before {
-  content: "\e63b";
+  content: "\59";
 }
 
 /* line 209, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-github:before {
-  content: "\e63c";
+  content: "\55";
 }
 
 /* line 212, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-soundcloud:before {
-  content: "\e63d";
+  content: "\44";
 }
 
 /* line 215, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-soundcloud2:before {
-  content: "\e63e";
+  content: "\45";
 }
 
 /* line 218, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-youtube2:before {
-  content: "\e63f";
+  content: "\57";
 }
 
 /* line 221, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-feed:before, #nav-widget .btn-subscribe:before, #nav-widget.light .btn-subscribe:before {
-  content: "\e640";
+  content: "\4d";
 }
 
 /* line 224, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-share:before {
-  content: "\e641";
+  content: "\34";
 }
 
 /* line 227, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-list:before {
-  content: "\e652";
+  content: "\33";
 }
 
 /* line 230, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-list2:before {
-  content: "\e653";
+  content: "\32";
 }
 
 /* line 233, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-gift:before {
-  content: "\e654";
+  content: "\31";
 }
 
 /* line 236, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-file:before {
-  content: "\e655";
+  content: "\30";
 }
 
 /* line 239, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-arrow-left:before, #nav-widget .btn-prev:before, #nav-widget.light .btn-prev:before {
-  content: "\e642";
+  content: "\51";
 }
 
 /* line 242, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-arrow-down:before {
-  content: "\e643";
+  content: "\50";
 }
 
 /* line 245, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-arrow-up:before {
-  content: "\e644";
+  content: "\41";
 }
 
 /* line 248, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-arrow-right:before, #nav-widget .btn-next:before, #nav-widget.light .btn-next:before {
-  content: "\e645";
+  content: "\4a";
 }
 
 /* line 251, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-arrow-left2:before {
-  content: "\e646";
+  content: "\3c";
 }
 
 /* line 254, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-arrow-down2:before {
-  content: "\e647";
+  content: "\3a";
 }
 
 /* line 257, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-arrow-up2:before {
-  content: "\e648";
+  content: "\22";
 }
 
 /* line 260, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-arrow-right2:before {
-  content: "\e649";
+  content: "\3e";
 }
 
 /* line 263, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-arrow-left3:before {
-  content: "\e64a";
+  content: "\3b";
 }
 
 /* line 266, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-arrow-down3:before {
-  content: "\e64b";
+  content: "\5c";
 }
 
 /* line 269, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-arrow-up3:before {
-  content: "\e64c";
+  content: "\2c";
 }
 
 /* line 272, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-uniE64D:before {
-  content: "\e64d";
+  content: "\60";
 }
 
 /* line 275, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
-.icon-arrow-left4:before {
-  content: "\e64e";
+.icon-list3:before {
+  content: "\43";
 }
 
 /* line 278, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
-.icon-arrow-down4:before {
-  content: "\e64f";
+.icon-layout:before {
+  content: "\5a";
 }
 
 /* line 281, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
-.icon-arrow-up4:before {
-  content: "\e650";
-}
-
-/* line 284, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
-.icon-arrow-right3:before {
-  content: "\e651";
-}
-
-/* line 287, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
-.icon-list3:before {
-  content: "\e656";
-}
-
-/* line 290, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
-.icon-layout:before {
-  content: "\e657";
-}
-
-/* line 293, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-list4:before {
   content: "\e658";
 }
 
-/* line 296, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
+/* line 284, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-text:before {
   content: "\e659";
 }
 
-/* line 299, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
+/* line 287, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-text2:before, #nav-widget .btn-details:before, #nav-widget.light .btn-details:before {
   content: "\e65a";
 }
 
-/* line 302, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
+/* line 290, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-code:before {
-  content: "\e65c";
+  content: "\6a";
 }
 
-/* line 305, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
-.icon-tablet2:before {
-  content: "\e65d";
+/* line 293, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
+.icon-tablet:before {
+  content: "\24";
 }
 
-/* line 308, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
+/* line 296, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_icons.scss */
 .icon-mobile:before {
-  content: "\e65e";
+  content: "\40";
 }
 
 /* line 8, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs-nav.scss */

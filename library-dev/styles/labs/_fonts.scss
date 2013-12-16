@@ -97,3 +97,7 @@
     font-weight: normal;
     font-style: normal;
 }
+// @include font-face('latin-modern-mono-prop', font-files('Latin-Modern-Mono/latinmodernmonoprop_10regular_macroman/lmmonoprop10-regular-webfont.svg#latin-modern-mono-prop'), 'Latin-Modern-Mono/latinmodernmonoprop_10regular_macroman/lmmonoprop10-regular-webfont.eot', normal, normal);
+// @include font-face('latin-modern-mono-prop', inline-font-files('Latin-Modern-Mono/latinmodernmonoprop_10regular_macroman/lmmonoprop10-regular-webfont.woff', woff, 'Latin-Modern-Mono/latinmodernmonoprop_10regular_macroman/lmmonoprop10-regular-webfont.ttf', truetype), $weight: normal, $style: normal);
+
+
