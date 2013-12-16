@@ -1,13 +1,16 @@
-@font-face {
-    font-family: 'minutelabs-icons';
-    src:font-url('minutelabs-icons/fonts/minutelabs-icons.eot');
-    src:font-url('minutelabs-icons/fonts/minutelabs-icons.eot?#iefix') format('embedded-opentype'),
-        font-url('minutelabs-icons/fonts/minutelabs-icons.ttf') format('truetype'),
-        font-url('minutelabs-icons/fonts/minutelabs-icons.woff') format('woff'),
-        font-url('minutelabs-icons/fonts/minutelabs-icons.svg#minutelabs-icons') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
+// @font-face {
+//     font-family: 'minutelabs-icons';
+//     src:font-url('minutelabs-icons/fonts/minutelabs-icons.eot');
+//     src:font-url('minutelabs-icons/fonts/minutelabs-icons.eot?#iefix') format('embedded-opentype'),
+//         font-url('minutelabs-icons/fonts/minutelabs-icons.ttf') format('truetype'),
+//         font-url('minutelabs-icons/fonts/minutelabs-icons.woff') format('woff'),
+//         font-url('minutelabs-icons/fonts/minutelabs-icons.svg#minutelabs-icons') format('svg');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+@include font-face('minutelabs-icons', font-files('minutelabs-icons/fonts/minutelabs-icons.ttf', 'minutelabs-icons/fonts/minutelabs-icons.svg#minutelabs-icons'), 'minutelabs-icons/fonts/minutelabs-icons.eot', normal, normal);
+@include font-face('minutelabs-icons', inline-font-files('minutelabs-icons/fonts/minutelabs-icons.woff', woff), $weight: normal, $style: normal);
 
 [class^="icon-"], [class*=" icon-"] {
     font-family: 'minutelabs-icons';
