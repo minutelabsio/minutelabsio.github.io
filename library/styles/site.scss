@@ -44,6 +44,7 @@ iframe {
     input {
         @include box-sizing( border-box );
         width: 100%;
+        height: 31px;
     }
 
     button[type="submit"] {
@@ -80,6 +81,10 @@ iframe {
 
     .gsst_a .gscb_a {
         line-height: 0.85;
+    }
+
+    table.gsc-search-box td {
+        vertical-align: top;
     }
 
     .gs-no-results-result .gs-snippet,

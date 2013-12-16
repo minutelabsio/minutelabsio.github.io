@@ -27,7 +27,7 @@
         height: $imgHeight;
         padding: 10px;
         border-bottom: 1px solid darken($bg, 20);
-        @include box-shadow( 2px 1px 3px rgba(0, 0, 0, 0.4) );
+        @include box-shadow( 1px 1px 5px -2px rgba(0, 0, 0, 0.4) );
 
         img {
             @include border-radius( 3px );
@@ -44,10 +44,11 @@
         font-size: $textSize;
         line-height: 2.2;
         overflow: hidden;
+        height: 30px;
         // border: 0px solid darken($bg, 20);
         // border-width: 0 1px 1px 0;
         @include border-radius( 0 0 3px );
-        @include box-shadow( 1px 2px 3px -1px rgba(0, 0, 0, 0.4) );
+        @include box-shadow( 2px 2px 4px -2px rgba(0, 0, 0, 0.4) );
 
         a {
             display: block;
