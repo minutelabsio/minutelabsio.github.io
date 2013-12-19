@@ -11,10 +11,9 @@ section: hidden
         <image>
           <link>{{ site.url }}</link>
           <title>{{ site.title | xml_escape }}</title>
-          <url>{{ site.url }}/assets/images/logo.png</url>
-          <description>Read the Dallas Times-Herald</description>
-          <height>16</height>
-          <width>16</width>
+          <url>{{ site.url }}/assets/images/logos/logo-minutelabs-no-text-40x40.png</url>
+          <height>40</height>
+          <width>40</width>
         </image>
         <atom:link href="{{ site.url }}/feed.links.xml" rel="self" type="application/rss+xml" />
         {% for post in site.posts %}
