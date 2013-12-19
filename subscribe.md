@@ -22,7 +22,7 @@ Subbable subscriptions are how we get the funds to keep doing what we're doing, 
 <div id="follow-us">
 	<ul>
 		<li><a href="http://twitter.com/minutelabsio" class="icon-twitter">twitter</a></li>
-		<li><a href="https://plus.google.com/102246823484317502661" rel="publisher" class="icon-google-plus">google+</a></li>
+		<li><a href="https://www.google.com/+MinutelabsIo" rel="publisher" class="icon-google-plus">google+</a></li>
 		<li><a href="" class="icon-facebook">facebook</a></li>
 		<li><a href="https://github.com/minutelabsio" class="icon-github">github</a></li>
 	</ul>
