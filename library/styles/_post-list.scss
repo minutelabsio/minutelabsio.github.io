@@ -120,6 +120,7 @@
 
     .post {
         position: relative;
+        clear: both;
         @include clearfix;
         @include box-sizing( border-box );
         background: rgba(255, 255, 255, 0.95);
