@@ -11,7 +11,6 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video {
-  clear: both;
   outline: 0;
   border-width: 0;
   border-style: solid;
@@ -2823,6 +2822,7 @@ input {
 /* line 121, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_post-list.scss */
 .post-list .post {
   position: relative;
+  clear: both;
   overflow: hidden;
   *zoom: 1;
   -webkit-box-sizing: border-box;
@@ -2844,47 +2844,47 @@ input {
   transform: translateX(0);
   background: #f9fbfc;
 }
-/* line 133, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_post-list.scss */
+/* line 134, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_post-list.scss */
 .post-list .post .post-image {
   width: 100%;
 }
-/* line 137, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_post-list.scss */
+/* line 138, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_post-list.scss */
 .post-list .post .post-image > .thumb,
 .post-list .post .post-image > .thumb > img {
   display: block;
 }
-/* line 142, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_post-list.scss */
+/* line 143, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_post-list.scss */
 .post-list .post .inner {
   padding: 1.5em 5% 0;
   clear: none;
   overflow: hidden;
   border-top: 1px solid #c8c8c8;
 }
-/* line 149, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_post-list.scss */
+/* line 150, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_post-list.scss */
 .post-list .post .controls {
   padding: 0 5% 5%;
   text-align: right;
 }
-/* line 154, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_post-list.scss */
+/* line 155, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_post-list.scss */
 .post-list .post .title {
   font-size: 1.75em;
   line-height: 0.85714em;
   margin: 0 80px 0.75em 0;
 }
-/* line 158, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_post-list.scss */
+/* line 159, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_post-list.scss */
 .post-list .post .title a {
   text-decoration: none;
   color: #1a1a1a;
 }
-/* line 164, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_post-list.scss */
+/* line 165, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_post-list.scss */
 .post-list .post .desc {
   font-family: "latin-modern-mono-light", Courier, monospace;
 }
-/* line 167, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_post-list.scss */
+/* line 168, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_post-list.scss */
 .post-list .post .desc p:last-child {
   margin-bottom: 0.75em;
 }
-/* line 172, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_post-list.scss */
+/* line 173, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_post-list.scss */
 .post-list .post .date {
   position: absolute;
   top: 0;
@@ -2896,15 +2896,15 @@ input {
   -o-border-radius: 0 3px 0 3px;
   border-radius: 0 3px 0 3px;
 }
-/* line 179, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_post-list.scss */
+/* line 180, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_post-list.scss */
 .post-list .post .date:first-line {
   font-size: 1.7em;
 }
-/* line 184, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_post-list.scss */
+/* line 185, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_post-list.scss */
 .post-list .post .top {
   position: relative;
 }
-/* line 188, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_post-list.scss */
+/* line 189, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_post-list.scss */
 .post-list .post .tags {
   position: absolute;
   right: 0;
@@ -2921,7 +2921,7 @@ input {
   -o-border-radius: 0 0 0 3px;
   border-radius: 0 0 0 3px;
 }
-/* line 201, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_post-list.scss */
+/* line 202, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_post-list.scss */
 .post-list .post .post-image + .tags {
   right: auto;
   top: auto;
@@ -2933,16 +2933,16 @@ input {
   -o-border-radius: 0 3px 0 0;
   border-radius: 0 3px 0 0;
 }
-/* line 214, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_post-list.scss */
+/* line 215, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_post-list.scss */
 .post-list .post.layout-right {
   padding: 5%;
 }
-/* line 217, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_post-list.scss */
+/* line 218, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_post-list.scss */
 .post-list .post.layout-right > * {
   padding: 0;
   text-align: left;
 }
-/* line 222, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_post-list.scss */
+/* line 223, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_post-list.scss */
 .post-list .post.layout-right .post-image {
   clear: none;
   float: right;
@@ -2950,7 +2950,7 @@ input {
   margin-left: 2em;
   border: 1px solid gainsboro;
 }
-/* line 233, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_post-list.scss */
+/* line 234, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_post-list.scss */
 .post-list .sep-year {
   display: block;
   width: 100px;
@@ -3188,7 +3188,7 @@ iframe {
     margin-top: -60px;
     padding: 5%;
     padding-top: 110px !important;
-    background: url('../images/logo-no-text-minute-labs.png?1384445503') no-repeat top right;
+    background: url('../images/logo-no-text-minute-labs.png') no-repeat top right;
     background-size: 140px;
   }
 }
