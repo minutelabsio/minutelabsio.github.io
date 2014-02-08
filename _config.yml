@@ -5,8 +5,8 @@ exclude: ["README.md", "CNAME", "LICENSE"]
 title : MinuteLabs.io
 url : http://minutelabs.io
 description : "Cool science shown through a combination different media"
-version: "0.0.4"
-library_path: "/library"
+version: "0.0.5"
+library_path: "/library-dev"
 
 social :
   email : info@minutelabs.io
