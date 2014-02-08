@@ -3188,7 +3188,7 @@ iframe {
     margin-top: -60px;
     padding: 5%;
     padding-top: 110px !important;
-    background: url('../images/logo-no-text-minute-labs.png') no-repeat top right;
+    background: url('../../assets/images/logos/logo-minutelabs-no-text.png?1387484342') no-repeat top right;
     background-size: 140px;
   }
 }
