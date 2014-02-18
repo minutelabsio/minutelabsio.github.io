@@ -229,6 +229,28 @@
                 border: 1px solid $grey;
             }
         }
+
+        // post types 
+        &.text,
+        &.quote,
+        &.chat {
+            .inner {
+                padding: rhythm(1) 5%;
+            }
+        }
+
+        &.link {
+            .inner {
+                padding-top: 72%;
+                .desc {
+                    img {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                    }
+                }
+            }
+        }
     }
 
     .sep-year {
