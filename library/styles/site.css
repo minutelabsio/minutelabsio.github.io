@@ -2950,7 +2950,21 @@ input {
   margin-left: 2em;
   border: 1px solid gainsboro;
 }
-/* line 234, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_post-list.scss */
+/* line 237, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_post-list.scss */
+.post-list .post.text .inner, .post-list .post.quote .inner, .post-list .post.chat .inner {
+  padding: 1.5em 5%;
+}
+/* line 243, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_post-list.scss */
+.post-list .post.link .inner {
+  padding-top: 72%;
+}
+/* line 246, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_post-list.scss */
+.post-list .post.link .inner .desc img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* line 256, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_post-list.scss */
 .post-list .sep-year {
   display: block;
   width: 100px;
