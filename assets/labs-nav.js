@@ -72,6 +72,7 @@ section: hidden
                 ret.push({
                     id: p.id,
                     url: p.url,
+                    title: p.title,
                     timestamp: p.timestamp
                 });
             }
