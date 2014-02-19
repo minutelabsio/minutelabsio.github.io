@@ -233,7 +233,9 @@
         // post types 
         &.text,
         &.quote,
-        &.chat {
+        &.chat,
+        &.photo,
+        &.photoset {
             .inner {
                 padding: rhythm(1) 5%;
             }
@@ -250,6 +252,10 @@
                     }
                 }
             }
+        }
+
+        .permalink {
+            display: block;
         }
     }
 
