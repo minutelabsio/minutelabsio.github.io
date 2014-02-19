@@ -1,6 +1,7 @@
 permalink: /:year-:month-:day/:title
 markdown: rdiscount
-exclude: ["README.md", "CNAME", "LICENSE"]
+# excluding lots because it's now on tumblr
+exclude: ["README.md", "CNAME", "LICENSE", "index.md", "feed.xml", "about.md", "code.md", "package.json", "robots.txt", "search.html", "sitemap.txt", "sitemap.xml", "subscribe.md"]
 
 title : MinuteLabs.io
 url : http://minutelabs.io
