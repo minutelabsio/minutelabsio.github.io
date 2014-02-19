@@ -6,7 +6,6 @@
         <meta name="text:Blog Author" content="">
         <meta name="text:Library Root" content="">
         <meta name="text:Assets Root" content="">
-        <meta name="text:Google Analytics ID" content=""/>
         <meta name="text:cachebust" content="">
 
         <!-- site -->
@@ -78,7 +77,7 @@
 
                     {block:Text}
                     <!-- Text -->
-                        <article class="post text" data-tags="{block:Tags} {URLSafeTag}{/block:Tags}">
+                        <article class="post text" data-tags="{TagsAsClasses}">
                             <div class="inner">
                                 {block:Title}
                                     <h2 class="title"><a href="{Permalink}">{Title}</a></h2>
@@ -91,6 +90,7 @@
                                 {block:Date}
                                 <time datetime="{Year}-{MonthNumberWithZero}-{DayOfMonthWithZero}T{24Hour}:{Minutes}:{Seconds}" class="date">{DayOfMonth}<br/>{ShortMonth}
                                 </time>
+                                <a href="{Permalink}" class="permalink">permalink</a>
                                 {/block:Date}
                             </div>
                         </article>
@@ -98,7 +98,7 @@
 
                     {block:Photo}
                     <!-- Photo -->
-                        <figure class="post photo" data-tags="{block:Tags} {URLSafeTag}{/block:Tags}">
+                        <figure class="post photo" data-tags="{TagsAsClasses}">
                             <div class="inner">
                                 <img src="{PhotoURL-500}" alt="{PhotoAlt}"/>
 
@@ -109,6 +109,7 @@
                                 {block:Date}
                                 <time datetime="{Year}-{MonthNumberWithZero}-{DayOfMonthWithZero}T{24Hour}:{Minutes}:{Seconds}" class="date">{DayOfMonth}<br/>{ShortMonth}
                                 </time>
+                                <a href="{Permalink}" class="permalink">permalink</a>
                                 {/block:Date}
                             </div>
                         </figure>
@@ -116,7 +117,7 @@
 
                     {block:Photoset}
                     <!-- Photo Set -->
-                        <figure class="post photoset" data-tags="{block:Tags} {URLSafeTag}{/block:Tags}">
+                        <figure class="post photoset" data-tags="{TagsAsClasses}">
                             <div class="inner">
                                 {Photoset-500}
 
@@ -127,6 +128,7 @@
                                 {block:Date}
                                 <time datetime="{Year}-{MonthNumberWithZero}-{DayOfMonthWithZero}T{24Hour}:{Minutes}:{Seconds}" class="date">{DayOfMonth}<br/>{ShortMonth}
                                 </time>
+                                <a href="{Permalink}" class="permalink">permalink</a>
                                 {/block:Date}
                             </div>
                         </figure>
@@ -134,7 +136,7 @@
 
                     {block:Quote}
                     <!-- Quote -->
-                        <article class="post quote" data-tags="{block:Tags} {URLSafeTag}{/block:Tags}">
+                        <article class="post quote" data-tags="{TagsAsClasses}">
                             <div class="inner">
                                 <blockquote>
                                 "{Quote}"
@@ -147,6 +149,7 @@
                                 {block:Date}
                                 <time datetime="{Year}-{MonthNumberWithZero}-{DayOfMonthWithZero}T{24Hour}:{Minutes}:{Seconds}" class="date">{DayOfMonth}<br/>{ShortMonth}
                                 </time>
+                                <a href="{Permalink}" class="permalink">permalink</a>
                                 {/block:Date}
                             </div>
                         </article>
@@ -154,7 +157,7 @@
 
                     {block:Link}
                     <!-- Link -->
-                        <article class="post link" data-tags="{block:Tags} {URLSafeTag}{/block:Tags}">
+                        <article class="post link" data-tags="{TagsAsClasses}">
                             <div class="inner">
                                 <h2 class="title"><a href="{URL}" class="link" {Target}>{Name}</a></h2>
 
@@ -175,7 +178,7 @@
 
                     {block:Chat}
                     <!-- Chat -->
-                        <article class="post chat" data-tags="{block:Tags} {URLSafeTag}{/block:Tags}">
+                        <article class="post chat" data-tags="{TagsAsClasses}">
                             <div class="inner">
                                 {block:Title}
                                     <h2 class="title"><a href="{Permalink}">{Title}</a></h2>
@@ -193,6 +196,7 @@
                                 {block:Date}
                                 <time datetime="{Year}-{MonthNumberWithZero}-{DayOfMonthWithZero}T{24Hour}:{Minutes}:{Seconds}" class="date">{DayOfMonth}<br/>{ShortMonth}
                                 </time>
+                                <a href="{Permalink}" class="permalink">permalink</a>
                                 {/block:Date}
                             </div>
                         </article>
@@ -200,7 +204,7 @@
 
                     {block:Video}
                     <!-- Video -->
-                        <figure class="post video" data-tags="{block:Tags} {URLSafeTag}{/block:Tags}">
+                        <figure class="post video" data-tags="{TagsAsClasses}">
                             <div class="inner">
                                 {Video-500}
 
@@ -211,6 +215,7 @@
                                 {block:Date}
                                 <time datetime="{Year}-{MonthNumberWithZero}-{DayOfMonthWithZero}T{24Hour}:{Minutes}:{Seconds}" class="date">{DayOfMonth}<br/>{ShortMonth}
                                 </time>
+                                <a href="{Permalink}" class="permalink">permalink</a>
                                 {/block:Date}
                             </div>
                         </figure>
@@ -218,7 +223,7 @@
 
                     {block:Audio}
                     <!-- Audio -->
-                        <figure class="post audio" data-tags="{block:Tags} {URLSafeTag}{/block:Tags}">
+                        <figure class="post audio" data-tags="{TagsAsClasses}">
                             <div class="inner">
                                 {block:TrackName}<h2 class="title"><a href="{Permalink}">{TrackName}</a></h2>{/block:TrackName}
                                 {block:AlbumArt}<img src="{AlbumArtURL}" width="500" height="500"/>{/block:AlbumArt}
@@ -231,6 +236,7 @@
                                 {block:Date}
                                 <time datetime="{Year}-{MonthNumberWithZero}-{DayOfMonthWithZero}T{24Hour}:{Minutes}:{Seconds}" class="date">{DayOfMonth}<br/>{ShortMonth}
                                 </time>
+                                <a href="{Permalink}" class="permalink">permalink</a>
                                 {/block:Date}
                             </div>
                         </figure>
@@ -250,6 +256,7 @@
                                 {block:Date}
                                 <time datetime="{Year}-{MonthNumberWithZero}-{DayOfMonthWithZero}T{24Hour}:{Minutes}:{Seconds}" class="date">{DayOfMonth}<br/>{ShortMonth}
                                 </time>
+                                <a href="{Permalink}" class="permalink">permalink</a>
                                 {/block:Date}
                             </div>
                         </article>

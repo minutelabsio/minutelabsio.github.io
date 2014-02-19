@@ -155,11 +155,6 @@
         .title {
             @include adjust-font-size-to(28px, 1);
             margin: 0 80px rhythm(0.5) 0;
-            
-            a { 
-                text-decoration: none;
-                color: $deep-grey-dark;
-            }
         }
 
         .desc {
@@ -233,7 +228,9 @@
         // post types 
         &.text,
         &.quote,
-        &.chat {
+        &.chat,
+        &.photo,
+        &.photoset {
             .inner {
                 padding: rhythm(1) 5%;
             }
@@ -251,11 +248,24 @@
                 }
             }
         }
+
+        .permalink {
+            display: block;
+        }
     }
 
     .sep-year {
         display: block;
         width: 100px;
         margin: auto;
+    }
+}
+
+.post {
+    .title {
+        a { 
+            text-decoration: none;
+            color: $deep-grey-dark;
+        }
     }
 }
