@@ -3,6 +3,11 @@ section: hidden
 ---
 ;(function(window, document, Lab, undefined){
 
+    var apikey = 'jLx9Jk6hvkW3P2cBVtLEi8syAHFXyuEy0epRFi2AT3Cg8f8Ji8';
+    var tumblrUrl = 'http://api.tumblr.com/v2/blog/minutelabs.tumblr.com/posts/link?api_key='+apikey;
+    var cbid = 1;
+    var store;
+
     function loadScript( url ){
         var prev = document.getElementsByTagName('script')[0];
         var scr = document.createElement('script');
@@ -10,6 +15,134 @@ section: hidden
         scr.async = 1;
         prev.parentNode.insertBefore(scr, prev);
     }
+
+    if ( window.localStorage ){
+        store = function( key, val ){
+            
+            if ( val !== undefined ){
+                try {
+
+                    window.localStorage[ key ] = JSON.stringify( val );
+                    return;
+
+                } catch ( e ){
+                    return undefined;
+                }
+            }
+
+            try {
+                return JSON.parse(window.localStorage[ key ]);
+            } catch ( e ){
+                return undefined;
+            }
+        };
+    } else {
+        store = function(){ return undefined; };
+    }
+    
+    function jsonp( url, callback ){
+        if (!url || !callback){
+            return;
+        }
+
+        var name = 'jsonp_callback_' + (cbid++);
+
+        window[ name ] = function( data ){
+            window[ name ] = undefined;
+            callback( data, {
+                url: url
+            });
+        };
+
+        loadScript( url + '&callback=' + name );
+    }
+
+    function aggregate( posts ){
+        var ret = [], p;
+        
+        if ( !posts ){
+            return ret;
+        }
+        
+        for ( var i = 0, l = posts.length; i < l; ++i ){
+            
+            p = posts[ i ];
+            // only push if published
+            if ( p.state === 'published' ){
+                ret.push({
+                    id: p.id,
+                    url: p.url,
+                    timestamp: p.timestamp
+                });
+            }
+        }
+
+        return ret;
+    }
+
+    function getTumblrData( done ){
+
+        var lastId = store('tumblr_last_id');
+        var storedData = store('tumblr_posts');
+        var lastRefresh = store('tumblr_last_refresh');
+        var now = (new Date()).getTime();
+        var updateDelay = 1000 * 60 * 60;
+        var stop = false;
+        var next;
+
+        if ( !storedData ){
+            storedData = [];
+        }
+
+        next = function( offset ){
+
+            offset = offset|0;
+
+            jsonp( tumblrUrl + '&limit=20&offset=' + offset, function( data ){
+
+                var posts;
+
+                if ( data.meta.status === 200 ){
+                    posts = aggregate(data.response.posts);
+                    // if we're updating we trim data we don't need
+                    if ( lastId ){
+                        for ( var i = 0, l = posts.length; i < l; ++i ){
+                            if ( lastId === posts[ i ].id ){
+                                stop = true;
+                                posts.splice( i );
+                                break;
+                            }
+                        }
+                    }
+
+                    if ( !posts.length ){
+                        stop = true;
+                    }
+
+                    storedData = posts.concat( storedData );
+                } else {
+                    stop = true;
+                }
+
+                if ( stop ){
+
+                    store('tumblr_posts', storedData);
+                    store('tumblr_last_id', storedData[0].id);
+                    store('tumblr_last_refresh', now);
+                    done( storedData );
+
+                } else {
+                    next( offset + 20 );
+                }
+            });
+        };
+
+        if ( !storedData.length || lastRefresh < (now - updateDelay) ){
+            next( 0 );
+        } else {
+            done( storedData );
+        }
+    };
 
     var el = document.getElementById('nav-toggle');
 
@@ -62,26 +195,22 @@ section: hidden
             return false;
         }, false);
     }
-
-    window.post_callback = function post_callback( data ){
-        if ( data.meta.status === 200 ){
-            var labData = data.response.posts;
-            var prev = labData[0];
-            var next = labData[2];
-            if ( Lab.first ){
-                prev = false;
-                next = labData[1];
-            }
-            updateNavUrls( next, prev );
-        }
-    };
     
-    if ( Lab && Lab.prevLabOffset ){
-        var last = Lab.prevLabOffset;
-        var key = 'jLx9Jk6hvkW3P2cBVtLEi8syAHFXyuEy0epRFi2AT3Cg8f8Ji8';
-        var url = 'http://api.tumblr.com/v2/blog/minutelabs.tumblr.com/posts/link?api_key='+key+'&offset='+last+'&limit=3&callback=post_callback';
+    if ( Lab && Lab.id ){
+        
+        getTumblrData(function( posts ){
 
-        loadScript( url );
+            var id = Lab.id|0;
+
+            for ( var i = 0, l = posts.length; i < l; ++i ){
+                
+                if (posts[ i ].id === id){
+
+                    updateNavUrls( posts[ i + 1 ], posts[ i - 1 ] );
+                    break;
+                }
+            }
+        });
     }
 
 })(this, this.document, this.Lab);
