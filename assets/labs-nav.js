@@ -76,8 +76,8 @@ section: hidden
         }
     };
     
-    if ( Lab ){
-        var last = Lab.prevLabOffset || 0;
+    if ( Lab && Lab.prevLabOffset ){
+        var last = Lab.prevLabOffset;
         var key = 'jLx9Jk6hvkW3P2cBVtLEi8syAHFXyuEy0epRFi2AT3Cg8f8Ji8';
         var url = 'http://api.tumblr.com/v2/blog/minutelabs.tumblr.com/posts/link?api_key='+key+'&offset='+last+'&limit=3&callback=post_callback';
 
