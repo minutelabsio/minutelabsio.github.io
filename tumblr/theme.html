@@ -12,7 +12,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-        <title>{block:PostTitle}{PostTitle} | {/block:PostTitle}{block:TagPage}Posts Tagged &lsquo;{Tag}&rsquo;  | {/block:TagPage}{block:PostSummary}{PostSummary} | {/block:PostSummary}MinuteLabs.io</title>
+        <title>{block:PostTitle}{PostTitle} | {/block:PostTitle}{block:TagPage}Posts Tagged &lsquo;{Tag}&rsquo;  | {/block:TagPage}MinuteLabs.io</title>
         <link rel="shortcut icon" href="{Favicon}">
         <link rel="apple-touch-icon" href="{PortraitURL-128}">
         <link rel="alternate" type="application/rss+xml" href="{RSS}">
@@ -284,11 +284,12 @@
 
                 <!--Pagination: previous/next page links-->
                 {block:Pagination}
-                <nav id="pagination">
-                    <ul>
-                        {block:PreviousPage}<li><a href="{PreviousPage}">Previous page</a></li>{/block:PreviousPage}
-                        {block:NextPage}<li><a href="{NextPage}">Next page</a></li>{/block:NextPage}
-                    </ul>
+                <nav id="pagination" class="btn-group">
+                    {block:PreviousPage}
+                    <a class="btn" href="{PreviousPage}">Previous page</a>
+                    {/block:PreviousPage}
+                    {block:NextPage}
+                    <a class="btn" href="{NextPage}">Next page</a>{/block:NextPage}
                 </nav>
                 {/block:Pagination}
 

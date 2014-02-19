@@ -107,17 +107,6 @@
         }
     }
 
-    .date {
-        display: block;
-        font: 1.3em/.8 $font-family-mono;
-        background: $blue-dark;
-        color: lighten($blue-light, 25);
-        text-align: center;
-        text-transform: uppercase;
-        padding: 0.4em;
-        @include border-radius( 3px );
-    }
-
     .post {
         position: relative;
         clear: both;
@@ -165,18 +154,6 @@
             }
         }
 
-        .date {
-            position: absolute;
-            top: 0;
-            right: 0;
-            width: 1.85em;
-            @include border-radius( 0 3px 0 3px );
-            
-            &:first-line {
-                font-size: 1.7em;
-            }
-        }
-
         .top {
             position: relative;
         }
@@ -200,11 +177,6 @@
             left: 0;
             bottom: 0;
             @include border-radius( 0 3px 0 0 );
-        }
-
-        .btn-launch:before {
-            @extend .icon-rocket:before;
-            // color: darken($blue-dark, 15);
         }
 
         &.layout-right {
@@ -266,6 +238,34 @@
         a { 
             text-decoration: none;
             color: $deep-grey-dark;
+        }
+    }
+
+    .btn-launch:before {
+        @extend .icon-rocket:before;
+        // color: darken($blue-dark, 15);
+    }
+
+    .date {
+        display: block;
+        font: 1.3em/.8 $font-family-mono;
+        background: $blue-dark;
+        color: lighten($blue-light, 25);
+        text-align: center;
+        text-transform: uppercase;
+        padding: 0.4em;
+        @include border-radius( 3px );
+    }
+
+    .date {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 1.85em;
+        @include border-radius( 0 3px 0 3px );
+        
+        &:first-line {
+            font-size: 1.7em;
         }
     }
 }
