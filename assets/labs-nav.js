@@ -200,7 +200,7 @@ section: hidden
         
         getTumblrData(function( posts ){
 
-            var id = Lab.id|0;
+            var id = parseInt(Lab.id);
 
             for ( var i = 0, l = posts.length; i < l; ++i ){
                 
