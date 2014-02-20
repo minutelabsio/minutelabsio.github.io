@@ -209,6 +209,32 @@ iframe {
     }
 }
 
+#decorations {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    img {
+        position: absolute;
+        opacity: 0.5;
+        width: 100px;
+    }
+
+    .electron {
+        top: 600px;
+        right: 20px;
+        width: 180px;
+    }
+
+    .quasar {
+        top: 200px;
+        left: 330px;
+        width: 160px;
+    }
+}
+
 @media screen and (max-width: 780px){
 
     #viewport {
