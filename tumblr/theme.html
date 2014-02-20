@@ -70,11 +70,12 @@
               </footer>
             </div>
             <div id="viewport">
-                {block:Posts}
-                    {block:IndexPage}
-                    <div class="post-list">
-                    {/block:IndexPage}
+                {block:IndexPage}
+                <div class="post-list">
+                {/block:IndexPage}
 
+                {block:Posts}
+                    
                     {block:Text}
                     <!-- Text -->
                         <article class="post text" data-tags="{TagsAsClasses}">
@@ -262,10 +263,11 @@
                         </article>
                     {/block:Answer}
 
-                    {block:IndexPage}
-                    </div>
-                    {/block:IndexPage}
                 {/block:Posts}
+
+                {block:IndexPage}
+                </div>
+                {/block:IndexPage}
 
                 {block:PermalinkPage}
                     <!--Tags and post notes only shown on permalink-->
