@@ -42,6 +42,13 @@ $sidebar-text: $deep-grey-dark;
             font-size: 1em;
             color: darken($grey-dark, 8);
         }
+
+        .flicker {
+            display: none;
+            position: absolute;
+            top: -33px;
+            left: 80px;
+        }
     }
 
     footer {
@@ -100,7 +107,7 @@ $sidebar-text: $deep-grey-dark;
             @include nav-icon( $blue-dark );
 
             &:after {
-                @extend .icon-atom:before;
+                @extend .icon-lab:before;
             }
         }
 
