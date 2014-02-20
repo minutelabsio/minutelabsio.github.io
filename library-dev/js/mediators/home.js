@@ -79,6 +79,7 @@ define(
 
                 function flicker(){
                     $light.show();
+                    $light[0].src = $light[0].src;
                     setTimeout(function(){
                         $light.hide();
                     }, 1400);
