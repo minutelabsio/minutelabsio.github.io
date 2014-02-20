@@ -75,8 +75,7 @@ define(
 
                 // lightbulb
                 $light = $($('#flicker-bulb').html()).appendTo('#site-nav .logo');
-                $light.hide();
-
+                
                 function flicker(){
                     $light.css('margin-left', '0');
 
