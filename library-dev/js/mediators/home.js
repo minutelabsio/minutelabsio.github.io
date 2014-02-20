@@ -83,7 +83,7 @@ define(
                         $light.hide();
                     }, 1400);
 
-                    setTimeout(flicker, (Math.random() * 6 + 10) * 1000);
+                    setTimeout(flicker, (((Math.random() * 6)|0) + 10) * 1000);
                 }
                 flicker();
                 
