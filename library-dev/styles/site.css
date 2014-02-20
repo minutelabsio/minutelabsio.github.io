@@ -2365,10 +2365,10 @@ input {
 }
 /* line 46, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
 #sidebar .logo .flicker {
+  display: none;
   position: absolute;
   top: -2px;
   left: 80px;
-  margin-left: -9999em;
 }
 /* line 54, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
 #sidebar footer {

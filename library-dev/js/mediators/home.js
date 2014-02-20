@@ -75,12 +75,13 @@ define(
 
                 // lightbulb
                 $light = $($('#flicker-bulb').html()).appendTo('#site-nav .logo');
-                
-                function flicker(){
-                    $light.css('margin-left', '0');
+                $light.hide();
 
+                function flicker(){
+                    $light.show();
+                    
                     setTimeout(function(){
-                        $light.css('margin-left', '');
+                        $light.hide();
                     }, 1400);
 
                     setTimeout(flicker, (((Math.random() * 6)|0) + 10) * 1000);
