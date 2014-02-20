@@ -67,9 +67,26 @@ define(
              */
             onDomReady : function(){
 
-                var self = this;
+                var self = this
+                    ,$light
+                    ;
 
                 $('a[title], abbr[title]').frosty();
+
+                // lightbulb
+                $light = $($('#flicker-bulb').html()).appendTo('#site-nav .logo');
+                $light.hide();
+
+                function flicker(){
+                    $light.show();
+                    setTimeout(function(){
+                        $light.hide();
+                    }, 1400);
+
+                    setTimeout(flicker, (Math.random() * 6 + 10) * 1000);
+                }
+                flicker();
+                
             }
 
         }, ['events']);
