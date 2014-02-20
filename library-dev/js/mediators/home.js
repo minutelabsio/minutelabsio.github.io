@@ -78,10 +78,10 @@ define(
                 $light.hide();
 
                 function flicker(){
-                    $light.show();
-                    $light[0].src = $light[0].src;
+                    $light.css('margin-left', '0');
+
                     setTimeout(function(){
-                        $light.hide();
+                        $light.css('margin-left', '');
                     }, 1400);
 
                     setTimeout(flicker, (((Math.random() * 6)|0) + 10) * 1000);
