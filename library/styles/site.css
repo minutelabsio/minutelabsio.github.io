@@ -3223,7 +3223,7 @@ iframe {
 /* line 219, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/site.scss */
 #decorations img {
   position: absolute;
-  opacity: 0.5;
+  opacity: 0.3;
   width: 100px;
 }
 /* line 225, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/site.scss */
@@ -3233,14 +3233,20 @@ iframe {
   width: 180px;
 }
 /* line 231, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/site.scss */
-#decorations .quasar {
+#decorations .saturn {
   top: 680px;
   left: 380px;
-  width: 160px;
+  width: 220px;
+}
+/* line 237, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/site.scss */
+#decorations .quasar {
+  top: 680px;
+  right: 70px;
+  width: 220px;
 }
 
 @media screen and (max-width: 780px) {
-  /* line 240, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/site.scss */
+  /* line 246, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/site.scss */
   #viewport {
     margin-top: -60px;
     padding: 5%;
@@ -3250,7 +3256,7 @@ iframe {
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 251, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/site.scss */
+  /* line 257, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/site.scss */
   #viewport {
     margin-top: 0;
     background-position: center 10px;

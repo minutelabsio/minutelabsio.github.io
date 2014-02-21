@@ -218,7 +218,7 @@ iframe {
 
     img {
         position: absolute;
-        opacity: 0.5;
+        opacity: 0.3;
         width: 100px;
     }
 
@@ -228,10 +228,16 @@ iframe {
         width: 180px;
     }
 
-    .quasar {
+    .saturn {
         top: 680px;
         left: 380px;
-        width: 160px;
+        width: 220px;
+    }
+
+    .quasar {
+        top: 680px;
+        right: 70px;
+        width: 220px;
     }
 }
 
