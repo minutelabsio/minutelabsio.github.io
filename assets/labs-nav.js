@@ -188,13 +188,16 @@ section: hidden
     }
 
     if ( el ){
-        el.addEventListener('click', function( e ){
+        function toggleNav( e ){
             e.preventDefault();
             var wrap = document.getElementById('wrap-outer');
             toggleClass(wrap, 'offcanvas-active');
             toggleClass(el, 'on');
             return false;
-        }, false);
+        }
+
+        el.addEventListener('click', toggleNav, false);
+        el.addEventListener('touchstart', toggleNav, false);
     }
     
     if ( Lab && Lab.id ){
