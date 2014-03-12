@@ -74,7 +74,7 @@ define(
                 $('a[title], abbr[title]').frosty();
 
                 // lightbulb
-                $light = $($('#flicker-bulb').html()).appendTo('#site-nav .logo');
+                $light = $($('#flicker-bulb').html()).appendTo('#logo-img');
                 $light.css('visibility', 'visible').hide();
 
                 function flicker(){
