@@ -2353,37 +2353,39 @@ input {
   margin: 1.2em 0 1.5em;
   font-weight: normal;
 }
-/* line 36, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
-#sidebar .logo img {
+/* line 38, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
+#sidebar .logo #logo-img,
+#sidebar .logo #logo-img img {
   display: block;
   margin: auto;
 }
-/* line 41, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
+/* line 44, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
 #sidebar .logo small {
   font-size: 1em;
   color: #b4b4b4;
 }
-/* line 46, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
+/* line 49, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
 #sidebar .logo .flicker {
-  display: none;
+  display: block;
+  visibility: hidden;
   position: absolute;
   top: -2px;
-  left: 80px;
+  margin-left: -21px;
 }
-/* line 54, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
+/* line 58, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
 #sidebar footer {
   margin: 3em 3em 1.5em;
   font-size: 0.6875em;
   line-height: 2.18182em;
 }
 
-/* line 62, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
+/* line 66, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
 #site-nav ul, #site-nav li {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-/* line 68, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
+/* line 72, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
 #site-nav a {
   position: relative;
   font-size: 1.375em;
@@ -2400,21 +2402,21 @@ input {
   -o-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
-/* line 81, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
+/* line 85, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
 #site-nav a:hover {
   border-right-width: 5em;
 }
-/* line 87, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
+/* line 91, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
 #site-nav a:active {
   background: gainsboro;
   border-right-color: gainsboro;
   border-right-width: 5em;
 }
-/* line 93, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
+/* line 97, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
 #site-nav a.on {
   border-right-width: 5em;
 }
-/* line 97, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
+/* line 101, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
 #site-nav a:after {
   font: 1.7em/1.9 'minutelabs-icons';
   color: #fff;
@@ -2422,7 +2424,7 @@ input {
   top: 0;
   right: -1.45em;
 }
-/* line 106, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
+/* line 110, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
 #site-nav a.labs {
   border-color: #125497;
 }
@@ -2439,7 +2441,7 @@ input {
 #site-nav a.labs:after {
   color: #0a3157;
 }
-/* line 114, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
+/* line 118, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
 #site-nav a.subscribe {
   border-color: #408000;
 }
@@ -2456,7 +2458,7 @@ input {
 #site-nav a.subscribe:after {
   color: #1c3900;
 }
-/* line 122, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
+/* line 126, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
 #site-nav a.about {
   border-color: #8b8117;
 }
@@ -2473,7 +2475,7 @@ input {
 #site-nav a.about:after {
   color: #4e480d;
 }
-/* line 130, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
+/* line 134, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
 #site-nav a.code {
   border-color: #434343;
 }
@@ -2490,7 +2492,7 @@ input {
 #site-nav a.code:after {
   color: #1f1f1f;
 }
-/* line 139, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
+/* line 143, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
 #site-nav a.store {
   border-color: #97341d;
 }
@@ -2508,7 +2510,7 @@ input {
   color: #5b1f11;
 }
 
-/* line 149, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
+/* line 153, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
 #btn-navigate {
   position: relative;
   z-index: 1;
@@ -2533,7 +2535,7 @@ input {
   -o-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
-/* line 162, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
+/* line 166, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
 #btn-navigate:before {
   position: absolute;
   top: 0;
@@ -2541,28 +2543,28 @@ input {
   font: 1em/3 'minutelabs-icons';
   overflow: hidden;
 }
-/* line 171, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
+/* line 175, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
 #btn-navigate:hover {
   background: #125497;
 }
-/* line 177, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
+/* line 181, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
 #btn-navigate.on:before {
   left: 0.65em;
   font-size: 1.4em;
   line-height: 2.2;
 }
-/* line 185, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
+/* line 189, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
 #btn-navigate:active {
   background: #2888e4;
 }
 
 @media screen and (max-width: 480px) {
-  /* line 194, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
+  /* line 198, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
   #sidebar {
     border-right-width: 0;
   }
 
-  /* line 198, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
+  /* line 202, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
   #wrap-outer {
     position: relative;
     width: 100%;
@@ -2618,12 +2620,12 @@ input {
     transform: translate3d(-100%, 0, 0);
   }
 
-  /* line 202, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
+  /* line 206, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
   .no-csstransforms3d #btn-navigate.on {
     right: 3em;
   }
 
-  /* line 206, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
+  /* line 210, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
   .csstransforms3d #btn-navigate.on {
     -webkit-transform: translate3d(-3em, 0, 0);
     -moz-transform: translate3d(-3em, 0, 0);
@@ -2633,7 +2635,7 @@ input {
   }
 }
 @media screen and (min-width: 481px) and (max-width: 780px) {
-  /* line 214, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
+  /* line 218, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
   #wrap-outer {
     position: relative;
     width: 100%;
@@ -2689,18 +2691,18 @@ input {
     transform: translate3d(-300px, 0, 0);
   }
 
-  /* line 218, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
+  /* line 222, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
   #sidebar {
     overflow: visible;
   }
 }
 @media screen and (min-width: 781px) {
-  /* line 226, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
+  /* line 230, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
   #sidebar {
     overflow: auto;
   }
 
-  /* line 232, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
+  /* line 236, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
   #wrap-outer [data-offcanvas="wrap"] {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -2708,7 +2710,7 @@ input {
     width: 100%;
     padding-left: 300px;
   }
-  /* line 237, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
+  /* line 241, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
   #wrap-outer [data-offcanvas="offcanvas"] {
     position: fixed;
     top: 0;
@@ -2716,7 +2718,7 @@ input {
     width: 300px;
     height: 100%;
   }
-  /* line 244, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
+  /* line 248, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
   #wrap-outer [data-offcanvas="toggle"] {
     display: none;
   }

@@ -33,9 +33,12 @@ $sidebar-text: $deep-grey-dark;
         margin: 1.2em 0 1.5em;
         font-weight: normal;
 
-        img {
-            display: block;
-            margin: auto;
+        #logo-img {
+            &,
+            img {
+                display: block;
+                margin: auto;
+            }
         }
 
         small {
@@ -44,10 +47,11 @@ $sidebar-text: $deep-grey-dark;
         }
 
         .flicker {
-            display: none;
+            display: block;
+            visibility: hidden;
             position: absolute;
             top: -2px;
-            left: 80px;
+            margin-left: -21px;
         }
     }
 
