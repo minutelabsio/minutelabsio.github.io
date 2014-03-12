@@ -39,19 +39,19 @@ $sidebar-text: $deep-grey-dark;
                 display: block;
                 margin: auto;
             }
+
+            .flicker {
+                display: block;
+                visibility: hidden;
+                position: absolute;
+                top: -2px;
+                margin-left: -21px;
+            }
         }
 
         small {
             font-size: 1em;
             color: darken($grey-dark, 8);
-        }
-
-        .flicker {
-            display: block;
-            visibility: hidden;
-            position: absolute;
-            top: -2px;
-            margin-left: -21px;
         }
     }
 

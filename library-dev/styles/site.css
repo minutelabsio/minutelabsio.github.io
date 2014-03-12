@@ -2359,18 +2359,18 @@ input {
   display: block;
   margin: auto;
 }
-/* line 44, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
-#sidebar .logo small {
-  font-size: 1em;
-  color: #b4b4b4;
-}
-/* line 49, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
-#sidebar .logo .flicker {
+/* line 43, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
+#sidebar .logo #logo-img .flicker {
   display: block;
   visibility: hidden;
   position: absolute;
   top: -2px;
   margin-left: -21px;
+}
+/* line 52, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
+#sidebar .logo small {
+  font-size: 1em;
+  color: #b4b4b4;
 }
 /* line 58, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/_navigation.scss */
 #sidebar footer {
