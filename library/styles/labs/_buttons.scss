@@ -6,8 +6,8 @@ $btn-border-radius: 4px;
     background: $bg;
     border: $btn-border-width solid $border;
     
-    &:hover {
-        @if (lightness($text) < 50){
+    .no-touch &:hover {
+        @if (lightness($text) < 20){
             color: darken($text, 6);
         }
         border-color: darken($border, 10);
@@ -16,10 +16,46 @@ $btn-border-radius: 4px;
         @include box-shadow( 0px $btn-pop 0 darken($border, 10));
     }
 
-    &:active {
-        @include transform( translate(0, 0) );
+    .no-touch &:active {
+        @include transform( translate3d(0, 0, 0) );
         @include box-shadow( none );
     }
+
+    &.toggle {
+
+        z-index: 1;
+        @include transform( translate3d(0, -$btn-pop, 0) );
+        @include box-shadow( 0px $btn-pop 0 darken($border, 10));
+
+        &.on,
+        &:active {
+            @include transform( translate3d(0, 0, 0) );
+            @include box-shadow( 0 0 0 darken($border, 10), inset ($btn-pop - 2px) ($btn-pop - 1px) 1px darken($border, 10) );
+            @if (lightness($text) < 20){
+                color: darken($text, 6);
+            }
+            border-color: darken($border, 10);
+        }
+
+        // &:active {
+        //     @include box-shadow( 0 0 0 darken($border, 10), inset ($btn-pop - 1px) $btn-pop 1px darken($border, 10) );
+        // }
+    }
+
+    // &.toggle {
+    //     vertical-align: top;
+    //     @include transition( none );
+    //     @include box-shadow( inset 0 0 1px darken($border, 10) );
+            
+    //     &:hover {
+    //         @include transform( translate3d(0, 0, 0) );
+    //         @include box-shadow( inset 0 0 1px darken($border, 10) );
+    //     }
+    //     &.on {
+    //         padding: 0.85em 1.35em 0.55em 1.45em;
+    //         @include box-shadow( inset ($btn-pop - 1px) ($btn-pop - 1px) 1px darken($border, 10) );
+    //     }
+    // }
 
     // disabled
     &.disabled,
