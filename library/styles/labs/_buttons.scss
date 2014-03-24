@@ -28,7 +28,7 @@ $btn-border-radius: 4px;
         @include box-shadow( 0px $btn-pop 0 darken($border, 10));
 
         &.on,
-        &:active {
+        .no-touch &:active {
             @include transform( translate3d(0, 0, 0) );
             @include box-shadow( 0 0 0 darken($border, 10), inset ($btn-pop - 2px) ($btn-pop - 1px) 1px darken($border, 10) );
             @if (lightness($text) < 20){

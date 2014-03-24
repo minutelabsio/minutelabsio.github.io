@@ -1756,8 +1756,8 @@ a.btn.toggle {
   box-shadow: 0px 4px 0 #afafaf;
 }
 /* line 31, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_buttons.scss */
-button.toggle.on, button.toggle:active,
-a.btn.toggle.on,
+button.toggle.on, .no-touch button.toggle:active,
+a.btn.toggle.on, .no-touch
 a.btn.toggle:active {
   -webkit-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
@@ -1867,8 +1867,8 @@ a.btn.ok.toggle {
   box-shadow: 0px 4px 0 #0d1a00;
 }
 /* line 31, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_buttons.scss */
-button.ok.toggle.on, button.ok.toggle:active,
-a.btn.ok.toggle.on,
+button.ok.toggle.on, .no-touch button.ok.toggle:active,
+a.btn.ok.toggle.on, .no-touch
 a.btn.ok.toggle:active {
   -webkit-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
@@ -1948,8 +1948,8 @@ a.btn.pop.toggle {
   box-shadow: 0px 4px 0 #07213c;
 }
 /* line 31, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_buttons.scss */
-button.pop.toggle.on, button.pop.toggle:active,
-a.btn.pop.toggle.on,
+button.pop.toggle.on, .no-touch button.pop.toggle:active,
+a.btn.pop.toggle.on, .no-touch
 a.btn.pop.toggle:active {
   -webkit-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
@@ -2029,8 +2029,8 @@ a.btn.danger.toggle {
   box-shadow: 0px 4px 0 #521511;
 }
 /* line 31, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_buttons.scss */
-button.danger.toggle.on, button.danger.toggle:active,
-a.btn.danger.toggle.on,
+button.danger.toggle.on, .no-touch button.danger.toggle:active,
+a.btn.danger.toggle.on, .no-touch
 a.btn.danger.toggle:active {
   -webkit-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
@@ -2110,8 +2110,8 @@ a.btn.inverse.toggle {
   box-shadow: 0px 4px 0 black;
 }
 /* line 31, /Users/wellcaffeinated/Documents/github/minutelabs/minute-labs-io.github.io/library-dev/styles/labs/_buttons.scss */
-button.inverse.toggle.on, button.inverse.toggle:active,
-a.btn.inverse.toggle.on,
+button.inverse.toggle.on, .no-touch button.inverse.toggle:active,
+a.btn.inverse.toggle.on, .no-touch
 a.btn.inverse.toggle:active {
   -webkit-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
