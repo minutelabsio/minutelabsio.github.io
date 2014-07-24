@@ -6,7 +6,7 @@ section: subscribe
 
 # Subscribe
 
-MinuteLabs.io might not be a YouTube channel, but you can still subscribe to us through [Subbable.com](http://subbable.com/minutelabsio)! 
+MinuteLabs.io might not be a YouTube channel, but you can still subscribe to us through [Subbable.com](http://subbable.com/minutelabsio)!
 
 <div id="subscribe-cta">
 	<a href="http://subbable.com/minutelabsio" class="btn ok btn-subscribe">Subscribe!</a>
@@ -23,8 +23,9 @@ Subbable subscriptions are how we get the funds to keep doing what we're doing, 
 	<ul>
 		<li><a href="http://twitter.com/minutelabsio" class="icon-twitter">twitter</a></li>
 		<li><a href="https://www.google.com/+MinutelabsIo" rel="publisher" class="icon-google-plus">google+</a></li>
-		<li><a href="" class="icon-facebook">facebook</a></li>
+		<li><a href="https://www.facebook.com/minutelabsio" class="icon-facebook">facebook</a></li>
 		<li><a href="https://github.com/minutelabsio" class="icon-github">github</a></li>
+		<li><a href="http://minutelabs.io/feed" class="icon-feed">rss</a></li>
 	</ul>
 </div>
 

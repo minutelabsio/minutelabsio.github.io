@@ -205,6 +205,10 @@ iframe {
             &.icon-github:hover {
                 color: $blue;
             }
+
+            &.icon-feed:hover {
+                color: $red-orange;
+            }
         }
     }
 }
