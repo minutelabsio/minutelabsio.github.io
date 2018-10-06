@@ -1,5 +1,5 @@
 permalink: /:year-:month-:day/:title
-markdown: rdiscount
+markdown: kramdown
 # excluding lots because it's now on tumblr
 exclude: ["README.md", "CNAME", "LICENSE", "index.html", "feed.xml", "about.md", "code.md", "package.json", "robots.txt", "search.html", "sitemap.txt", "sitemap.xml", "subscribe.md"]
 
