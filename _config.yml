@@ -1,7 +1,11 @@
 permalink: /:year-:month-:day/:title
 markdown: kramdown
 # excluding lots because it's now on tumblr
-exclude: ["README.md", "CNAME", "LICENSE", "index.html", "feed.xml", "about.md", "code.md", "package.json", "robots.txt", "search.html", "sitemap.txt", "sitemap.xml", "subscribe.md"]
+exclude:
+    - "README.md"
+    - "CNAME"
+    - "LICENSE"
+    - "package.json"
 
 title : MinuteLabs.io
 url : http://minutelabs.io
@@ -39,5 +43,3 @@ tag_legend:
   phone: "works on mobile phones"
   video: "contains video"
   article: "article"
-
-

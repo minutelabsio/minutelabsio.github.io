@@ -22,10 +22,10 @@ section: labs
         {% if nyear != '' and year != nyear %}
         <time class="date sep-year">{{ year }}</time>
         {% endif %}
-        
+
         {% capture url %}{% if post.lab %}{{ post.lab }}{% else %}{{ post.url }}{% endif %}{% endcapture %}
-        
-        <article class="post" data-id="{{ post.id }}" data-index="{{ forloop.index }}" data-tags="{{ post.tags | join(' ') }}">
+
+        <article class="post" data-id="{{ post.id }}" data-index="{{ forloop.index }}" data-tags="{{ post.tags | join:' ' }}">
             <div class="top">
                 {% if post.image %}
                 <div class="post-image">
@@ -61,6 +61,6 @@ section: labs
                 {% endif %}
             </div>
         </article>
-        
+
     {% endfor %}
 </div>
