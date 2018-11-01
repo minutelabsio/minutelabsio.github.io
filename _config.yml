@@ -2,10 +2,12 @@ permalink: /:year-:month-:day/:title
 markdown: kramdown
 # excluding lots because it's now on tumblr
 exclude:
-    - "README.md"
-    - "CNAME"
-    - "LICENSE"
-    - "package.json"
+  - "README.md"
+  - "CNAME"
+  - "LICENSE"
+  - "package.json"
+  - "node_modules"
+  - "src"
 
 title : MinuteLabs.io
 url : http://minutelabs.io
