@@ -15,12 +15,14 @@
     "dev": "webpack --progress --profile --colors --config build/webpack.dev.conf.js && concurrently \"webpack-dev-server --inline --progress --config build/webpack.dev.conf.js\" \"bundle exec jekyll serve\"",
     "start": "npm run dev",
     "lint": "eslint --ext .js,.vue src",
-    "build": "node build/build.js"
+    "build": "node build/build.js && JEKYLL_ENV=production bundle exec jekyll build",
+    "serve:dist": "http-server _site"
   },
   "dependencies": {
     "buefy": "^0.6.5",
     "bulma": "^0.7.1",
     "concurrently": "^4.0.1",
+    "http-server": "^0.11.1",
     "lodash": "^4.17.10",
     "material-design-icons": "^3.0.1",
     "vue": "^2.5.2",

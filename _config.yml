@@ -10,7 +10,7 @@ exclude:
   - "src"
 
 title : MinuteLabs.io
-url : http://minutelabs.io
+url : http://labs.minutelabs.io
 description : "Cool science shown through a combination different media"
 version: "0.0.5"
 library_path: "/library"

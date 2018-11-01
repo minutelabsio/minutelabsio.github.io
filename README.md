@@ -3,6 +3,8 @@ MinuteLabs(.io) Website
 
 Source code for our website.
 
+Following a similar strategy to: https://github.com/sandoche/Jekyll-webpack-boilerplate
+
 License
 =======
 
