@@ -62,8 +62,8 @@ const webpackConfig = merge(baseWebpackConfig, {
     // you can customize output by editing /index.html
     // see https://github.com/ampedandwired/html-webpack-plugin
     new HtmlWebpackPlugin({
-      filename: './../_includes/scripts.html',
-      template: './_includes/_scripts.html'
+      filename: './../_layouts/default.html',
+      template: './src/default.html'
     }),
     // keep module.id stable when vendor modules does not change
     new webpack.HashedModuleIdsPlugin(),
