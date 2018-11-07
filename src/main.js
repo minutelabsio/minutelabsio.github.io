@@ -3,7 +3,9 @@
 import Vue from 'vue'
 import Filters from './plugins/filters'
 import Buefy from 'buefy'
-import Test from '@/components/test'
+import App from '@/app'
+import MlLogo from '@/components/ml-logo'
+import MlNav from '@/components/ml-nav'
 
 import './styles/main.scss'
 
@@ -19,13 +21,9 @@ Vue.config.productionTip = false
 /* eslint-disable no-new */
 new Vue({
   el: '#app'
-  , data: () => ({
-  })
   , components: {
-    // simple hack to run vue on existing html
-    app: { template: '<div><slot></slot></div>' }
-    , Test
-  }
-  , computed: {
+    App
+    , MlLogo
+    , MlNav
   }
 })

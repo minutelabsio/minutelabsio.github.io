@@ -81,3 +81,37 @@
     box-shadow: 0 2px 3px transparentize($blue, 0.6), 0 0 0 1px transparentize($blue, 0.6);
   }
 }
+
+#search-results {
+
+  padding-top: rhythm( 2 );
+
+  .gsc-control-cse {
+    font-family: inherit;
+  }
+
+  .gsc-search-box-tools .gsc-search-box .gsc-input {
+    vertical-align: top;
+    padding-top: 0px;
+    line-height: 1;
+  }
+
+  .gsst_a .gscb_a {
+    line-height: 0.85;
+  }
+
+  table.gsc-search-box td {
+    vertical-align: top;
+  }
+
+  .gs-no-results-result .gs-snippet,
+  .gs-error-result .gs-snippet {
+    background: $yellow-light;
+    border-color: $yellow;
+  }
+
+  input {
+    max-width: none;
+    margin: 0;
+  }
+}

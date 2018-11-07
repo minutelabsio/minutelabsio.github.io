@@ -25,38 +25,33 @@
 
     <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
 
-  <link href="/dist/app.bc9a4ac172035e985f5a97cc68d1b735.css" rel="stylesheet"></head>
+  </head>
   <body class="{% if page.section %}page-{{ page.section }}{% else %}page-default{% endif %}">
     <app id="app">
-      <Test></Test>
-      <div data-offcanvas="wrap">
-        <a href="#site-nav" id="btn-navigate" data-offcanvas="toggle">Navigate</a>
-        <div id="sidebar" data-offcanvas="offcanvas">
-          <header>
-            <nav id="site-nav" role="navigation">
-              <h1 class="logo"><img width="100" src="{{ site.url }}/assets/images/logos/logo-minutelabs-no-text-100x100.png" alt="{{ site.title }}">MinuteLabs<small>.io</small></h1>
-              <ul>
-                {% for nav in site.nav %}
-                {% capture id %}{{ nav.title | downcase }}{% endcapture %}
-                <li><a class="{{ id }}{% if page.section == id %} on{% endif %}" href="{{ nav.url }}">{{ nav.title | capitalize }}</a></li>
-                {% endfor %}
-              </ul>
-            </nav>
-            <form action="/search" method="GET" id="site-search">
-              <input type="text" name="q" autocomplete="off" />
-              <button type="submit">search</button>
-            </form>
-          </header>
-          <footer>
-            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />Work on <a xmlns:cc="http://creativecommons.org/ns#" href="{{ site.url }}" property="cc:attributionName" rel="cc:attributionURL">MinuteLabs.io</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
-          </footer>
-        </div>
-        <div id="viewport">
-        {{content}}
-        </div>
-      </div>
+      <header slot="header">
+        <nav role="navigation">
+          <h1 class="logo"><ml-logo></ml-logo>MinuteLabs<small>.io</small></h1>
+          <ml-nav>
+            <ul>
+              {% for nav in site.nav %}
+              {% capture id %}{{ nav.title | downcase }}{% endcapture %}
+              <li class="ml-{{ id }}{% if page.section == id %} is-active{% endif %}"><a href="{{ nav.url }}">{{ nav.title | capitalize }}</a></li>
+              {% endfor %}
+            </ul>
+          </ml-nav>
+        </nav>
+      </header>
+
+      <section id="viewport">
+      {{content}}
+      </section>
+
+      <footer slot="footer">
+        <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />Work on <a xmlns:cc="http://creativecommons.org/ns#" href="{{ site.url }}" property="cc:attributionName" rel="cc:attributionURL">MinuteLabs.io</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+      </footer>
     </app>
 
+    {% if JEKYLL_ENV != 'development' %}
     <script src="{{ site.url }}/assets/ga.js" async></script>
     <script>
       (function() {
@@ -70,6 +65,7 @@
         s.parentNode.insertBefore(gcse, s);
       })();
     </script>
+    {% endif %}
 
-  <script type="text/javascript" src="/dist/static/js/manifest.f50870fb1aae05fa4e14.js"></script><script type="text/javascript" src="/dist/static/js/vendor.218985bae61af7f67f30.js"></script><script type="text/javascript" src="/dist/static/js/app.972489efc367ce9f3490.js"></script></body>
+  <script type="text/javascript" src="/dist/app.js"></script></body>
 </html>
