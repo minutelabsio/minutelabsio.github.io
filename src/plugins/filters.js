@@ -1,6 +1,7 @@
 import _capitalize from 'lodash/capitalize'
 import _find from 'lodash/find'
 import _filter from 'lodash/filter'
+import moment from 'moment'
 
 function titleCase( str ){
   return str.split(' ').map( w => _capitalize(w) ).join(' ')
@@ -27,6 +28,14 @@ function truncate( str = '', len = 30, sfx = '...' ){
   return str.substr( 0, len - sfx.length ) + sfx
 }
 
+function date( str, format = 'fromNow' ){
+  if ( format === 'fromNow' ){
+    return moment(str).fromNow()
+  }
+
+  return moment(str).format(format)
+}
+
 export default {
   install( Vue, options ){
     Vue.filter('capitalize', _capitalize)
@@ -34,6 +43,7 @@ export default {
     Vue.filter('filter', _filter)
     Vue.filter('shortNumber', shortNumber)
     Vue.filter('truncate', truncate)
+    Vue.filter('date', date)
 
     Vue.filter('nodeName', function( node ){
       if (node.taxon){

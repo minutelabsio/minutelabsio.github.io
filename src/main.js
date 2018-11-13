@@ -6,6 +6,7 @@ import Buefy from 'buefy'
 import App from '@/app'
 import MlLogo from '@/components/ml-logo'
 import MlNav from '@/components/ml-nav'
+import LabListDisplay from '@/components/lab-list-display'
 
 import './styles/main.scss'
 
@@ -25,5 +26,6 @@ new Vue({
     App
     , MlLogo
     , MlNav
+    , LabListDisplay
   }
 })

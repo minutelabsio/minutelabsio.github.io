@@ -7,6 +7,7 @@
     "id": "{{ post.id }}",
     "image": "{{ post.image }}",
     "lab": "{{ post.lab }}",
+    "date": "{{ post.date | date_to_xmlschema }}",
     "tags": {{ post.tags | jsonify }},
     "content": "{{ post.content | normalize_whitespace }}"
   }{% unless forloop.last %},{% endunless %}

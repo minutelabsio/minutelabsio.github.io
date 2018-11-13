@@ -4,10 +4,11 @@
   .top-nav
     slot(name="header")
   .section
-    .container
+    .main-container
       slot
-    .container
-      slot(name="footer")
+    .section
+      .footer-container.container
+        slot(name="footer")
 </template>
 
 <script>
@@ -33,7 +34,10 @@ export default {
 
 <style lang="sass" scoped>
 @import '@/styles/_variables.scss'
+.app
+  background: hsl(hue($cyan), 100%, 99%)
 .top-nav
+  background: white
   ul li
     display: inline-block
 .site-search
