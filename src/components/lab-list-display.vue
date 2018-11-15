@@ -15,7 +15,7 @@
             .end-content
               .tags
                 b-taglist
-                  b-tag(v-for="tag in lab.tags") {{ tag }}
+                  b-tag(v-for="tag in lab.tags", :key="tag") {{ tag }}
               .date published {{ lab.date | date }}
     .column.is-one-third(v-if="numLabsShown < labs.data.length")
       a.see-more(@click="loadMore")
@@ -97,6 +97,7 @@ export default {
 .lab-list-display
   position: relative
   min-height: 300px
+  padding: 1.5rem
 
   .see-more
     height: 100%
@@ -118,10 +119,14 @@ export default {
 
   .card
     height: 100%
+    display: flex
+    flex-direction: column
+    flex-grow: stretch
   .lab
     position: relative
 
     .card-content
+      flex: 1
       display: flex
       flex-direction: column
 

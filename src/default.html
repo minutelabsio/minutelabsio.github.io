@@ -22,7 +22,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
     <meta http-equiv="cleartype" content="on">
-
+    <link rel="stylesheet" href="//cdn.materialdesignicons.com/2.8.94/css/materialdesignicons.min.css">
     <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
 
   </head>
@@ -33,21 +33,78 @@
           <h1 class="logo"><ml-logo></ml-logo>MinuteLabs<small>.io</small></h1>
           <ml-nav>
             <ul>
+              {% capture ext %}{% if JEKYLL_ENV == 'development' %}'.html'{% endif %}{% endcapture %}
               {% for nav in site.nav %}
-              {% capture id %}{{ nav.title | downcase }}{% endcapture %}
-              <li class="ml-{{ id }}{% if page.section == id %} is-active{% endif %}"><a href="{{ nav.url }}">{{ nav.title | capitalize }}</a></li>
+              {% capture id %}{{ nav.title | slugify }}{% endcapture %}
+              <li class="ml-{{ id }}{% if page.section == id %} is-active{% endif %}"><a href="{{ nav.url }}{{ ext }}">{{ nav.title | capitalize }}</a></li>
               {% endfor %}
             </ul>
           </ml-nav>
         </nav>
       </header>
-
       <section id="viewport">
-      {{content}}
+        {{content}}
       </section>
 
       <footer slot="footer">
-        <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />Work on <a xmlns:cc="http://creativecommons.org/ns#" href="{{ site.url }}" property="cc:attributionName" rel="cc:attributionURL">MinuteLabs.io</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+        <div class="columns">
+          <div class="column">
+            <div class="content">
+              <ul class="footer-contact">
+                <li class="patreon">
+                  <a href="https://patreon.com/minutelabsio" target="_blank">
+                    <span class="icon">
+                      <i class="mdi mdi-patreon"></i>
+                    </span>
+                    Patreon
+                  </a>
+                </li>
+                <li class="email">
+                  <a href="mailto:info@minutelabs.io" target="_blank">
+                    <span class="icon">
+                      <i class="mdi mdi-email"></i>
+                    </span>
+                    Email
+                  </a>
+                </li>
+                <li class="youtube">
+                  <a href="https://www.youtube.com/user/minutelabsio" target="_blank">
+                    <span class="icon">
+                      <i class="mdi mdi-youtube"></i>
+                    </span>
+                    YouTube Channel
+                  </a>
+                </li>
+                <li class="twitter">
+                  <a href="http://twitter.com/minutelabsio" target="_blank">
+                    <span class="icon">
+                      <i class="mdi mdi-twitter"></i>
+                    </span>
+                    @minutelabsio
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="column">
+            <div class="content">
+
+            </div>
+          </div>
+          <div class="column">
+            <div class="content">
+              <p>
+                <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+                <br/>
+                All media on <a xmlns:cc="http://creativecommons.org/ns#" href="{{ site.url }}" target="_blank" property="cc:attributionName" rel="cc:attributionURL">MinuteLabs.io</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+              </p>
+              <p>
+                Code is licenced under the <a href="http://www.tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)" target="_blank">GPLv3 License</a>.
+              </p>
+            </div>
+          </div>
+        </div>
+
       </footer>
     </app>
 

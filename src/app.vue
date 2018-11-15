@@ -3,11 +3,11 @@
   site-search.site-search
   .top-nav
     slot(name="header")
-  .section
-    .main-container
-      slot
+  .main-container
+    slot
+  .footer-container
     .section
-      .footer-container.container
+      .container
         slot(name="footer")
 </template>
 
@@ -36,6 +36,13 @@ export default {
 @import '@/styles/_variables.scss'
 .app
   background: hsl(hue($cyan), 100%, 99%)
+  min-height: 100vh
+  display: flex
+  flex-direction: column
+.main-container
+  flex: 1
+  display: flex
+  flex-direction: column
 .top-nav
   background: white
   ul li
@@ -46,6 +53,11 @@ export default {
   right: 0
   margin: 1em
   z-index: 2
+.footer-container
+  background: $black
+  color: $white
+  a
+    color: lighten($primary, 10)
 .logo
   text-align: center
   font-family: $family-monospace

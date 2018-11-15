@@ -64,16 +64,10 @@ export default {
   &.ml-labs
     +ml-link($blue-dark)
 
-  &.ml-subscribe
+  &.ml-support-us
     +ml-link($green-dark)
 
   &.ml-about
-    +ml-link($yellow-dark)
-
-  &.ml-code
-    +ml-link($deep-grey)
-
-  &.ml-store
     +ml-link($red-orange-dark)
 
 @media screen and (min-width: $tablet)

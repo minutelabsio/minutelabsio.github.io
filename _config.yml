@@ -1,6 +1,6 @@
 permalink: /:year-:month-:day/:title
 markdown: kramdown
-# excluding lots because it's now on tumblr
+permalink: pretty #just for dev
 exclude:
   - "README.md"
   - "CNAME"
@@ -27,21 +27,8 @@ nav:
   - title: Labs
     url: /
 
-  - title: Subscribe
-    url: /subscribe
+  - title: Support Us
+    url: /support-us
 
   - title: About
     url: /about
-
-  - title: Code
-    url: /code
-
-  - title: Store
-    url: http://dftba.com/artist/60/MinutePhysics
-
-tag_legend:
-  desktop: "works on desktop browsers"
-  tablet: "works on tablets"
-  phone: "works on mobile phones"
-  video: "contains video"
-  article: "article"

@@ -115,3 +115,31 @@
     margin: 0;
   }
 }
+
+#viewport {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  .page-text {
+    flex: 1;
+    background: $white;
+  }
+}
+
+ul.footer-contact {
+  list-style: none;
+  margin: 0;
+
+  .patreon a {
+    color: $orange;
+  }
+  .email a {
+    color: $grey-light;
+  }
+  .youtube a {
+    color: $red;
+  }
+  .twitter a {
+    color: $blue;
+  }
+}
