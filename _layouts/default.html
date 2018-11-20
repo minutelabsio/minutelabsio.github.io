@@ -23,11 +23,13 @@
 
     <meta http-equiv="cleartype" content="on">
     <link rel="stylesheet" href="//cdn.materialdesignicons.com/2.8.94/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="/assets/spinner/ml-spinner.css">
     <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
 
   </head>
   <body class="{% if page.section %}page-{{ page.section }}{% else %}page-default{% endif %}">
     <app id="app">
+      <div class="ml-spinner" v-if="!$el"></div>
       <header slot="header">
         <nav role="navigation">
           <h1 class="logo"><ml-logo></ml-logo>MinuteLabs<small>.io</small></h1>

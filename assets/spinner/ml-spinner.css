@@ -1,0 +1,42 @@
+.ml-spinner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background: white;
+  z-index: 10000;
+
+  -webkit-box-align: center;
+  -ms-flex-align:    center;
+  align-items:       center;
+
+  -webkit-box-pack: center;
+  -ms-flex-pack:    center;
+  justify-content:  center;
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.ml-spinner:before {
+  content: url(/assets/images/loader/logo-loading.gif);
+}
+
+.ml-spinner:after {
+  content: "Loading";
+  font-family: monospace;
+}

@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import Filters from './plugins/filters'
 import Buefy from 'buefy'
+import Affix from 'vue-affix'
 import App from '@/app'
 import MlLogo from '@/components/ml-logo'
 import MlNav from '@/components/ml-nav'
@@ -14,6 +15,8 @@ Vue.use(Buefy, {
   // defaultContainerElement: '#app'
   // , defaultIconPack: 'fas'
 })
+
+Vue.use(Affix)
 
 Vue.use(Filters)
 

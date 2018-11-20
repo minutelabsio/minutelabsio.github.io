@@ -1,8 +1,8 @@
 <template lang="pug">
 .lab-list-display.container
   b-loading(:active="labs.loading", :is-full-page="false")
-  .columns.is-multiline
-    .column.is-one-third(v-for="lab in shownLabs")
+  transition-group.columns.is-multiline(tag="div", appear, name="lab")
+    .column.is-one-third(v-for="lab in shownLabs", :key="lab.url")
       a(:href="lab.url")
         article.lab.card
           .card-image
@@ -17,10 +17,10 @@
                 b-taglist
                   b-tag(v-for="tag in lab.tags", :key="tag") {{ tag }}
               .date published {{ lab.date | date }}
-    .column.is-one-third(v-if="numLabsShown < labs.data.length")
+    .column.is-one-third(v-if="numLabsShown < labs.data.length", key="load-more")
       a.see-more(@click="loadMore")
         span load more...
-    .column.is-one-third.has-text-centered
+    .column.is-one-third.has-text-centered(key="decoration-1")
         img(src="http://labs.minutelabs.io/assets/images/decorations/Rocket-Sheep.png", width="200")
 </template>
 
@@ -94,10 +94,20 @@ export default {
 
 <style lang="sass" scoped>
 @import '@/styles/_variables.scss'
+.lab-enter-active
+  transition: opacity 1s ease
+.lab-enter
+  opacity: 0
+
 .lab-list-display
   position: relative
   min-height: 300px
   padding: 1.5rem
+  max-width: $tablet * 2/3
+
+  @media screen and (min-width: $tablet)
+    &
+      max-width: none
 
   .see-more
     height: 100%

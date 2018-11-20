@@ -1,6 +1,5 @@
 <template lang="pug">
 .app
-  site-search.site-search
   .top-nav
     slot(name="header")
   .main-container
@@ -12,8 +11,6 @@
 </template>
 
 <script>
-import SiteSearch from '@/components/site-search'
-
 export default {
   name: 'app'
   // , props: {
@@ -21,7 +18,6 @@ export default {
   // , data: () => ({
   // })
   , components: {
-    SiteSearch
   }
   , created(){
   }
@@ -63,7 +59,7 @@ export default {
   font-family: $family-monospace
   font-size: 1.625em
   line-height: 1.38462em
-  margin: 1.2em 0 1.5em
+  margin: 1.5em 0 0.8em
   font-weight: normal
 
   small
