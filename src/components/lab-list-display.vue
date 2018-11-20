@@ -13,10 +13,9 @@
               h1.title.is-size-3 {{ lab.title }}
               .details(v-html="lab.content")
             .end-content
-              .tags
-                b-taglist
-                  b-tag(v-for="tag in lab.tags", :key="tag") {{ tag }}
               .date published {{ lab.date | date }}
+              b-taglist
+                b-tag(v-for="tag in lab.tags", :key="tag") {{ tag }}
     .column.is-one-third(v-if="numLabsShown < labs.data.length", key="load-more")
       a.see-more(@click="loadMore")
         span load more...
@@ -144,16 +143,25 @@ export default {
         flex: 1
 
       .end-content
-        display: flex
+        // display: flex
         flex-direction: row
         justify-self: flex-end
+        flex-wrap: wrap
+        align-items: flex-end
+        margin-top: -1rem
         .tags
+          float: left
           flex: 1
           margin-bottom: -0.25rem
+          margin-top: 1rem
         .date
+          display: inline-block
+          float: right
+          margin-top: 1rem
           color: $grey
           text-align: right
           justify-self: flex-end
+          white-space: nowrap
 
     .card-image:before
       content: ''
