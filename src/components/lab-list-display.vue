@@ -1,8 +1,8 @@
 <template lang="pug">
-.lab-list-display.container
+.lab-list-display.container.is-fluid
   b-loading(:active="labs.loading", :is-full-page="false")
   transition-group.columns.is-multiline(tag="div", appear, name="lab")
-    .column.is-one-third(v-for="lab in shownLabs", :key="lab.url")
+    .column(v-for="lab in shownLabs", :key="lab.url", :class="colClasses")
       a(:href="lab.url")
         article.lab.card
           .card-image
@@ -16,10 +16,10 @@
               .date published {{ lab.date | date }}
               b-taglist
                 b-tag(v-for="tag in lab.tags", :key="tag") {{ tag }}
-    .column.is-one-third(v-if="numLabsShown < labs.data.length", key="load-more")
+    .column(v-if="numLabsShown < labs.data.length", key="load-more", :class="colClasses")
       a.see-more(@click="loadMore")
         span load more...
-    .column.is-one-third.has-text-centered(key="decoration-1")
+    .column.has-text-centered(key="decoration-1", :class="colClasses")
         img(src="http://labs.minutelabs.io/assets/images/decorations/Rocket-Sheep.png", width="200")
 </template>
 
@@ -82,6 +82,13 @@ export default {
     shownLabs(){
       return this.labs.data.slice(0, this.numLabsShown)
     }
+    , colClasses(){
+      return [
+        'is-one-quarter-fullhd'
+        , 'is-one-third-desktop'
+        , 'is-half-tablet'
+      ]
+    }
   }
   , methods: {
     loadMore(){
@@ -102,7 +109,7 @@ export default {
   position: relative
   min-height: 300px
   padding: 1.5rem
-  max-width: $tablet * 2/3
+  // max-width: $tablet * 2/3
 
   @media screen and (min-width: $tablet)
     &
