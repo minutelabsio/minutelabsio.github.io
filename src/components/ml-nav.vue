@@ -55,7 +55,7 @@ export default {
     margin-bottom: -2px
   .vue-affix
     background: $white
-    z-index: 1000
+    z-index: 10
     width: 100%
     &.affix
       box-shadow: 0 1px 2px transparentize($black, 0.7)
