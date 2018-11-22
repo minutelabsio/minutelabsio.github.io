@@ -1,6 +1,8 @@
 language: ruby
-rvm: 2.3
+rvm: 2.3.7
 before_install:
   - yarn install
-install: gem install jekyll
+install: bundle install
 script: "yarn build"
+sudo: false
+cache: bundler
