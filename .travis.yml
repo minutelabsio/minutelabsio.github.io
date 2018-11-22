@@ -6,3 +6,6 @@ install: bundle install
 script: "yarn build"
 sudo: false
 cache: bundler
+branches:
+  only:
+  - master
