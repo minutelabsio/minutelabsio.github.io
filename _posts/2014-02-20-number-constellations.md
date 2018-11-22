@@ -1,8 +1,8 @@
 ---
 layout: lab
 title: "Number Constellations"
-image: http://labs.minutelabs.io/Number-Constellations/thumb.gif
-lab: http://labs.minutelabs.io/Number-Constellations
+image: //labs.minutelabs.io/Number-Constellations/thumb.gif
+lab: //labs.minutelabs.io/Number-Constellations
 category: lab
 tags:
   - math

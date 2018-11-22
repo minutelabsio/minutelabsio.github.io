@@ -1,8 +1,8 @@
 ---
 layout: lab
 title: "Chaotic Planets"
-image: http://labs.minutelabs.io/Chaotic-Planets/thumb.gif
-lab: http://labs.minutelabs.io/Chaotic-Planets
+image: //labs.minutelabs.io/Chaotic-Planets/thumb.gif
+lab: //labs.minutelabs.io/Chaotic-Planets
 trailer: https://www.youtube.com/watch?v=Jc0ZW0ke_jc
 category: lab
 tags:

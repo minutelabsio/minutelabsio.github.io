@@ -1,7 +1,7 @@
 ---
 layout: lab
 title: "Fusion Energy Explained (with PHD Comics)"
-image: http://labs.minutelabs.io/Fusion/thumb.gif
+image: //labs.minutelabs.io/Fusion/thumb.gif
 lab: http://phdcomics.com/comics/archive.php?comicid=1716
 category: lab
 tags:

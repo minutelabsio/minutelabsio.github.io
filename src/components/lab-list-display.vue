@@ -52,7 +52,7 @@
         span.button.is-primary.is-large.is-outlined
           span load more
     .column.has-text-centered(key="decoration-1", :class="colClasses")
-        img(src="http://labs.minutelabs.io/assets/images/decorations/Rocket-Sheep.png", width="200")
+        img(src="/assets/images/decorations/Rocket-Sheep.png", width="200")
 </template>
 
 <script>

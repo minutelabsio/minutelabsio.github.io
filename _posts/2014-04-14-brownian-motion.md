@@ -1,8 +1,8 @@
 ---
 layout: lab
 title: "Brownian Motion"
-image: http://labs.minutelabs.io/Brownian-Motion/thumb.gif
-lab: http://labs.minutelabs.io/Brownian-Motion
+image: //labs.minutelabs.io/Brownian-Motion/thumb.gif
+lab: //labs.minutelabs.io/Brownian-Motion
 category: lab
 trailer: https://www.youtube.com/watch?v=wDfQqbWTP58
 tags:
