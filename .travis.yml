@@ -1,2 +1,6 @@
 language: ruby
-script: "JEKYLL_ENV=production bundle exec jekyll build"
+rvm: 2.3
+before_install:
+  - yarn install
+install: gem install jekyll
+script: "yarn build"
