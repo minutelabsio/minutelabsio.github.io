@@ -11,9 +11,8 @@ exclude:
   - "vendor" #jekyll travis
 
 title : MinuteLabs.io
-url : http://labs.minutelabs.io
+url : //labs.minutelabs.io
 description : "Cool science shown through a combination different media"
-version: "0.0.5"
 library_path: "/library"
 
 social :
