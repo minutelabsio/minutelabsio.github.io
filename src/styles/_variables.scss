@@ -70,7 +70,8 @@ $danger:  $red;
 
 // Typography
 
-$family-sans-serif: pt-sans, BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !default;
+// 'Lato' was the runner up
+$family-sans-serif: 'Source Sans Pro', BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !default;
 $family-monospace: latin-modern-mono, monospace !default;
 $render-mode: optimizeLegibility !default;
 
@@ -82,11 +83,12 @@ $size-5: 1.25rem !default;
 $size-6: 1rem !default;
 $size-7: 0.75rem !default;
 
+$body-size: 16px;
 $weight-light: 300 !default;
-$weight-normal: 400 !default;
-$weight-medium: 500 !default;
-$weight-semibold: 600 !default;
-$weight-bold: 700 !default;
+$weight-normal: 300 !default;
+$weight-medium: 400 !default;
+$weight-semibold: 500 !default;
+$weight-bold: 600 !default;
 
 $text: $black-ter;
 
@@ -117,8 +119,3 @@ $speed: 86ms !default;
 // Flags
 
 $variable-columns: true !default;
-
-// okzun specific
-// --------
-
-$nav-z: 30;

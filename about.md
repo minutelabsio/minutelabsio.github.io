@@ -1,51 +1,67 @@
 ---
 title: About
-layout: default
+layout: text
 section: about
 ---
 
-# About
+# What's this all about?
 
-Simply put: cool science shown through a combination different media.
+<figure class="is-pulled-right">
+  <img src="/assets/images/decorations/Hardware.png" title="Microchip" width="200">
+</figure>
 
-**MinuteLabs.io** is an extension of what [MinutePhysics][mp] and [MinuteEarth][me] do, but instead of YouTube videos, it's a grab bag of text, images, audio, video, **interactive simulations**, games, **you name it**!
+Put simply: cool science things on the internet that you can play with.
 
-We post new stuff regularly, so [be sure to subscribe][sub]!
+**MinuteLabs.io** is an extension of what [MinutePhysics][mp] and [MinuteEarth][me] do, but instead of YouTube videos, it's **interactive**. We want to make things you can play around with and explore.
+
+We post new stuff regularly, so be sure to subscribe
+* [Patreon][sub]
+* [YouTube][youtube]
+* [Twitter][twitter]
 
 ## Get in touch
 
-If you need to get in touch with us, you can send an email to: [info@minutelabs.io](mailto:info@minutelabs.io). You can also send us a tweet: [@minutelabsio](http://twitter.com/minutelabsio)
+If you need to get in touch with us, you can send an email to: [info@minutelabs.io](mailto:info@minutelabs.io). You can also send us a tweet: [@minutelabsio][twitter]
 
 
-## Credits
+## Who builds this stuff?
 
-<div id="contributors">
-    <h4>Prime Suspects</h4>
-    <div class="row">
-        <div class="column half">
-            <div class="thumb">
-                <img src="/assets/images/people/jasper.jpg" alt="Jasper Palfree">
-                <span class="contributor">Jasper Palfree</span>(<a href="http://twitter.com/wellcaffeinated" class="twitter-handle">@wellcaffeinated</a>)
-            </div>
-        </div>
-        <div class="column half last">
-            <div class="thumb">
-                <img src="/assets/images/people/Henry-Reich.png" alt="Henry Reich">
-                <span class="contributor">Henry Reich</span>
-            </div>
-        </div>
-    </div>
-
-    <h4>Conspirators</h4>
-
-    <ul>
-        <li><span class="contributor">Ever Salazar</span>(artwork, MinuteEarth contributor)</li>
-        <li><span class="contributor">Alex Reich</span>(MinuteEarth contributor)</li>
-        <li><span class="contributor">Peter Reich</span>(MinuteEarth contributor)</li>
-        <li><span class="contributor">Emily Elert</span>(MinuteEarth contributor)</li>
-    </ul>
+<div class="columns is-centered">
+  <div class="column is-narrow is-one-third">
+    <figure class="image">
+      <img class="is-rounded" src="/assets/images/people/jasper.jpg" alt="Jasper Palfree">
+      <figcaption>
+        Jasper Palfree <br> (Creator/Coder)
+      </figcaption>
+    </figure>
+  </div>
+  <div class="column is-narrow is-one-third">
+    <figure class="image">
+      <img class="is-rounded" src="/assets/images/people/ever.jpg" alt="Ever Salazar">
+      <figcaption>
+        Ever Salazar <br> (Artistic Director)
+      </figcaption>
+    </figure>
+  </div>
+  <div class="column is-narrow is-one-third">
+    <figure class="image">
+      <img class="is-rounded" src="/assets/images/people/henry.jpg" alt="Henry Reich">
+      <figcaption>
+        Henry Reich <br> (MinutePhysics Pioneer)
+      </figcaption>
+    </figure>
+  </div>
 </div>
 
+We also get great ideas and direction from the MinuteTeam:
+
+* David Goldenberg
+* Emily Elert
+* Alex Reich
+* Peter Reich
+
+[twitter]: http://twitter.com/minutelabsio
+[youtube]: https://www.youtube.com/user/minutelabsio
 [mp]: http://youtube.com/minutephysics
 [me]: http://youtube.com/minuteearth
-[sub]: /subscribe
+[sub]: https://patreon.com/minutelabsio

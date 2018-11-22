@@ -6,6 +6,12 @@
 @import "~bulma/bulma";
 @import "~buefy/src/scss/buefy";
 
+.content {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: $family-monospace;
+  }
+}
+
 .heading,
 .button {
   font-family: $family-monospace;

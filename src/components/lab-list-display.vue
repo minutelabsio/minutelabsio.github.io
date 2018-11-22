@@ -35,7 +35,7 @@
               img(:src="lab.image")
           .card-content
             .content
-              h1.title.is-size-3 {{ lab.title }}
+              h1.title.is-size-4 {{ lab.title }}
               .details(v-html="lab.content")
             .end-content
               .date published {{ lab.date | date }}
@@ -160,6 +160,7 @@ export default {
 <style lang="sass">
 @import '@/styles/_variables.scss'
 .filter-collapse
+  margin-bottom: 0.85rem
   @media screen and (min-width: $tablet)
     .collapse-trigger
       display: none
@@ -194,7 +195,7 @@ export default {
     height: 100%
     border: 2px dashed $grey-light
     color: darken($grey-light, 30)
-    font-size: 2.5rem
+    font-size: $size-2
     font-family: $family-monospace
     display: flex;
     align-items: center;
@@ -264,7 +265,7 @@ export default {
       top: 50%
       margin-top: -0.5em
       z-index: 2
-      font-size: 2rem
+      font-size: $size-3
       color: $grey-light
       font-family: $family-monospace
       text-shadow: 1px 1px 2px darken($blue, 5)

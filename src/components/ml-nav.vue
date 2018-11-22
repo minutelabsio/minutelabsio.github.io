@@ -24,6 +24,7 @@ export default {
   // }
   , methods: {
     adjust(){
+      this.$el.style.height = ''
       this.height = this.$el.offsetHeight
       this.$el.style.height = this.height + 'px'
     }

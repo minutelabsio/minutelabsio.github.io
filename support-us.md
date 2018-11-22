@@ -4,38 +4,28 @@ layout: text
 section: support-us
 ---
 
-# Subscribe
+# We exist because of our supporters
 
-MinuteLabs.io might not be a YouTube channel, but you can still subscribe to us through [Subbable.com](http://subbable.com/minutelabsio)!
+MinuteLabs.io is funded by people like you. We rely on our Patreon patrons in order to
+continue making Labs.
 
-<div id="subscribe-cta">
-	<a href="http://subbable.com/minutelabsio" class="btn ok btn-subscribe">Subscribe!</a>
-	<p>We'll give you cookies! (browser cookies)</p>
-</div>
+You can follow us and (optionally) give us money on [Patreon][1]. Even the smallest
+donation will help a lot. Supporters also get the opportunity to see our Labs before
+anyone else, and help us beta-test!
 
-Subscription is free, but paid subscribers will get perks. We don't get money from advertisements, so all of these labs are thanks to sponsors like you. The more funds we get, the more awesome stuff we can do!
+<figure>
+	<a href="https://www.patreon.com/bePatron?u=617966" target="_blank">
+	  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="217" height="51"/>
+	</a>
+</figure>
 
-## Other ways to follow us
+Another way to help us out is to share our labs on social media, and show them
+to your friends, students, teachers... basically everyone.
 
-Subbable subscriptions are how we get the funds to keep doing what we're doing, but there are other ways to follow us too:
+Thanks for your help!
 
-<div id="follow-us">
-	<ul>
-		<li><a href="http://twitter.com/minutelabsio" class="icon-twitter">twitter</a></li>
-		<li><a href="https://www.google.com/+MinutelabsIo" rel="publisher" class="icon-google-plus">google+</a></li>
-		<li><a href="https://www.facebook.com/minutelabsio" class="icon-facebook">facebook</a></li>
-		<li><a href="https://github.com/minutelabsio" class="icon-github">github</a></li>
-		<li><a href="http://minutelabs.io/feed" class="icon-feed">rss</a></li>
-	</ul>
-</div>
+<figure>
+	<img src="/assets/images/decorations/Astronaut.png" title="Astronaut" width="200">
+</figure>
 
-## Need more awesome science?
-
-<div class="row" id="minute-links">
-    <div class="column half">
-        <a href="http://youtube.com/minutephysics"><img width="240" src="http://i1.ytimg.com/i/UHW94eEFW7hkUMVaZz4eDg/mq1.jpg" alt="MinutePhysics"/></a>
-    </div>
-    <div class="column half last">
-        <a href="http://youtube.com/minuteearth"><img width="240" src="/assets/images/ME-Square Profile_larger.png" alt="MinuteEarth"/></a>
-    </div>
-</div>
+[1]: https://patreon.com/minutelabsio

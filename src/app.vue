@@ -52,6 +52,8 @@ export default {
 .footer-container
   background: $black
   color: $white
+  .heading
+    color: $white
   a
     color: lighten($primary, 10)
 .logo
