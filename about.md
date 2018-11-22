@@ -49,7 +49,7 @@ If you need to get in touch with us, you can send an email to: [info@minutelabs.
   </div>
   <div class="column is-narrow is-one-third">
     <figure class="image">
-      <img class="is-rounded" src="/assets/images/people/henry.jpg" alt="Henry Reich">
+      <img class="is-rounded" src="/assets/images/people/Henry-Reich.png" alt="Henry Reich">
       <figcaption>
         Henry Reich <br> (MinutePhysics Pioneer)
       </figcaption>
