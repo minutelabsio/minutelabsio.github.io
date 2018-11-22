@@ -3,6 +3,8 @@ MinuteLabs(.io) Website
 
 Source code for our website.
 
+[![Build Status](https://travis-ci.org/minutelabsio/minutelabsio.github.io.svg?branch=master)](https://travis-ci.org/minutelabsio/minutelabsio.github.io)
+
 Following a similar strategy to: https://github.com/sandoche/Jekyll-webpack-boilerplate
 
 Build Setup

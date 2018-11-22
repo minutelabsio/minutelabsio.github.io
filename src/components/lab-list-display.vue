@@ -174,7 +174,7 @@ export default {
   margin-bottom: 0.85rem
   @media screen and (min-width: $tablet)
     .collapse-trigger
-      display: none
+      display: none !important
     .collapse-content
       display: inherit !important
 </style>
