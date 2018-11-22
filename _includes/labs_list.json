@@ -6,10 +6,11 @@
     "url":"{{ url }}",
     "id": "{{ post.id }}",
     "image": "{{ post.image }}",
+    "trailer": "{{ post.trailer }}",
     "lab": "{{ post.lab }}",
     "date": "{{ post.date | date_to_xmlschema }}",
     "tags": {{ post.tags | jsonify }},
-    "content": "{{ post.content | normalize_whitespace }}"
+    "content": {{ post.content | normalize_whitespace || jsonify }}
   }{% unless forloop.last %},{% endunless %}
 {% endfor %}
 ]

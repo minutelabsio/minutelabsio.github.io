@@ -22,7 +22,9 @@
                 , :key="tag"
                 , @click="addFilter(tag)"
                 , :disabled="tagFilter.indexOf(tag) > -1"
-              ) {{ tag }}
+              )
+                b-icon(icon="check", v-if="tagFilter.indexOf(tag) > -1", size="is-small")
+                span {{ tag }}
           .control
             b-input(icon="magnify", placeholder="Search", v-model="searchFilter")
 
@@ -36,14 +38,19 @@
           .card-content
             .content
               h1.title.is-size-4 {{ lab.title }}
+              .trailer(v-if="lab.trailer")
+                a(:href="lab.trailer", target="_blank")
+                  b-icon(icon="youtube")
+                  span Watch the Trailer Video!
               .details(v-html="lab.content")
             .end-content
               .date published {{ lab.date | date }}
               b-taglist
                 b-tag(v-for="tag in lab.tags", :key="tag") {{ tag }}
-    .column(v-if="numLabsShown < labs.data.length", key="load-more", :class="colClasses")
+    .column(v-if="numLabsShown < filteredLabs.length", key="load-more", :class="colClasses")
       a.see-more(@click="loadMore")
-        span load more...
+        span.button.is-primary.is-large.is-outlined
+          span load more
     .column.has-text-centered(key="decoration-1", :class="colClasses")
         img(src="http://labs.minutelabs.io/assets/images/decorations/Rocket-Sheep.png", width="200")
 </template>
@@ -117,7 +124,7 @@ export default {
     this.labs.fetch()
   }
   , computed: {
-    shownLabs(){
+    filteredLabs(){
       let labs = this.labs.data
       if ( this.tagFilter.length ){
         labs = _filter(labs, l =>
@@ -127,6 +134,10 @@ export default {
       if ( this.searchFilter.length ){
         labs = _filter(labs, lab => matchesSearch(lab, this.searchFilter))
       }
+      return labs
+    }
+    , shownLabs(){
+      let labs = this.filteredLabs
       return labs.slice(0, this.numLabsShown)
     }
     , colClasses(){
@@ -209,6 +220,12 @@ export default {
       border-style: solid
       border-color: hsl(hue($blue), 100%, 90%)
 
+  a .icon
+    display: inline-block
+    vertical-align: middle
+    line-height: 0.95
+    margin-right: 1ex
+
   .card
     height: 100%
     display: flex
@@ -221,7 +238,8 @@ export default {
       flex: 1
       display: flex
       flex-direction: column
-
+      .trailer
+        margin-bottom: 1rem
       .content
         flex: 1
 
