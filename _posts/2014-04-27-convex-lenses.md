@@ -3,6 +3,7 @@ layout: lab
 title: "Convex Lenses"
 image: http://labs.minutelabs.io/Lenses/thumb.gif
 lab: http://labs.minutelabs.io/Lenses
+trailer: https://www.youtube.com/watch?v=PKa6XdWat2s
 category: lab
 tags:
   - optics
