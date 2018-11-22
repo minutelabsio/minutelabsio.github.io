@@ -8,6 +8,7 @@ exclude:
   - "package.json"
   - "node_modules"
   - "src"
+  - "vendor" #jekyll travis
 
 title : MinuteLabs.io
 url : http://labs.minutelabs.io
