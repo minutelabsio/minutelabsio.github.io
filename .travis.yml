@@ -1,2 +1,2 @@
 language: ruby
-script: "bundle exec jekyll build"
+script: "JEKYLL_ENV=production bundle exec jekyll build"
