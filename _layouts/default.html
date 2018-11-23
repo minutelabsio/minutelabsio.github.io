@@ -37,12 +37,20 @@
     <link rel="stylesheet" href="/assets/spinner/ml-spinner.css">
     <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
 
-  <link href="/dist/app.74da417971b2ee4023be36f12998c32e.css" rel="stylesheet"></head>
+  </head>
   <body class="{% if page.section %}page-{{ page.section }}{% else %}page-default{% endif %}">
     <app id="app">
       <div class="ml-spinner" v-if="!$el"></div>
       <header slot="header">
         <nav role="navigation">
+          <div class="sm-icons">
+            <a href="https://patreon.com/minutelabsio" target="_blank" title="Follow us on Patreon">
+              <img src="/assets/images/logos/Patreon-Icon_Primary.png" width="28">
+            </a>
+            <a href="https://www.youtube.com/user/minutelabsio" target="_blank" title="Subscribe on YouTube">
+              <b-icon icon="youtube" size="is-large" class="youtube"></b-icon>
+            </a>
+          </div>
           <h1 class="logo"><ml-logo></ml-logo>MinuteLabs<small>.io</small></h1>
           <ml-nav>
             <ul>
@@ -141,5 +149,5 @@
     </script>
     {% endif %}
 
-  <script type="text/javascript" src="/dist/static/js/manifest.f50870fb1aae05fa4e14.js"></script><script type="text/javascript" src="/dist/static/js/vendor.3ad3872c83f4d48d03b1.js"></script><script type="text/javascript" src="/dist/static/js/app.5ad9dd218945e0d7eb9d.js"></script></body>
+  <script type="text/javascript" src="/dist/app.js"></script></body>
 </html>
