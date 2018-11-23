@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html itemscope itemtype="http://schema.org/Organization" lang="en">
+<html itemscope itemtype="http://schema.org/Organization" prefix="og: http://ogp.me/ns#" lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -20,6 +20,16 @@
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <meta name="og:title" property="og:title" content="{{site.title | escape}}">
+    <meta name="description" content="{{ site.description | escape }}">
+    <meta property="og:image" content="{{ site.url }}/assets/images/banner-lightbulb-animated.gif">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="{{ site.description | escape }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="{{ site.url }}/assets/images/banner-lightbulb-animated.gif">
+    <meta name="twitter:site" content="@minutelabsio">
+    <meta name="twitter:creator" content="@minutelabsio">
 
     <meta http-equiv="cleartype" content="on">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
