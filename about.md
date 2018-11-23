@@ -10,7 +10,7 @@ section: about
 
 # What's this all about?
 
-Put simply: cool science things on the internet that you can play with.
+Put simply: {{site.description}}.
 
 **MinuteLabs.io** is an extension of what [MinutePhysics][mp] and [MinuteEarth][me] do, but instead of YouTube videos, it's **interactive**. We want to make things you can play around with and explore.
 
