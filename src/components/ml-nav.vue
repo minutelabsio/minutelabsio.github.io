@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import _debounce from 'lodash/debounce'
+// import _debounce from 'lodash/debounce'
 export default {
   name: 'ml-nav'
   // , props: {
@@ -18,17 +18,17 @@ export default {
   , mounted(){
     this.adjust()
 
-    window.addEventListener('resize', _debounce(() => this.adjust()), 20)
+    // window.addEventListener('resize', _debounce(() => this.adjust()), 20)
   }
   // , computed: {
   // }
   , methods: {
     adjust(){
-      this.$refs.scrollEl.$el.style.position = 'relative'
-      this.$el.style.height = ''
-      this.height = this.$el.offsetHeight
-      this.$refs.scrollEl.$el.style.position = ''
-      this.$el.style.height = (this.height + 2) + 'px'
+      this.$nextTick(() => {
+        this.$refs.scrollEl.$el.style.position = 'relative'
+        this.height = this.$el.offsetHeight
+        this.$refs.scrollEl.$el.style.position = ''
+      })
     }
   }
 }
