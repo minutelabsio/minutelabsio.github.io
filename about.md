@@ -4,11 +4,11 @@ layout: text
 section: about
 ---
 
-# What's this all about?
-
-<figure class="is-pulled-right">
+<figure class="is-pulled-right is-hidden-mobile">
   <img src="/assets/images/decorations/Hardware.png" title="Microchip" width="200">
 </figure>
+
+# What's this all about?
 
 Put simply: cool science things on the internet that you can play with.
 
@@ -19,9 +19,9 @@ We post new stuff regularly, so be sure to subscribe
 * [YouTube][youtube]
 * [Twitter][twitter]
 
-<figure>
+<responsive-embed :ratio="16/9" :max-width="560">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/s5NIz-nW9EI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</figure>
+</responsive-embed>
 
 ## Get in touch
 
