@@ -27,6 +27,7 @@ export default {
       this.$nextTick(() => {
         this.$refs.scrollEl.$el.style.position = 'relative'
         this.height = this.$el.offsetHeight
+        this.$el.style.height = this.height + 'px'
         this.$refs.scrollEl.$el.style.position = ''
       })
     }
