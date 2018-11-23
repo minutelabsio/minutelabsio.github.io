@@ -203,6 +203,7 @@ export default {
       max-width: none
 
   .see-more
+    min-height: 400px
     height: 100%
     border: 2px dashed $grey-light
     color: darken($grey-light, 30)

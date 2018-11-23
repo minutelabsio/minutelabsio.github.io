@@ -4,11 +4,11 @@ layout: text
 section: about
 ---
 
-# What's this all about?
-
-<figure class="is-pulled-right">
+<figure class="is-pulled-right is-hidden-mobile">
   <img src="/assets/images/decorations/Hardware.png" title="Microchip" width="200">
 </figure>
+
+# What's this all about?
 
 Put simply: cool science things on the internet that you can play with.
 

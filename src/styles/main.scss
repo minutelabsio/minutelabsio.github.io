@@ -141,13 +141,13 @@ ul.footer-contact {
   margin: 0;
 
   .patreon a {
-    color: $orange;
+    color: desaturate($orange, 20);
   }
   .email a {
     color: $grey-light;
   }
   .youtube a {
-    color: $red;
+    color: desaturate($red, 20);
   }
   .twitter a {
     color: $blue;
