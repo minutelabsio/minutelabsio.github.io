@@ -47,7 +47,7 @@ export default {
     // flex-direction: column
 
 @media screen and (min-width: $tablet)
-  .tabs
+  .ml-main-nav.tabs
     font-size: 1.5rem
 </style>
 
