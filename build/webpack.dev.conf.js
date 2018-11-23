@@ -7,6 +7,7 @@ const path = require('path')
 const baseWebpackConfig = require('./webpack.base.conf')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const HtmlWebpackHarddiskPlugin = require('html-webpack-harddisk-plugin')
 const FriendlyErrorsPlugin = require('friendly-errors-webpack-plugin')
 const portfinder = require('portfinder')
 
@@ -56,8 +57,10 @@ const devWebpackConfig = merge(baseWebpackConfig, {
     // https://github.com/ampedandwired/html-webpack-plugin
     new HtmlWebpackPlugin({
       filename: './../_layouts/default.html',
-      template: './src/default.html'
+      template: './src/default.html',
+      alwaysWriteToDisk: true
     }),
+    new HtmlWebpackHarddiskPlugin()
     // copy custom static assets
     // new CopyWebpackPlugin([
     //   {
