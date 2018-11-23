@@ -1,6 +1,6 @@
 <template lang="pug">
 .ml-main-nav.tabs.is-centered.is-large
-  affix(relative-element-selector="#viewport", :offset="{ top: height, bottom: 0 }")
+  affix(ref="scrollEl", relative-element-selector="#viewport", :offset="{ top: height, bottom: 0 }")
     slot
 </template>
 
@@ -24,9 +24,11 @@ export default {
   // }
   , methods: {
     adjust(){
+      this.$refs.scrollEl.$el.style.position = 'relative'
       this.$el.style.height = ''
       this.height = this.$el.offsetHeight
-      this.$el.style.height = this.height + 'px'
+      this.$refs.scrollEl.$el.style.position = ''
+      this.$el.style.height = (this.height + 2) + 'px'
     }
   }
 }
