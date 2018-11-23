@@ -35,7 +35,7 @@ If you need to get in touch with us, you can send an email to: [info@minutelabs.
     <figure class="image">
       <img class="is-rounded" src="/assets/images/people/jasper.jpg" alt="Jasper Palfree">
       <figcaption>
-        Jasper Palfree <br> (Creator/Coder)
+        Jasper Palfree <br> (Coding, Concept, Creator)
       </figcaption>
     </figure>
   </div>
@@ -43,7 +43,7 @@ If you need to get in touch with us, you can send an email to: [info@minutelabs.
     <figure class="image">
       <img class="is-rounded" src="/assets/images/people/ever.jpg" alt="Ever Salazar">
       <figcaption>
-        Ever Salazar <br> (Artistic Director)
+        Ever Salazar <br> (Design, Concept)
       </figcaption>
     </figure>
   </div>
@@ -51,7 +51,7 @@ If you need to get in touch with us, you can send an email to: [info@minutelabs.
     <figure class="image">
       <img class="is-rounded" src="/assets/images/people/Henry-Reich.png" alt="Henry Reich">
       <figcaption>
-        Henry Reich <br> (MinutePhysics Pioneer)
+        Henry Reich <br> (Concept, Science)
       </figcaption>
     </figure>
   </div>
