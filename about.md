@@ -10,7 +10,7 @@ section: about
 
 # What's this all about?
 
-Put simply: cool science things on the internet that you can play with.
+Put simply: {{site.description}}.
 
 **MinuteLabs.io** is an extension of what [MinutePhysics][mp] and [MinuteEarth][me] do, but instead of YouTube videos, it's **interactive**. We want to make things you can play around with and explore.
 
@@ -35,7 +35,7 @@ If you need to get in touch with us, you can send an email to: [info@minutelabs.
     <figure class="image">
       <img class="is-rounded" src="/assets/images/people/jasper.jpg" alt="Jasper Palfree">
       <figcaption>
-        Jasper Palfree <br> (Creator/Coder)
+        Jasper Palfree <br> (Coding, Concept, Creator)
       </figcaption>
     </figure>
   </div>
@@ -43,7 +43,7 @@ If you need to get in touch with us, you can send an email to: [info@minutelabs.
     <figure class="image">
       <img class="is-rounded" src="/assets/images/people/ever.jpg" alt="Ever Salazar">
       <figcaption>
-        Ever Salazar <br> (Artistic Director)
+        Ever Salazar <br> (Design, Concept)
       </figcaption>
     </figure>
   </div>
@@ -51,7 +51,7 @@ If you need to get in touch with us, you can send an email to: [info@minutelabs.
     <figure class="image">
       <img class="is-rounded" src="/assets/images/people/Henry-Reich.png" alt="Henry Reich">
       <figcaption>
-        Henry Reich <br> (MinutePhysics Pioneer)
+        Henry Reich <br> (Concept, Science)
       </figcaption>
     </figure>
   </div>

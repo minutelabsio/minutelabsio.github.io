@@ -61,7 +61,7 @@ export default {
   font-family: $family-monospace
   font-size: 1.625em
   line-height: 1.38462em
-  margin: 1.5em 0 0.8em
+  margin: 0.5em 0 0.8em
   font-weight: normal
 
   small
