@@ -40,6 +40,7 @@ export default {
 .ml-main-nav.tabs
   font-family: $family-monospace
   font-size: 1.2rem
+  overflow: visible
 
   ul
     flex-direction: row
