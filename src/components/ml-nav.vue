@@ -37,13 +37,13 @@ export default {
 
 <style lang="sass" scoped>
 @import '@/styles/_variables.scss'
-.tabs
+.ml-main-nav.tabs
   font-family: $family-monospace
   font-size: 1.2rem
 
-.tabs ul
-  flex-direction: row
-  // flex-direction: column
+  ul
+    flex-direction: row
+    // flex-direction: column
 
 @media screen and (min-width: $tablet)
   .tabs
