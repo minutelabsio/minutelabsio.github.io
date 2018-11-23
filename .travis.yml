@@ -9,3 +9,11 @@ cache: bundler
 branches:
   only:
   - production
+deploy:
+  provider: pages
+  target-branch: master
+  skip-cleanup: true
+  github-token: $githubToken
+  keep-history: true
+  on:
+    branch: production
