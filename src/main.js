@@ -8,6 +8,7 @@ import App from '@/app'
 import MlLogo from '@/components/ml-logo'
 import MlNav from '@/components/ml-nav'
 import LabListDisplay from '@/components/lab-list-display'
+import ResponsiveEmbed from '@/components/responsive-embed'
 
 import './styles/main.scss'
 
@@ -30,5 +31,6 @@ new Vue({
     , MlLogo
     , MlNav
     , LabListDisplay
+    , ResponsiveEmbed
   }
 })

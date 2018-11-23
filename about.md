@@ -19,9 +19,9 @@ We post new stuff regularly, so be sure to subscribe
 * [YouTube][youtube]
 * [Twitter][twitter]
 
-<figure>
+<responsive-embed :ratio="16/9" :max-width="560">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/s5NIz-nW9EI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</figure>
+</responsive-embed>
 
 ## Get in touch
 
