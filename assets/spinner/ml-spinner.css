@@ -1,11 +1,15 @@
+@-webkit-keyframes flickerAnimation{0%{opacity:1}10%{opacity:0}15%{opacity:1}30%{opacity:0}50%{opacity:1}55%{opacity:0}68%{opacity:1}79%{opacity:0}90%{opacity:1}98%{opacity:0}}
+@-moz-keyframes flickerAnimation{0%{opacity:1}10%{opacity:0}15%{opacity:1}30%{opacity:0}50%{opacity:1}55%{opacity:0}68%{opacity:1}79%{opacity:0}90%{opacity:1}98%{opacity:0}}
+@-o-keyframes flickerAnimation{0%{opacity:1}10%{opacity:0}15%{opacity:1}30%{opacity:0}50%{opacity:1}55%{opacity:0}68%{opacity:1}79%{opacity:0}90%{opacity:1}98%{opacity:0}}
+@keyframes flickerAnimation{0%{opacity:1}10%{opacity:0}15%{opacity:1}30%{opacity:0}50%{opacity:1}55%{opacity:0}68%{opacity:1}79%{opacity:0}90%{opacity:1}98%{opacity:0}}
+
 .ml-spinner {
   position: fixed;
-  top: 0;
+  top: -100px;
   left: 0;
   right: 0;
   bottom: 0;
 
-  background: white;
   z-index: 10000;
 
   -webkit-box-align: center;
@@ -30,13 +34,29 @@
   font-size: 30px;
   font-weight: 400;
   line-height: 1;
+
+  background: white url(//cdn.minutelabs.io/logos/logo-minutelabs-off.jpg) center center no-repeat;
 }
 
 .ml-spinner:before {
-  content: url(/assets/images/loader/logo-loading.gif);
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  background: white url(//cdn.minutelabs.io/logos/logo-minutelabs-on.jpg) center center no-repeat;
+  -webkit-animation: flickerAnimation 0.8s infinite cubic-bezier(0,1,0,1); /* Safari 4+ */
+  -moz-animation:    flickerAnimation 0.8s infinite cubic-bezier(0,1,0,1); /* Fx 5+ */
+  -o-animation:      flickerAnimation 0.8s infinite cubic-bezier(0,1,0,1); /* Opera 12+ */
+  animation:         flickerAnimation 0.8s infinite cubic-bezier(0,1,0,1); /* IE 10+, Fx 29+ */
 }
 
 .ml-spinner:after {
   content: "Loading";
   font-family: monospace;
+  margin-top: 290px;
+  position: relative;
+  z-index: 1;
 }
