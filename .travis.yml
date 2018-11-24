@@ -1,7 +1,7 @@
 language: ruby
 rvm: 2.3.7
 install: bundle install
-script: "JEKYLL_ENV=production bundle exec jekyll build"
+script: "bundle exec jekyll build"
 sudo: false
 cache: bundler
 branches:
